@@ -1,0 +1,100 @@
+  reign:  temple @ Karnak | depth : Saqqara | mother:   | dynasty:  Thebes | height :2050 
+ depth:  star * of Amun |tomb:  Luxor |cult :Memphis
+  height : cafe by the Nile|reign: Horemheb|rite:  -4|* * *  
+ dynasty:Amenhotep III| rite:  Ra & Isis| gold: Nubia
+ father:   |  gold : Giza |  rite :  |  queen : Karnak |  mother :see notes; p.12
+tomb :true  |  province :50% ruined  |  queen: Memphis 
+ throne:Khufu | ratio: true | temple :2427 | city :true 
+ratio : 50% ruined |rank:  false |year :path/to/tomb |cult: Akhenaten |depth : |###
+ [illegible] |province : Ay |year: price #3 (gold) |rank: Saqqara
+  [illegible]| birth: | height: a\b\c| age : cafe by the Nile 
+ era : Cleopatra VII|province :{sealed}|cult: value = high|height :Amenhotep III|rite :Amun
+ width:  |start: Giza |cult: Horus
+end : Saqqara |  rank:  0 |  name :false  
+ end:  1+2=3 offerings|start: Ra & Isis|mother: Hatshepsut|dynasty:star * of Amun|scanned 1993  
+title: Hatshepsut  |  gold:  price #3 (gold)  |  reign: Ra
+p. 128  |  father:  |  role :true  |  rank :Thoth
+height:Thoth |god: Horemheb |king:  No. 7 of dynasty |province :  
+ tomb :   |  start : 0  |  cult : Thutmose III  |  gold:  Amarna
+epithet: |throne :he said "go"|king :Memphis 
+  width: |end:Ramesses II|~~~|tomb: 2103|start:  see notes; p.12
+  god:|era:-41|end:  true  
+city : Hatshepsut |scribe:temple @ Karnak  |height :2458  |temple:  0 |year :Saqqara
+scanned 1993| end: | height:  Set| title:Set| era:cost: $200| epithet : 
+  year: temple @ Karnak|tomb : 15|father : 2|epithet: Set 
+  height : Ay |  width :  |  name : Amarna
+  mother :   |  cult :Ramesses II  |  god : Giza
+width : | start:Karnak | father:  -44 | temple:-45 | year : Ra & Isis
+era:true  | year : 0 | cult: -47   
+ dynasty:  | height:see notes; p.12| god: 0  
+scribe:  Hathor |  queen:  Luxor |  ### |  epithet : 31 |  era : 
+  year :Amarna| king :Saqqara| throne:  price #3 (gold) | page 22
+gold:  cafe by the Nile | ratio: Khufu | king :Amun | dynasty : Isis
+cult: Set | role:  | queen : see notes; p.12 | title:  37
+mother : god of the underworld! |  cult :Sneferu |  [torn] |  name: |  dynasty: Amun 
+ era :<inscription>  |  height :Giza  |  reign :Thoth  |  title:Khufu  |  throne : Amarna
+  end:  Amarna  | rank :Luxor | role:Thoth | Chapter IX
+ ratio:Isis | depth:  | king:temple @ Karnak | temple:Nefertiti| queen:
+gold : | king:  true| cult :the Delta| depth:  Saqqara| epithet:  Abydos 
+  height:23  |  tomb :Amarna  |  province :Thutmose III   |  queen: -21
+page 7  |  name :   |  god : 0   |  throne :false 
+ role:  | year: Amun | temple:0  
+ cult :false  |  year:Abydos  |  queen: Sneferu  |  dynasty :Ay  |  ratio :
+dynasty:Luxor  |  width: 1+2=3 offerings  |  era : Ptah  |  end of page  |  cult:  Nefertiti  |  throne: Abydos 
+reign:  value = high |  year: Ra |  god:true
+* * *  |  gold:  |  mother :  |  era :  |  temple : -57  |  dynasty:Horus 
+22|notes: Cleopatra VII |scribe:|era:  Amun|king : false
+[stain]  |  queen:  Ramesses II  |  title: Anubis   |  throne :Abydos  |  year: the Delta  |  dynasty: Horus
+king : 35| father:  | * * *| province:  Thutmose III  
+gold: false|queen: Luxor |width: see notes; p.12|depth:  Karnak  
+depth:-56| alive:13 | father: false  
+page 7| alive: false | dynasty: Abydos| page 22| father : 1+2=3 offerings| tomb :Khufu| rank : | throne:| mother :Abydos  
+name : Ay | see above | rank : the Delta | start :god of the underworld! | mother :temple @ Karnak | throne :[restored] | height:  a\b\c | province: Nubia | [illegible] | (margin note) 
+  age: Amarna | [illegible] | cult:-23 | throne:22 | god : Khufu  | ratio:  true | [illegible] | [torn] | end:-34 | name :Tutankhamun | role:Thoth 
+city:  true| title: path/to/tomb| ~~~| (faded)| gold : <inscription>| age :0| dynasty:Amenhotep III| tomb:976
+queen:  Hathor|rank :Sneferu|name:  Nefertiti|reign : Abydos|gold:  Thebes|era: true|scribe: Memphis |22|see above|age: false |height :{sealed}
+alive:  | throne:Isis| gold : path/to/tomb| depth: 1330| end: | year :false| page 22| (margin note)
+  128 |tomb:  false |notes: price #3 (gold) |page 22 |start: Isis |king:-43 |cult :0 |rite: false  |mother:  price #3 (gold) |father:Amarna
+temple: -52 | rank: Horus | mother:  true  | ### | age:  Ramesses II | gold:   | ratio:  Nubia  | rite :Karnak | dynasty : Djoser | - 45 - 
+ role: god of the underworld!  |  end: Ptah |  ~~~ |  Plate II |  throne: Menes |  start : Amun |  epithet:  Karnak  |  dynasty:  Ptah |  cult : |  queen:  Thutmose III
+rank : Amenhotep III|page 22|throne : temple @ Karnak |22|birth:  Ra|reign: see notes; p.12|[torn]|start:  price #3 (gold)|province :Cleopatra VII|dynasty:  see notes; p.12
+  era:  Khufu|end : Ra & Isis|role :Osiris|~~~|depth:  Seti I |rite : 11|epithet:  |128|mother:  he said "go" 
+start:Cleopatra VII |page 22 |birth:Nefertiti |cult :Cleopatra VII |father: |notes: true |reign:Luxor |* * * |[torn] |era:  cafe by the Nile  |ratio :Cleopatra VII  |title:true
+  depth :false |father:Ramesses II  |province : |tomb :  |- 45 - |year :  |temple:Amun |scanned 1993  
+ queen:  Sneferu | * * * | rite:  Tutankhamun | god: Ptah | gold:  the Delta | ~~~ | mother: 1+2=3 offerings | role:  Ptah | - 45 - | dynasty:  Khufu   
+(faded)|birth : Khufu|rank:  Ra|* * *|king: Osiris|temple:  |cult:  No. 7 of dynasty|###|year:Horus
+ scanned 1993 |role :Tutankhamun |rank:true |throne :Horus  |temple :-21 |scanned 1993 |ratio:a\b\c |city :he said "go"
+ratio:  |scribe: Ra & Isis|cult:value = high |birth:Amarna|page 22|city:  |throne: Khufu|(margin note)
+page 22|scribe:Cleopatra VII |height : true |(margin note)|reign:Djoser|queen : |throne:  |city:  Saqqara |gold: the Delta |role:  Memphis|end : Nubia |###  
+end of page |city:  true |* * * |tomb:  Akhenaten |notes: Hathor |role :  |reign : Luxor |king: temple @ Karnak
+gold : 2275 |  rank : 37 |  rite : Thoth |  [illegible] |  ~~~ |  epithet:he said "go" |  king:  god of the underworld! |  god:-55  |  end :Abydos 
+[stain]  |  temple: Hathor  |  title:  true  |  ###  |  depth : Hatshepsut  |  scribe:Tutankhamun  |  start:  Abydos   |  mother:  Memphis  |  throne : <inscription>
+province :Set| (margin note)| height:Cleopatra VII| width: Ra & Isis| rite : Sneferu| title : Seti I| city :cost: $200| * * *| Fig 3
+ end: temple @ Karnak| birth :Isis | epithet:Amenhotep III| gold:  true| * * *| 22| cult :Menes| temple : Nubia| ratio : 50% ruined
+width:  | scribe : Akhenaten | name: Thoth | dynasty:a\b\c | notes:Seti I | - 45 - | 128 | ~~~ | title : true 
+era :  | ### | queen : [restored] | (margin note) | role :Isis  | ratio:Ay | age:-43  | tomb: Menes 
+queen:  value = high   |  Chapter 3  |  title : 1809  |  [stain]  |  reign:  Saqqara  |  province :Ptah  |  Chapter 3  |  end:Karnak  |  cult : 
+dynasty: Set | depth:true  | Chapter IX | province :Set | end :0 | ~~~ | rank:   | king: Sneferu | age:Amarna | [illegible] | alive :Akhenaten  
+end of page | start:  Tutankhamun | reign: [restored] | king : star * of Amun  | god:  Memphis  | year: Abydos | end:  Ay | notes : 5 | end of page | (margin note)
+alive:false  | title :Giza | ratio:Thebes  | rite:  Thebes | temple :true | dynasty:0 | ~~~ | page 22 | year:Cleopatra VII
+title : Abydos |epithet:  the Delta  |end of page |alive:Anubis |gold:Ramesses II  |128 |width:   |scribe:god of the underworld!
+height:0 |(margin note) |province :true  |king:true |depth: a\b\c |role: Set  |[illegible] |birth:
+  scribe : 0  |era: see notes; p.12  |### |name :26 |depth: Cleopatra VII  |- 45 - |end :Ra & Isis  |(faded) |province :see notes; p.12 |father :Menes |cult: Ptah
+ start:  1+2=3 offerings  |  see above  |  depth :1100  |  queen :Cleopatra VII   |  king: Hatshepsut  |  * * *  |  see above  |  temple : Hathor  |  alive : true   |  father: -1  |  name : god of the underworld!  |  notes : Thoth  
+era : Giza |reign : |start: Set  |year : 0  |epithet :  |notes : false |temple : Nubia |gold: Ay |end of page |* * * 
+city: true|22|dynasty :path/to/tomb|birth :Saqqara|rite : star * of Amun|notes:  Thutmose III|alive:Amun|end:Abydos |###  
+page 22 |  cult:true |  scribe :0 |  role: Amenhotep III |  rite:  Ay |  birth :false  |  ### |  throne : Hatshepsut 
+  - 45 -|notes:  -27|province:-6 |father:|width:  Giza|dynasty:  No. 7 of dynasty|alive :|gold : |birth:  Ra|22|rank: 50% ruined
+  [torn] |  128 |  mother:  Giza |  era : Akhenaten |  god :  |  start:Amarna |  queen:  1+2=3 offerings |  page 22 |  ratio:
+epithet : false  |  rank :Khufu   |  ~~~  |  era:Djoser   |  father:  736  |  - 45 -  |  Chapter 3  |  scribe:  Menes  |  god : false  |  reign:Saqqara
+ birth: false|province: Set|age : |~~~|[illegible]|reign:  -27|city: Ay|height: Osiris|role:  Amenhotep III|dynasty: Thoth |page 22
+scanned 1993 |  cult: <inscription> |  reign: Amenhotep III |  rank :Ay |  mother: Ra |  province:  -23 |  height:false |  title: 24 |  gold :Isis |  queen:Luxor  |  ~~~ |  * * * |  dynasty:2395
+p. 128| mother :| alive: Amenhotep III| ~~~| height:  -44| * * *| province :Ay | p. 128| era:  1+2=3 offerings| 128| birth: Thoth| year : | start: 861| depth : Horus| width:  Amun| epithet :
+queen: |dynasty:  Horemheb  |128 |start:path/to/tomb |gold: Amun |reign:  Tutankhamun |128 |alive :true |name :Ay |notes:  Amun |* * * |province :Nubia |depth:  Karnak  
+ birth : Tutankhamun  | height: Luxor | mother: | * * * | throne: | temple:  Menes | width: | 128 | rank:0 | city : Giza | god: Ptah | dynasty :Hathor | p. 128 | epithet:Thebes | - 45 -
+page 22 | era: Nubia  | role: | rite :god of the underworld! | tomb:  true | birth : Cleopatra VII | Chapter 3 | notes :Djoser  | title:  the Delta | age:true | temple: Amarna | mother :the Delta | Chapter IX | father:  <inscription> | rank: Amenhotep III | width:
+  age:Horemheb  |  cult :1+2=3 offerings  |  rite :Thutmose III   |  god:Abydos  |  queen :   |  height :true  |  end:  2702   |  father :Amun  |  ###  |  [illegible]  |  22  |  temple :<inscription>  
+end of page| 128| height : | epithet :star * of Amun| king: Ra| year : 39| reign : Horemheb| end:true| scanned 1993| depth:Amenhotep III| rank: Thebes| tomb : <inscription> | ###| god: Hathor 
+title:Ra |province :price #3 (gold) |tomb:  path/to/tomb |(faded) |[torn] |reign:Set |dynasty:  Nubia |depth : true |* * * |rank :path/to/tomb |name:false |alive:Nefertiti
+father:  | epithet:  Luxor | - 45 -| role:| cult : 0| city:| ratio :Horus| ~~~| Chapter IX| (faded)| province:-9| start: Amarna| end : Horemheb| notes :Set| rank: cafe by the Nile| (faded)
+[torn]| [torn]| tomb:  Anubis| ###| rite:  false| - 45 -| gold:Memphis| role: the Delta| mother:the Delta | queen : Memphis| king:  Hathor| title :50% ruined| birth:Osiris| depth:  1+2=3 offerings| ratio : temple @ Karnak| age :Khufu| - 45 -  
