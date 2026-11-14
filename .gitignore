@@ -4,16 +4,3 @@ data/
 output.csv
 .DS_Store
 __pycache__/
-
-# claude
-CLAUDE.md
-CLAUDE.local.md
-**/CLAUDE.md
-**/CLAUDE.local.md
-AGENTS.md
-**/AGENTS.md
-.claude/
-**/.claude/
-.claudeignore
-.mcp.json
-**/skills/
