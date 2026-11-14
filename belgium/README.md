@@ -1,8 +1,13 @@
 # Fry-ndship
 
-Flag: `SIGMOID_PREDICTION`
+Flag: `SIGMOID_SUPERVISION`
 
 ## Solution
+
+The co-op wants to estimate the edge of the fields that were not surveyed, so the model may only use what farmers
+already declare about every field: `area_ha`, `long_side_m` and `ditch_m`. `hedge_m` is noted by Mariette on site and
+`fence_quote_eur` comes from the contractor after the survey, so they are not available for the other fields and are
+not used (using them would be data leakage).
 
 A field is treated as a rectangle. Its short side is `area_ha * 10000 / long_side_m`, so the perimeter is
 
@@ -10,15 +15,19 @@ A field is treated as a rectangle. Its short side is `area_ha * 10000 / long_sid
 P = 2 * (long_side_m + area_ha * 10000 / long_side_m)
 ```
 
-A linear regression of `edge_m` on the perimeter, the ditch and the hedge gives
+A linear regression of `edge_m` on the perimeter and the ditch gives
 
 ```
-edge_m = 0.0001 + 0.41 * P + 1.00 * ditch_m + 1.00 * hedge_m
-R^2 = 0.99999994, residual std = 0.0575 m
+edge_m = -0.001 + 0.45 * P + 1.00 * ditch_m
+R^2 = 0.999984, residual std = 0.957 m
 ```
 
-This fit is too good for real field measurements. When the residuals are plotted against the fitted values,
-the points spell the word PREDICTION. So the flag is `SIGMOID_PREDICTION`.
+When the residuals are plotted against the fitted values, the points spell the word SUPERVISION.
+So the flag is `SIGMOID_SUPERVISION`.
+
+The data contains decoys: with the perimeter alone the residuals spell REGRESSION, and if the hedge (Mariette's own
+note) is added to the model they spell PREDICTION. Only the model built from the farmer's declaration gives
+SUPERVISION.
 
 ## Files
 
@@ -43,9 +52,9 @@ Python 3.10 or newer.
 Expected output:
 
 ```
-coefficients [const, perimeter, ditch, hedge]: [1.000e-04 4.100e-01 1.000e+00 9.999e-01]
-R^2 = 0.99999994, residual std = 0.0575 m
-Saved residuals_vs_fitted.png  ->  word: PREDICTION  ->  flag: SIGMOID_PREDICTION
+coefficients [const, perimeter, ditch]: [-0.001  0.45   1.   ]
+R^2 = 0.999984, residual std = 0.957 m
+Saved residuals_vs_fitted.png  ->  word: SUPERVISION  ->  flag: SIGMOID_SUPERVISION
 ```
 
-The script saves `residuals_vs_fitted.png`, where the residuals read PREDICTION.
+The script saves `residuals_vs_fitted.png`, where the residuals read SUPERVISION.

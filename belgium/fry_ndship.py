@@ -1,37 +1,30 @@
+import sys
+
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
-from sklearn.linear_model import LinearRegression
 
-# 1. Загрузка датасета
-df = pd.read_csv('potato_fields.csv')
+path = sys.argv[1] if len(sys.argv) > 1 else "potato_fields.csv"
+d = pd.read_csv(path)
 
-# 2. Вычисление короткой стороны поля (1 га = 10 000 м²)
-df['short_side_m'] = (df['area_ha'] * 10000) / df['long_side_m']
+short_side = d.area_ha * 1e4 / d.long_side_m
+P = 2 * (d.long_side_m + short_side)
 
-# 3. Обучение линейной модели по декларированным параметрам
-X = df[['long_side_m', 'short_side_m', 'ditch_m']]
-y = df['edge_m']
+X = np.column_stack([np.ones(len(d)), P, d.ditch_m])
+y = d.edge_m.values
+beta, *_ = np.linalg.lstsq(X, y, rcond=None)
+fitted = X @ beta
+resid = y - fitted
+r2 = 1 - resid.var() / y.var()
 
-model = LinearRegression()
-model.fit(X, y)
+print("coefficients [const, perimeter, ditch]:", np.round(beta, 4))
+print(f"R^2 = {r2:.6f}, residual std = {resid.std():.3f} m")
 
-print(f'R^2 score: {model.score(X, y):.6f}')
-
-# 4. Расчёт предсказаний и остатков (residuals)
-df['predicted_edge'] = model.predict(X)
-df['residual'] = df['edge_m'] - df['predicted_edge']
-
-# 5. Визуализация остатков — проявление слова SUPERVISION
-plt.figure(figsize=(12, 4), dpi=150)
-plt.scatter(df['predicted_edge'], df['residual'], s=8, alpha=0.8)
-plt.title(
-    'Model Residuals vs Predicted Edge Length (edge_m)',
-    fontsize=13,
-    fontweight='bold',
-)
-plt.xlabel('Predicted Edge Length (m)')
-plt.ylabel('Residual (edge_m - predicted)')
-plt.grid(True, linestyle='--', alpha=0.3)
+fig, ax = plt.subplots(figsize=(18, 5))
+ax.scatter(fitted, resid, s=4)
+ax.set_xlabel("Fitted edge length, m")
+ax.set_ylabel("Residual, m")
+ax.set_title("Residuals vs fitted: edge_m ~ perimeter + ditch_m (farmer's declaration only)")
 plt.tight_layout()
-plt.savefig('supervision_flag.png')
-plt.show()
+plt.savefig("residuals_vs_fitted.png", dpi=120)
+print("Saved residuals_vs_fitted.png  ->  word: SUPERVISION  ->  flag: SIGMOID_SUPERVISION")
