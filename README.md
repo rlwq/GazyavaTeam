@@ -62,7 +62,7 @@
 - [ ] **Argentina** — Carta para la Abuela _(Hard)_
 - [ ] **Bolivia** — The Forest Went Quiet _(Medium)_
 - [ ] **Brazil** — Don't Pull My Triggers _(Hard)_
-- [ ] **Chile** — The Second Lock _(Medium)_
+- [x] **Chile** — The Second Lock _(Medium)_
 - [ idk how to solve ] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
 - [ ] **Ecuador** — Ciclopaseo Mirage _(Medium)_
 - [ ] **Peru** — The Knots You Cannot Read _(Medium)_
