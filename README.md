@@ -8,7 +8,7 @@
 
 - [ ] **Albania** — Looks like an anomaly! _(Medium)_
 - [x] **Belgium** — Fry-ndship _(Easy)_
-- [ ] **Estonia** — This Data Is Perfect! _(Medium)_
+- [x] **Estonia** — This Data Is Perfect! _(Medium)_
 - [ ] **Finland** — Pipes, Leaks, and the Graph Beneath _(Medium)_
 - [ idk how to solve ] **France** — Point par point _(Easy)_ 
 - [ ] **Germany** — Black Box _(Hard)_

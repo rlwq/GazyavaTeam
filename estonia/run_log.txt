@@ -1,0 +1,12 @@
+rows: 1971, applicants: 900, rows sharing an applicant with another row: 1611
+majority-class baseline: 0.7088
+
+original pipeline (scaler on all data, one random 80/20 split): 0.9342
+original pipeline under LOO:                                    0.9594
+
+decoy 1 fixed - scaler fitted inside each fold (LOO):           0.9594
+decoy 2 fixed - stratified 5-fold CV, 10 seeds:                 0.9441 +- 0.0023
+
+real bug fixed - leave-one-applicant-out (LeaveOneGroupOut):    0.7666
+
+True accuracy: 0.7666 -> SIGMOID_77
