@@ -36,7 +36,7 @@
 ## Africa — General AI
 
 - [ ] **Algeria** — Here, at your service! _(Hard)_
-- [ ] **Angola** — The Waterline Replay _(Medium)_
+- [x] **Angola** — The Waterline Replay _(Medium)_
 - [ ] **Côte d’Ivoire** — The Abidjan Transit Ledger _(Medium)_
 - [x] **Egypt** — Always Valid, No Excuses _(Easy)_
 - [ ] **Ethiopia** — The Azmari's Borrowed Melody _(Medium)_
