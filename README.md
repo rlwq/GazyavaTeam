@@ -50,7 +50,7 @@
 - [x] **Costa Rica** — Pura Vida, No PII _(Medium)_
 - [ ] **Cuba** — If you know, you know! _(Hard)_
 - [x] **Mexico** — Ruta de las Identidades _(Easy)_
-- [ ] **Panama** — The Canal Knows Too Much _(Medium)_
+- [x] **Panama** — The Canal Knows Too Much _(Medium)_
 - [x] **United States** — The Great American Token Mystery _(Easy)_
 
 ## South America
