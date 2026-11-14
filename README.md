@@ -1,10 +1,6 @@
 # GazyavaTeam — LMML 2026
 
-Задачи: https://sigmoid.academy/tasks
-Решено: 25 / 54
-
-
-## Europe — Classic ML & Data Science
+## Europe
 
 - [x] **Albania** — Looks like an anomaly! _(Medium)_
 - [x] **Belgium** — Fry-ndship _(Easy)_
@@ -22,7 +18,7 @@
 - [x] **Switzerland** — The Weak Layer _(Easy)_
 - [ ] **United Kingdom** — Call My BLEUff _(Medium)_
 
-## Asia — Computer Vision
+## Asia
 
 - [ ] **Bhutan** — The 300-Year Old Tiger Nest Painting _(Medium)_
 - [ ] **China** — Carved in bones, engraved in the heart _(Medium)_
@@ -33,7 +29,7 @@
 - [ ] **Mongolia** — The Baa-rilliant task! _(Medium)_
 - [ ] **Vietnam** — That isn't my shoe! _(Medium)_
 
-## Africa — General AI
+## Africa
 
 - [ ] **Algeria** — Here, at your service! _(Hard)_
 - [x] **Angola** — The Waterline Replay _(Medium)_
@@ -48,7 +44,7 @@
 - [x] **South Africa** — Ngiyakuzwa? _(Easy)_
 - [x] **Tanzania** — Please, You Are So Delusional! _(Easy)_
 
-## North America — NLP
+## North America
 
 - [ ] **Canada** — Two Solitudes _(Hard)_
 - [ ] **Costa Rica** — Pura Vida, No PII _(Medium)_
@@ -57,7 +53,7 @@
 - [ ] **Panama** — The Canal Knows Too Much _(Medium)_
 - [x] **United States** — The Great American Token Mystery _(Easy)_
 
-## South America — AI Security & Adversarial ML
+## South America
 
 - [ ] **Argentina** — Carta para la Abuela _(Hard)_
 - [ ] **Bolivia** — The Forest Went Quiet _(Medium)_
@@ -68,7 +64,7 @@
 - [ ] **Peru** — The Knots You Cannot Read _(Medium)_
 - [x] **Venezuela** — Signal from the Sierra Nevada _(Easy)_
 
-## Oceania — Reinforcement Learning
+## Oceania
 
 - [x] **Australia** — The Drunken Mario Adventures _(Medium)_
 - [x] **Fiji** — Walu Season _(Easy)_
