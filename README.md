@@ -1,7 +1,7 @@
 # GazyavaTeam — LMML 2026
 
 Задачи: https://sigmoid.academy/tasks
-Решено: 4 / 54
+Решено: 17 / 54
 
 
 ## Europe — Classic ML & Data Science
