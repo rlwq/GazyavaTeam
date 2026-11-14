@@ -1,0 +1,28 @@
+Overall success rate:
+treatment
+control      0.2704
+treatment    0.3095 
+
+Columns that give a full reversal:
+  soil_depth_cm            no
+  trellis_system           no
+  vineyard_age_group       no
+  sun_hours_july           no
+  vine_density_per_ha      no
+  cooperative              no
+  annual_rainfall_mm       no
+  grape_variety            no
+  distance_from_porto_km   YES
+  organic_certified        no
+  elevation_m              no
+  soil_ph                  no
+  harvest_month            no
+  slope_aspect             no
+
+Success rate by distance_from_porto_km group:
+                                               mean             count          
+treatment                                   control treatment control treatment
+far (>=110 km, Cima Corgo / Douro Superior)  0.3214    0.3144     420      1746
+near (<110 km, Baixo Corgo)                  0.2530    0.2500    1233       144
+
+Control is ahead in every group -> SIGMOID_DISTANCE_FROM_PORTO_KM
