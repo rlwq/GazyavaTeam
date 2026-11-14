@@ -55,7 +55,7 @@
 - [ ] **Cuba** — If you know, you know! _(Hard)_
 - [ ] **Mexico** — Ruta de las Identidades _(Easy)_
 - [ ] **Panama** — The Canal Knows Too Much _(Medium)_
-- [ ] **United States** — The Great American Token Mystery _(Easy)_
+- [x] **United States** — The Great American Token Mystery _(Easy)_
 
 ## South America — AI Security & Adversarial ML
 
@@ -63,7 +63,7 @@
 - [ ] **Bolivia** — The Forest Went Quiet _(Medium)_
 - [ ] **Brazil** — Don't Pull My Triggers _(Hard)_
 - [ ] **Chile** — The Second Lock _(Medium)_
-- [ ] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
+- [x] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
 - [ ] **Ecuador** — Ciclopaseo Mirage _(Medium)_
 - [ ] **Peru** — The Knots You Cannot Read _(Medium)_
 - [ ] **Venezuela** — Signal from the Sierra Nevada _(Easy)_
