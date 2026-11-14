@@ -19,7 +19,7 @@
 - [ ] **Portugal** — The Douro Paradox _(Medium)_
 - [ ] **Romania** — Shaken, Still Standing _(Hard)_
 - [ ] **Spain** — ¡Feliz Navidad! _(Easy)_
-- [ ] **Switzerland** — The Weak Layer _(Easy)_
+- [x] **Switzerland** — The Weak Layer _(Easy)_
 - [ ] **United Kingdom** — Call My BLEUff _(Medium)_
 
 ## Asia — Computer Vision
