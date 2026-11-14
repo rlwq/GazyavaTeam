@@ -1,0 +1,6 @@
+# datasets and generated outputs
+data/
+*.zip
+output.csv
+.DS_Store
+__pycache__/
