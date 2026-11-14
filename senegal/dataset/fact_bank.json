@@ -1,0 +1,387 @@
+{
+  "q01": {
+    "question": "What is the capital of Senegal, and what ocean coastline does the country have?",
+    "slots": [
+      {
+        "phrasings": [
+          "Dakar"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "Atlantic Ocean",
+          "Atlantic coast",
+          "Atlantic"
+        ],
+        "large_only": false
+      }
+    ]
+  },
+  "q02": {
+    "question": "What currency is used in Senegal and which regional currency union does it belong to?",
+    "slots": [
+      {
+        "phrasings": [
+          "CFA franc",
+          "franc CFA",
+          "West African CFA franc"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "West African Economic and Monetary Union",
+          "UEMOA",
+          "WAEMU"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Senegal uses the CFA franc and belongs to UEMOA, the West African Economic and Monetary Union."
+  },
+  "q03": {
+    "question": "Name Senegal's main official language and one widely spoken local language.",
+    "slots": [
+      {
+        "phrasings": [
+          "French"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "Wolof"
+        ],
+        "large_only": false
+      }
+    ]
+  },
+  "q04": {
+    "question": "What crop is considered Senegal's traditional main cash crop, and in which region is it mostly grown?",
+    "slots": [
+      {
+        "phrasings": [
+          "groundnut",
+          "groundnuts",
+          "peanut",
+          "peanuts"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "Peanut Basin",
+          "groundnut basin",
+          "bassin arachidier"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "The groundnut has been Senegal's signature cash crop since French colonial trading companies encouraged its export to Marseille's oil-pressing industry over a century ago, and it is still grown most intensively across the central region long known as the Peanut Basin."
+  },
+  "q05": {
+    "question": "When does Senegal's rainy season typically run, and when is the dry season?",
+    "slots": [
+      {
+        "phrasings": [
+          "June to October",
+          "June-October",
+          "rainy season from June to October"
+        ],
+        "large_only": true
+      },
+      {
+        "phrasings": [
+          "November to May",
+          "dry season from November to May"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Senegal's climate follows the West African monsoon pattern, with a single wet season driven by southwest monsoon winds that typically begins in June and continues through October, followed by a long dry season running from November all the way through May."
+  },
+  "q06": {
+    "question": "List four countries that share a land border with Senegal.",
+    "slots": [
+      {
+        "phrasings": [
+          "Mauritania"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "Mali"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "Guinea"
+        ],
+        "large_only": true
+      },
+      {
+        "phrasings": [
+          "Guinea-Bissau"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Senegal shares land borders with several neighbors: Mauritania lies across the Senegal River to the north, Mali sits to the east, Guinea and Guinea-Bissau border the south, and Senegal almost entirely surrounds the small country of the Gambia."
+  },
+  "q07": {
+    "question": "What does the Wolof word 'Teranga' mean, and why is it culturally important in Senegal?",
+    "slots": [
+      {
+        "phrasings": [
+          "hospitality"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "national symbol",
+          "point of national pride",
+          "core cultural value",
+          "deeply embedded in Senegalese identity"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Teranga is a Wolof concept describing a deep, almost sacred obligation to welcome strangers and guests with warmth and generosity, and it has become such a central part of national identity that Senegalese commonly call their country the Land of Teranga."
+  },
+  "q08": {
+    "question": "In what year did Senegal gain independence from France, and who was its first president?",
+    "slots": [
+      {
+        "phrasings": [
+          "1960"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "Leopold Sedar Senghor",
+          "Léopold Sédar Senghor",
+          "Senghor"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Senegal declared independence from France on April 4, 1960, shortly after a brief federation with Mali dissolved, and the poet-statesman Leopold Sedar Senghor, a leading figure of the Negritude literary movement, became the newly independent nation's first president."
+  },
+  "q09": {
+    "question": "Name two staple food crops grown alongside groundnuts in the Peanut Basin.",
+    "slots": [
+      {
+        "phrasings": [
+          "millet"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "sorghum"
+        ],
+        "large_only": false
+      }
+    ]
+  },
+  "q10": {
+    "question": "Why do farmers in the Peanut Basin rotate groundnuts with cereal crops like millet?",
+    "slots": [
+      {
+        "phrasings": [
+          "restore soil fertility",
+          "restores soil nitrogen",
+          "replenish the soil",
+          "improve soil fertility"
+        ],
+        "large_only": true
+      },
+      {
+        "phrasings": [
+          "groundnuts fix nitrogen",
+          "nitrogen-fixing legume"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Groundnuts are nitrogen-fixing legumes, so rotating them with cereals like millet restores soil fertility for the next planting."
+  },
+  "q11": {
+    "question": "What is the main city associated with the groundnut trade in the Peanut Basin, and which region is it part of?",
+    "slots": [
+      {
+        "phrasings": [
+          "Kaolack"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "Kaolack region",
+          "Fatick region"
+        ],
+        "large_only": false
+      }
+    ]
+  },
+  "q12": {
+    "question": "Roughly when is the groundnut planting season in Senegal, and when is the harvest?",
+    "slots": [
+      {
+        "phrasings": [
+          "planted in June",
+          "planted at the start of the rainy season"
+        ],
+        "large_only": true
+      },
+      {
+        "phrasings": [
+          "harvested in October",
+          "harvested October to November",
+          "harvest in autumn"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Groundnut cultivation follows the rhythm of the rains: farmers sow their seeds in June once the first reliable rains of the wet season arrive, and after roughly four months of growth the crop is dug up and harvested between October and November."
+  },
+  "q13": {
+    "question": "What is a major risk to stored groundnuts if they are not dried properly after harvest?",
+    "slots": [
+      {
+        "phrasings": [
+          "aflatoxin",
+          "mold",
+          "fungal contamination"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Groundnuts that are not dried thoroughly after harvest can develop mold, which produces dangerous aflatoxin contamination."
+  },
+  "q14": {
+    "question": "What is the main groundnut-derived export product Senegal is known for?",
+    "slots": [
+      {
+        "phrasings": [
+          "groundnut oil",
+          "peanut oil"
+        ],
+        "large_only": false
+      }
+    ]
+  },
+  "q15": {
+    "question": "Which ocean borders Senegal to the west, and which country is its southern neighbor nearest the coast?",
+    "slots": [
+      {
+        "phrasings": [
+          "Atlantic Ocean",
+          "Atlantic"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "Guinea"
+        ],
+        "large_only": false
+      }
+    ]
+  },
+  "q16": {
+    "question": "What annual car race historically finished in Dakar, giving the city international name recognition?",
+    "slots": [
+      {
+        "phrasings": [
+          "Dakar Rally",
+          "Paris-Dakar Rally",
+          "Paris-Dakar"
+        ],
+        "large_only": false
+      }
+    ]
+  },
+  "q17": {
+    "question": "Name Senegal's largest city by population and the smaller city often called its economic 'twin' hub.",
+    "slots": [
+      {
+        "phrasings": [
+          "Dakar"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "Thies",
+          "Thiès"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Thies, a short distance northeast of Dakar, is often called the country's second economic hub."
+  },
+  "q18": {
+    "question": "What is Senegal's largest ethnic group, and roughly what share of the population do they make up?",
+    "slots": [
+      {
+        "phrasings": [
+          "Wolof"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "about 40%",
+          "around 40 percent",
+          "roughly 40%"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "The Wolof are Senegal's largest ethnic group, making up roughly 40 percent of the national population."
+  },
+  "q19": {
+    "question": "What is the nickname of Senegal's national football team?",
+    "slots": [
+      {
+        "phrasings": [
+          "Lions of Teranga",
+          "Teranga Lions"
+        ],
+        "large_only": false
+      }
+    ]
+  },
+  "q20": {
+    "question": "Besides groundnuts, name two other agricultural or mineral exports significant to Senegal's economy.",
+    "slots": [
+      {
+        "phrasings": [
+          "cotton"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "fish",
+          "fisheries",
+          "seafood"
+        ],
+        "large_only": false
+      },
+      {
+        "phrasings": [
+          "phosphates"
+        ],
+        "large_only": true
+      }
+    ],
+    "context_snippet": "Beyond groundnuts, Senegal's economy also leans on cotton, its fishing industry, and phosphate mining."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "q01": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q02": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q03": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q04": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q05": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q06": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q07": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q08": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q09": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q10": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q11": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q12": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q13": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q14": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q15": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q16": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q17": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q18": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q19": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  },
+  "q20": {
+    "tier": "large",
+    "style": "verbose",
+    "fewshot": true,
+    "context": false
+  }
+}
