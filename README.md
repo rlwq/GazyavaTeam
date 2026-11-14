@@ -12,7 +12,7 @@
 - [x] **Finland** — Pipes, Leaks, and the Graph Beneath _(Medium)_
 - [ idk how to solve ] **France** — Point par point _(Easy)_ 
 - [ ] **Germany** — Black Box _(Hard)_
-- [ ] **Greece** — Just a siblings' thing _(Medium)_
+- [x] **Greece** — Just a siblings' thing _(Medium)_
 - [x] **Iceland** — What The Data? _(Easy)_
 - [ ] **Moldova** — Feather Stories _(Hard)_
 - [ ] **Norway** — The Nisse's Bad Shift _(Medium)_

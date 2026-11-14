@@ -1,0 +1,10 @@
+test encounters: 1000, catastrophic: 100 (10.0%)
+
+        accuracy  precision  recall      f1      f2  roc_auc  TP  FN  FP   TN
+model                                                                        
+ARES        0.95     0.6786    0.95  0.7917  0.8796   0.9471  95   5  45  855
+ATHENA      0.95     0.7500    0.75  0.7500  0.7500   0.8766  75  25  25  875
+APOLLO      0.95     0.9167    0.55  0.6875  0.5978   0.7859  55  45   5  895
+
+Missing a threat is the expensive error -> highest recall / fewest false negatives: ARES
+SIGMOID_ARES
