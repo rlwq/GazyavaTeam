@@ -55,7 +55,7 @@
 - [ ] **Cuba** — If you know, you know! _(Hard)_
 - [ ] **Mexico** — Ruta de las Identidades _(Easy)_
 - [ ] **Panama** — The Canal Knows Too Much _(Medium)_
-- [ ] **United States** — The Great American Token Mystery _(Easy)_
+- [x] **United States** — The Great American Token Mystery _(Easy)_
 
 ## South America — AI Security & Adversarial ML
 
