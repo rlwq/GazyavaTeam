@@ -1,0 +1,4 @@
+models/
+test-input.txt
+test-output.txt
+__pycache__/
