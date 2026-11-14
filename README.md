@@ -6,7 +6,7 @@
 - [x] **Belgium** — Fry-ndship _(Easy)_
 - [x] **Estonia** — This Data Is Perfect! _(Medium)_
 - [x] **Finland** — Pipes, Leaks, and the Graph Beneath _(Medium)_
-- [ idk how to solve ] **France** — Point par point _(Easy)_ 
+- [ ] **France** — Point par point _(Easy)_ 
 - [ ] **Germany** — Black Box _(Hard)_
 - [x] **Greece** — Just a siblings' thing _(Medium)_
 - [x] **Iceland** — What The Data? _(Easy)_
@@ -16,7 +16,7 @@
 - [ ] **Romania** — Shaken, Still Standing _(Hard)_
 - [x] **Spain** — ¡Feliz Navidad! _(Easy)_
 - [x] **Switzerland** — The Weak Layer _(Easy)_
-- [x] **United Kingdom** — Call My BLEUff _(Medium)_
+- [ ] **United Kingdom** — Call My BLEUff _(Medium)_
 
 ## Asia
 
@@ -41,7 +41,7 @@
 - [x] **Nigeria** — The Gángan Never Lies _(Easy)_
 - [x] **Rwanda** — The Drying Floor at Karongi _(Easy)_
 - [x] **Senegal** — The Teranga FM Token Diet _(Medium)_
-- [x] **South Africa** — Ngiyakuzwa? _(Easy)_
+- [ ] **South Africa** — Ngiyakuzwa? _(Easy)_
 - [x] **Tanzania** — Please, You Are So Delusional! _(Easy)_
 
 ## North America
@@ -58,8 +58,8 @@
 - [ ] **Argentina** — Carta para la Abuela _(Hard)_
 - [ ] **Bolivia** — The Forest Went Quiet _(Medium)_
 - [ ] **Brazil** — Don't Pull My Triggers _(Hard)_
-- [x] **Chile** — The Second Lock _(Medium)_
-- [ idk how to solve ] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
+- [ ] **Chile** — The Second Lock _(Medium)_
+- [ ] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
 - [x] **Ecuador** — Ciclopaseo Mirage _(Medium)_
 - [ ] **Peru** — The Knots You Cannot Read _(Medium)_
 - [x] **Venezuela** — Signal from the Sierra Nevada _(Easy)_
@@ -70,4 +70,4 @@
 - [x] **Fiji** — Walu Season _(Easy)_
 - [ ] **New Zealand** — The Braided River Run _(Hard)_
 - [x] **Papua New Guinea** — Bihainim Angkol (Follow Your Uncle) _(Medium)_
-- [ ] **Samoa** — Island Duel: the homeward chart _(Medium)_
+- [x] **Samoa** — Island Duel: the homeward chart _(Medium)_
