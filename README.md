@@ -73,5 +73,5 @@
 - [x] **Australia** — The Drunken Mario Adventures _(Medium)_
 - [x] **Fiji** — Walu Season _(Easy)_
 - [ ] **New Zealand** — The Braided River Run _(Hard)_
-- [ ] **Papua New Guinea** — Bihainim Angkol (Follow Your Uncle) _(Medium)_
+- [x] **Papua New Guinea** — Bihainim Angkol (Follow Your Uncle) _(Medium)_
 - [ ] **Samoa** — Island Duel: the homeward chart _(Medium)_
