@@ -47,7 +47,7 @@
 ## North America
 
 - [ ] **Canada** — Two Solitudes _(Hard)_
-- [ ] **Costa Rica** — Pura Vida, No PII _(Medium)_
+- [x] **Costa Rica** — Pura Vida, No PII _(Medium)_
 - [ ] **Cuba** — If you know, you know! _(Hard)_
 - [x] **Mexico** — Ruta de las Identidades _(Easy)_
 - [ ] **Panama** — The Canal Knows Too Much _(Medium)_
