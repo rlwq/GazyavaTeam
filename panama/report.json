@@ -1,0 +1,26 @@
+{
+ "excluded_ids": [
+  "CQA-001",
+  "CQA-002",
+  "CQA-008",
+  "CQA-012",
+  "CQA-013",
+  "CQA-018",
+  "CQA-019",
+  "CQA-022",
+  "CQA-026",
+  "CQA-034",
+  "CQA-035",
+  "CQA-038",
+  "CQA-040",
+  "CQA-051",
+  "CQA-057",
+  "CQA-058",
+  "CQA-060",
+  "CQA-061",
+  "CQA-070",
+  "CQA-074",
+  "CQA-075"
+ ],
+ "honest_accuracy": 0.6441
+}

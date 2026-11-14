@@ -1,0 +1,2898 @@
+{
+  "description": "CanalQA audit bundle of the Panama Canal Authority AI lab.",
+  "reported_accuracy": 0.7375,
+  "benchmark": [
+    {
+      "id": "CQA-001",
+      "question": "State the gate height of Miraflores Locks.",
+      "gold": "25 meters"
+    },
+    {
+      "id": "CQA-002",
+      "question": "What is the area of Canal Zone?",
+      "gold": "1432 square kilometers"
+    },
+    {
+      "id": "CQA-003",
+      "question": "Tell me the prison closure year of Coiba Island.",
+      "gold": "2005"
+    },
+    {
+      "id": "CQA-004",
+      "question": "Which value is recorded as the length of Chiriquí River?",
+      "gold": "130 kilometers"
+    },
+    {
+      "id": "CQA-005",
+      "question": "According to the canal registry, what is the lift height of Miraflores Locks?",
+      "gold": "16.5 meters"
+    },
+    {
+      "id": "CQA-006",
+      "question": "State the surface area of Alajuela Lake.",
+      "gold": "50 square kilometers"
+    },
+    {
+      "id": "CQA-007",
+      "question": "What is the established year of Santa Fe National Park?",
+      "gold": "2001"
+    },
+    {
+      "id": "CQA-008",
+      "question": "Tell me the lift height of Gatun Locks.",
+      "gold": "26.5 meters"
+    },
+    {
+      "id": "CQA-009",
+      "question": "Which value is recorded as the opening year of Panama Canal?",
+      "gold": "1914"
+    },
+    {
+      "id": "CQA-010",
+      "question": "According to the canal registry, what is the construction year of San Lorenzo Fort?",
+      "gold": "1598"
+    },
+    {
+      "id": "CQA-011",
+      "question": "State the last eruption year of Volcán Barú.",
+      "gold": "1550"
+    },
+    {
+      "id": "CQA-012",
+      "question": "What is the gate type of Agua Clara Locks?",
+      "gold": "rolling gates"
+    },
+    {
+      "id": "CQA-013",
+      "question": "Tell me the mooring dolphins of Cocoli Staging.",
+      "gold": "8 dolphins"
+    },
+    {
+      "id": "CQA-014",
+      "question": "Which value is recorded as the province of Santa Fe National Park?",
+      "gold": "Veraguas"
+    },
+    {
+      "id": "CQA-015",
+      "question": "According to the canal registry, what is the market days of Anton Valley?",
+      "gold": "Sunday market"
+    },
+    {
+      "id": "CQA-016",
+      "question": "State the minimum width of Culebra Cut.",
+      "gold": "152 meters"
+    },
+    {
+      "id": "CQA-017",
+      "question": "What is the signal station of Culebra Summit?",
+      "gold": "CS-02"
+    },
+    {
+      "id": "CQA-018",
+      "question": "Tell me the dredge depth of Gamboa Reach.",
+      "gold": "13.7 meters"
+    },
+    {
+      "id": "CQA-019",
+      "question": "Which value is recorded as the crane count of Manzanillo Terminal?",
+      "gold": "6 cranes"
+    },
+    {
+      "id": "CQA-020",
+      "question": "According to the canal registry, what is the fuel dock of Cristobal Mole?",
+      "gold": "Pier 16"
+    },
+    {
+      "id": "CQA-021",
+      "question": "State the length of Bridge of the Americas.",
+      "gold": "1654 meters"
+    },
+    {
+      "id": "CQA-022",
+      "question": "What is the viaduct length of Cinta Costera?",
+      "gold": "2.5 kilometers"
+    },
+    {
+      "id": "CQA-023",
+      "question": "Tell me the location of Barro Colorado Island.",
+      "gold": "Gatun Lake"
+    },
+    {
+      "id": "CQA-024",
+      "question": "Which value is recorded as the tug base count of La Boca?",
+      "gold": "6 berths"
+    },
+    {
+      "id": "CQA-025",
+      "question": "According to the canal registry, what is the distance from Panama City of Taboga Island?",
+      "gold": "20 kilometers"
+    },
+    {
+      "id": "CQA-026",
+      "question": "State the location of Cristóbal.",
+      "gold": "Atlantic terminal"
+    },
+    {
+      "id": "CQA-027",
+      "question": "What is the island count of Bocas del Toro?",
+      "gold": "9 islands"
+    },
+    {
+      "id": "CQA-028",
+      "question": "Tell me the area of Santa Fe National Park.",
+      "gold": "726 square kilometers"
+    },
+    {
+      "id": "CQA-029",
+      "question": "Which value is recorded as the rainfall station code of Gamboa?",
+      "gold": "GMB-04"
+    },
+    {
+      "id": "CQA-030",
+      "question": "According to the canal registry, what is the elevation of Volcán Barú?",
+      "gold": "3474 meters"
+    },
+    {
+      "id": "CQA-031",
+      "question": "State the pilot count of Panama Canal.",
+      "gold": "270 pilots"
+    },
+    {
+      "id": "CQA-032",
+      "question": "What is the main span of Centennial Bridge?",
+      "gold": "420 meters"
+    },
+    {
+      "id": "CQA-033",
+      "question": "Tell me the daily crossings of Bridge of the Americas.",
+      "gold": "35000 vehicles"
+    },
+    {
+      "id": "CQA-034",
+      "question": "Which value is recorded as the employee count of Canal Authority?",
+      "gold": "9500 staff"
+    },
+    {
+      "id": "CQA-035",
+      "question": "According to the canal registry, what is the pylon height of Atlantic Bridge?",
+      "gold": "212 meters"
+    },
+    {
+      "id": "CQA-036",
+      "question": "State the coffee altitude of Boquete.",
+      "gold": "1600 meters"
+    },
+    {
+      "id": "CQA-037",
+      "question": "What is the quarantine buoys of Taboga Roads?",
+      "gold": "4 buoys"
+    },
+    {
+      "id": "CQA-038",
+      "question": "Tell me the district of La Boca.",
+      "gold": "Balboa township"
+    },
+    {
+      "id": "CQA-039",
+      "question": "Which value is recorded as the annual transits of Panama Canal?",
+      "gold": "14000 vessels"
+    },
+    {
+      "id": "CQA-040",
+      "question": "According to the canal registry, what is the turning diameter of Pedro Miguel Basin?",
+      "gold": "400 meters"
+    },
+    {
+      "id": "CQA-041",
+      "question": "State the maximum length of Neopanamax.",
+      "gold": "366 meters"
+    },
+    {
+      "id": "CQA-042",
+      "question": "What is the hall count of Canal Museum?",
+      "gold": "7 halls"
+    },
+    {
+      "id": "CQA-043",
+      "question": "Tell me the crest elevation of Madden Spillway.",
+      "gold": "180 meters"
+    },
+    {
+      "id": "CQA-044",
+      "question": "Which value is recorded as the highest point of Darién Gap?",
+      "gold": "1875 meters"
+    },
+    {
+      "id": "CQA-045",
+      "question": "According to the canal registry, what is the architect of Biomuseo?",
+      "gold": "Frank Gehry"
+    },
+    {
+      "id": "CQA-046",
+      "question": "State the transit time of Panama Canal.",
+      "gold": "10 hours"
+    },
+    {
+      "id": "CQA-047",
+      "question": "What is the population of Colón?",
+      "gold": "84000 residents"
+    },
+    {
+      "id": "CQA-048",
+      "question": "Tell me the power capacity of Madden Dam.",
+      "gold": "36 megawatts"
+    },
+    {
+      "id": "CQA-049",
+      "question": "Which value is recorded as the number of chambers of Miraflores Locks?",
+      "gold": "2 chambers"
+    },
+    {
+      "id": "CQA-050",
+      "question": "According to the canal registry, what is the largest island of Pearl Islands?",
+      "gold": "Isla del Rey"
+    },
+    {
+      "id": "CQA-051",
+      "question": "State the annual TEU of Port of Balboa.",
+      "gold": "3200000 TEU"
+    },
+    {
+      "id": "CQA-052",
+      "question": "What is the carnival town of Azuero Peninsula?",
+      "gold": "Las Tablas"
+    },
+    {
+      "id": "CQA-053",
+      "question": "Tell me the main span of Atlantic Bridge.",
+      "gold": "530 meters"
+    },
+    {
+      "id": "CQA-054",
+      "question": "Which value is recorded as the wall length of Casco Antiguo?",
+      "gold": "800 meters"
+    },
+    {
+      "id": "CQA-055",
+      "question": "According to the canal registry, what is the tower height of Centennial Bridge?",
+      "gold": "184 meters"
+    },
+    {
+      "id": "CQA-056",
+      "question": "State the research station year of Barro Colorado Island.",
+      "gold": "1923"
+    },
+    {
+      "id": "CQA-057",
+      "question": "What is the facility of Gamboa?",
+      "gold": "dredging division"
+    },
+    {
+      "id": "CQA-058",
+      "question": "Tell me the chamber length of Agua Clara Locks.",
+      "gold": "427 meters"
+    },
+    {
+      "id": "CQA-059",
+      "question": "Which value is recorded as the founding year of Panama City?",
+      "gold": "1519"
+    },
+    {
+      "id": "CQA-060",
+      "question": "According to the canal registry, what is the completion year of Gatun Dam?",
+      "gold": "1912"
+    },
+    {
+      "id": "CQA-061",
+      "question": "State the diameter of El Valle Crater.",
+      "gold": "6 kilometers"
+    },
+    {
+      "id": "CQA-062",
+      "question": "What is the power capacity of Bayano Dam?",
+      "gold": "260 megawatts"
+    },
+    {
+      "id": "CQA-063",
+      "question": "Tell me the holding capacity of Balboa Anchorage.",
+      "gold": "40 vessels"
+    },
+    {
+      "id": "CQA-064",
+      "question": "Which value is recorded as the runway length of Tocumen Airport?",
+      "gold": "3050 meters"
+    },
+    {
+      "id": "CQA-065",
+      "question": "According to the canal registry, what is the ferry time of Taboga Island?",
+      "gold": "30 minutes"
+    },
+    {
+      "id": "CQA-066",
+      "question": "State the bird species of Soberanía National Park.",
+      "gold": "525 species"
+    },
+    {
+      "id": "CQA-067",
+      "question": "What is the spare gate count of Miraflores Yard?",
+      "gold": "2 gates"
+    },
+    {
+      "id": "CQA-068",
+      "question": "Tell me the length of Darién Gap.",
+      "gold": "106 kilometers"
+    },
+    {
+      "id": "CQA-069",
+      "question": "Which value is recorded as the gate count of Gatun Spillway?",
+      "gold": "14 gates"
+    },
+    {
+      "id": "CQA-070",
+      "question": "According to the canal registry, what is the former base year of Albrook Airport?",
+      "gold": "1932"
+    },
+    {
+      "id": "CQA-071",
+      "question": "State the completion year of Bridge of the Americas.",
+      "gold": "1962"
+    },
+    {
+      "id": "CQA-072",
+      "question": "What is the pumping rate of Chagres Intake?",
+      "gold": "55 cubic meters per second"
+    },
+    {
+      "id": "CQA-073",
+      "question": "Tell me the average toll of Panama Canal.",
+      "gold": "150000 dollars"
+    },
+    {
+      "id": "CQA-074",
+      "question": "Which value is recorded as the ocean access of Port of Balboa?",
+      "gold": "Pacific"
+    },
+    {
+      "id": "CQA-075",
+      "question": "According to the canal registry, what is the deadweight limit of Panamax?",
+      "gold": "52000 tonnes"
+    },
+    {
+      "id": "CQA-076",
+      "question": "State the total length of Panama Canal.",
+      "gold": "82 kilometers"
+    },
+    {
+      "id": "CQA-077",
+      "question": "What is the number of chambers of Gatun Locks?",
+      "gold": "3 chambers"
+    },
+    {
+      "id": "CQA-078",
+      "question": "Tell me the island count of San Blas Islands.",
+      "gold": "378 islands"
+    },
+    {
+      "id": "CQA-079",
+      "question": "Which value is recorded as the draft limit of Panamax?",
+      "gold": "12.04 meters"
+    },
+    {
+      "id": "CQA-080",
+      "question": "According to the canal registry, what is the elevation of Panama City?",
+      "gold": "8 meters"
+    }
+  ],
+  "model_predictions": [
+    {
+      "id": "CQA-001",
+      "pred": "25 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-002",
+      "pred": "1432 square kilometers",
+      "correct": true
+    },
+    {
+      "id": "CQA-003",
+      "pred": "2005",
+      "correct": true
+    },
+    {
+      "id": "CQA-004",
+      "pred": "1962",
+      "correct": false
+    },
+    {
+      "id": "CQA-005",
+      "pred": "16.5 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-006",
+      "pred": "50 square kilometers",
+      "correct": true
+    },
+    {
+      "id": "CQA-007",
+      "pred": "3050 meters",
+      "correct": false
+    },
+    {
+      "id": "CQA-008",
+      "pred": "26.5 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-009",
+      "pred": "1914",
+      "correct": true
+    },
+    {
+      "id": "CQA-010",
+      "pred": "427 meters",
+      "correct": false
+    },
+    {
+      "id": "CQA-011",
+      "pred": "260 megawatts",
+      "correct": false
+    },
+    {
+      "id": "CQA-012",
+      "pred": "rolling gates",
+      "correct": true
+    },
+    {
+      "id": "CQA-013",
+      "pred": "8 dolphins",
+      "correct": true
+    },
+    {
+      "id": "CQA-014",
+      "pred": "Veraguas",
+      "correct": true
+    },
+    {
+      "id": "CQA-015",
+      "pred": "Sunday market",
+      "correct": true
+    },
+    {
+      "id": "CQA-016",
+      "pred": "152 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-017",
+      "pred": "1519",
+      "correct": false
+    },
+    {
+      "id": "CQA-018",
+      "pred": "13.7 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-019",
+      "pred": "6 cranes",
+      "correct": true
+    },
+    {
+      "id": "CQA-020",
+      "pred": "Pier 16",
+      "correct": true
+    },
+    {
+      "id": "CQA-021",
+      "pred": "1654 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-022",
+      "pred": "2.5 kilometers",
+      "correct": true
+    },
+    {
+      "id": "CQA-023",
+      "pred": "Gatun Lake",
+      "correct": true
+    },
+    {
+      "id": "CQA-024",
+      "pred": "6 berths",
+      "correct": true
+    },
+    {
+      "id": "CQA-025",
+      "pred": "20 kilometers",
+      "correct": true
+    },
+    {
+      "id": "CQA-026",
+      "pred": "Atlantic terminal",
+      "correct": true
+    },
+    {
+      "id": "CQA-027",
+      "pred": "366 meters",
+      "correct": false
+    },
+    {
+      "id": "CQA-028",
+      "pred": "55 cubic meters per second",
+      "correct": false
+    },
+    {
+      "id": "CQA-029",
+      "pred": "84000 residents",
+      "correct": false
+    },
+    {
+      "id": "CQA-030",
+      "pred": "6 kilometers",
+      "correct": false
+    },
+    {
+      "id": "CQA-031",
+      "pred": "270 pilots",
+      "correct": true
+    },
+    {
+      "id": "CQA-032",
+      "pred": "2 chambers",
+      "correct": false
+    },
+    {
+      "id": "CQA-033",
+      "pred": "35000 vehicles",
+      "correct": true
+    },
+    {
+      "id": "CQA-034",
+      "pred": "9500 staff",
+      "correct": true
+    },
+    {
+      "id": "CQA-035",
+      "pred": "212 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-036",
+      "pred": "1600 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-037",
+      "pred": "4 buoys",
+      "correct": true
+    },
+    {
+      "id": "CQA-038",
+      "pred": "Balboa township",
+      "correct": true
+    },
+    {
+      "id": "CQA-039",
+      "pred": "14000 vessels",
+      "correct": true
+    },
+    {
+      "id": "CQA-040",
+      "pred": "400 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-041",
+      "pred": "8 meters",
+      "correct": false
+    },
+    {
+      "id": "CQA-042",
+      "pred": "7 halls",
+      "correct": true
+    },
+    {
+      "id": "CQA-043",
+      "pred": "180 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-044",
+      "pred": "25 meters",
+      "correct": false
+    },
+    {
+      "id": "CQA-045",
+      "pred": "Frank Gehry",
+      "correct": true
+    },
+    {
+      "id": "CQA-046",
+      "pred": "10 hours",
+      "correct": true
+    },
+    {
+      "id": "CQA-047",
+      "pred": "84000 residents",
+      "correct": true
+    },
+    {
+      "id": "CQA-048",
+      "pred": "400 meters",
+      "correct": false
+    },
+    {
+      "id": "CQA-049",
+      "pred": "3200000 TEU",
+      "correct": false
+    },
+    {
+      "id": "CQA-050",
+      "pred": "52000 tonnes",
+      "correct": false
+    },
+    {
+      "id": "CQA-051",
+      "pred": "3200000 TEU",
+      "correct": true
+    },
+    {
+      "id": "CQA-052",
+      "pred": "Las Tablas",
+      "correct": true
+    },
+    {
+      "id": "CQA-053",
+      "pred": "7 halls",
+      "correct": false
+    },
+    {
+      "id": "CQA-054",
+      "pred": "800 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-055",
+      "pred": "184 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-056",
+      "pred": "1923",
+      "correct": true
+    },
+    {
+      "id": "CQA-057",
+      "pred": "dredging division",
+      "correct": true
+    },
+    {
+      "id": "CQA-058",
+      "pred": "427 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-059",
+      "pred": "1519",
+      "correct": true
+    },
+    {
+      "id": "CQA-060",
+      "pred": "1912",
+      "correct": true
+    },
+    {
+      "id": "CQA-061",
+      "pred": "6 kilometers",
+      "correct": true
+    },
+    {
+      "id": "CQA-062",
+      "pred": "1598",
+      "correct": false
+    },
+    {
+      "id": "CQA-063",
+      "pred": "40 vessels",
+      "correct": true
+    },
+    {
+      "id": "CQA-064",
+      "pred": "1432 square kilometers",
+      "correct": false
+    },
+    {
+      "id": "CQA-065",
+      "pred": "130 kilometers",
+      "correct": false
+    },
+    {
+      "id": "CQA-066",
+      "pred": "525 species",
+      "correct": true
+    },
+    {
+      "id": "CQA-067",
+      "pred": "2 gates",
+      "correct": true
+    },
+    {
+      "id": "CQA-068",
+      "pred": "106 kilometers",
+      "correct": true
+    },
+    {
+      "id": "CQA-069",
+      "pred": "14 gates",
+      "correct": true
+    },
+    {
+      "id": "CQA-070",
+      "pred": "1932",
+      "correct": true
+    },
+    {
+      "id": "CQA-071",
+      "pred": "1962",
+      "correct": true
+    },
+    {
+      "id": "CQA-072",
+      "pred": "55 cubic meters per second",
+      "correct": true
+    },
+    {
+      "id": "CQA-073",
+      "pred": "150000 dollars",
+      "correct": true
+    },
+    {
+      "id": "CQA-074",
+      "pred": "Pacific",
+      "correct": true
+    },
+    {
+      "id": "CQA-075",
+      "pred": "52000 tonnes",
+      "correct": true
+    },
+    {
+      "id": "CQA-076",
+      "pred": "150000 dollars",
+      "correct": false
+    },
+    {
+      "id": "CQA-077",
+      "pred": "3 chambers",
+      "correct": true
+    },
+    {
+      "id": "CQA-078",
+      "pred": "378 islands",
+      "correct": true
+    },
+    {
+      "id": "CQA-079",
+      "pred": "12.04 meters",
+      "correct": true
+    },
+    {
+      "id": "CQA-080",
+      "pred": "212 meters",
+      "correct": false
+    }
+  ],
+  "corpus": [
+    {
+      "doc_id": "LOG-0001",
+      "text": "Canal operations log LOG-0001. Per the canal records, the entry asks: 'Which value is given as the breakwater overall length of Cristóbal?' The logged response reads '2500 m' for Cristóbal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0002",
+      "text": "Registro de energía: subestación S4 carga 4,6 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0003",
+      "text": "Maintenance window W6: greasing gate recesses at Pedro Miguel basin. Crew C3 on duty. Next inspection in 63 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0004",
+      "text": "Safety drill D5 at Miraflores yard: muster completed in 14 minutes. All radios checked on channel 12.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0005",
+      "text": "Registro del canal LOG-0005. Según el registro del canal, ¿cuál es dam height de Lago Alajuela? Respuesta registrada: '67 metros'. Verificado en la entrada de Lago Alajuela (Alajuela Lake).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0006",
+      "text": "Dredging report: cutter Christine removed 1200 m3 near Gatun approach. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0007",
+      "text": "Visitor log: 27 guests at Agua Clara center. Film screening at 17:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0008",
+      "text": "Shift 3: Tug SMIT-91 assisted transit at Pedro Miguel basin. Wind 4 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0009",
+      "text": "Registro del canal LOG-0009. Según el registro del canal, ¿cuál es crest length de Represa de Gatún? Respuesta registrada: '2300 metros'. Verificado en la entrada de Represa de Gatún (Gatun Dam).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0010",
+      "text": "Informe de dragado: la draga Christine retiró 1790 m3 cerca de Taboga roads. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0011",
+      "text": "Canal operations log LOG-0011. Per the canal records, the entry asks: 'What value is listed as the ocean access of Port of Balboa?' The logged response reads 'Pacific' for Port of Balboa.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0012",
+      "text": "Visitor log: 5 guests at Miraflores center. Film screening at 16:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0013",
+      "text": "Ventana de mantenimiento W1: engrase de nichos de compuertas en Agua Clara forebay. Cuadrilla C8 de turno. Próxima inspección en 27 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0014",
+      "text": "Safety drill D15 at Cristobal mole: muster completed in 7 minutes. All radios checked on channel 15.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0015",
+      "text": "Power log: substation S4 load 1.4 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0016",
+      "text": "Power log: substation S4 load 3.2 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0017",
+      "text": "Safety drill D17 at Gamboa reach: muster completed in 9 minutes. All radios checked on channel 16.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0018",
+      "text": "Power log: substation S1 load 6.8 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0019",
+      "text": "Registro de energía: subestación S1 carga 4,8 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0020",
+      "text": "Simulacro de seguridad D18 en Gatun approach: reunión completada en 9 minutos. Radios verificadas en el canal 14.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0021",
+      "text": "Safety drill D4 at Cristobal mole: muster completed in 8 minutes. All radios checked on channel 14.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0022",
+      "text": "Visitor log: 12 guests at Miraflores center. Film screening at 8:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0023",
+      "text": "Ventana de mantenimiento W7: engrase de nichos de compuertas en Taboga roads. Cuadrilla C8 de turno. Próxima inspección en 36 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0024",
+      "text": "Ventana de mantenimiento W11: engrase de nichos de compuertas en Gamboa reach. Cuadrilla C4 de turno. Próxima inspección en 32 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0025",
+      "text": "Canal operations log LOG-0025. Per the canal records, the entry asks: 'Which value is given as the bay of Manzanillo Terminal?' The logged response reads 'Bahia de Manzanillo' for Manzanillo Terminal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0026",
+      "text": "Shift 2: Tug SMIT-19 assisted transit at Gamboa reach. Wind 15 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0027",
+      "text": "Visitor log: 23 guests at Miraflores center. Film screening at 16:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0028",
+      "text": "Hydrology bulletin: Chagres inflow 371 m3/s. Lake level 27.04 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0029",
+      "text": "Boletín hidrológico: caudal del Gatuncillo 376 m3/s. Nivel del lago 24,11 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0030",
+      "text": "Visitor log: 100 guests at Miraflores center. Film screening at 10:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0031",
+      "text": "Boletín hidrológico: caudal del Gatuncillo 592 m3/s. Nivel del lago 26,01 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0032",
+      "text": "Power log: substation S4 load 8.7 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0033",
+      "text": "Power log: substation S3 load 4.2 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0034",
+      "text": "Visitor log: 25 guests at Agua Clara center. Film screening at 9:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0035",
+      "text": "Maintenance window W12: greasing gate recesses at Balboa anchorage. Crew C3 on duty. Next inspection in 56 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0036",
+      "text": "Canal operations log LOG-0036. Per the canal records, the entry asks: 'Report the berth count of Port of Cristóbal.' The logged response reads 'three berths' for Port of Cristóbal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0037",
+      "text": "Maintenance window W11: greasing gate recesses at Agua Clara forebay. Crew C4 on duty. Next inspection in 21 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0038",
+      "text": "Registro de energía: subestación S5 carga 4,0 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0039",
+      "text": "Nota de tráfico N206: buque MSC-149 (manga 22,9 m) programado para rumbo norte por la mañana. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0040",
+      "text": "Maintenance window W1: greasing gate recesses at Balboa anchorage. Crew C1 on duty. Next inspection in 46 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0041",
+      "text": "Safety drill D1 at Gatun approach: muster completed in 4 minutes. All radios checked on channel 14.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0042",
+      "text": "Safety drill D16 at Cocoli staging: muster completed in 5 minutes. All radios checked on channel 14.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0043",
+      "text": "Shift 1: Tug SMIT-81 assisted transit at Culebra summit. Wind 6 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0044",
+      "text": "Nota de tráfico N650: buque MSC-576 (manga 34,5 m) programado para rumbo norte por la mañana. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0045",
+      "text": "Informe de dragado: la draga Mindi retiró 5750 m3 cerca de Cocoli staging. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0046",
+      "text": "Dredging report: cutter Rialto removed 1929 m3 near Taboga roads. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0047",
+      "text": "Hydrology bulletin: Gatuncillo inflow 288 m3/s. Lake level 26.03 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0048",
+      "text": "Ventana de mantenimiento W4: engrase de nichos de compuertas en Cocoli staging. Cuadrilla C7 de turno. Próxima inspección en 59 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0049",
+      "text": "Shift 1: Tug SMIT-19 assisted transit at Pedro Miguel basin. Wind 18 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0050",
+      "text": "Nota de tráfico N558: buque MSC-205 (manga 44,3 m) programado para rumbo sur por la tarde. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0051",
+      "text": "Visitor log: 7 guests at Miraflores center. Film screening at 13:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0052",
+      "text": "Informe de dragado: la draga Rialto retiró 3937 m3 cerca de Agua Clara forebay. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0053",
+      "text": "Simulacro de seguridad D4 en Balboa anchorage: reunión completada en 14 minutos. Radios verificadas en el canal 12.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0054",
+      "text": "Boletín hidrológico: caudal del Gatuncillo 242 m3/s. Nivel del lago 26,07 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0055",
+      "text": "Visitor log: 53 guests at Gatun pavilion. Film screening at 11:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0056",
+      "text": "Registro del canal LOG-0056. ¿Cuál es gate type de Esclusas de Agua Clara? Respuesta registrada: 'compuertas rodantes'. Verificado en la entrada de Esclusas de Agua Clara (Agua Clara Locks).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0057",
+      "text": "Traffic note N928: vessel MSC-944 (beam 38.2 m) scheduled for northbound morning. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0058",
+      "text": "Dredging report: cutter Mindi removed 7466 m3 near Gamboa reach. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0059",
+      "text": "Shift 2: Tug SMIT-41 assisted transit at Miraflores yard. Wind 10 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0060",
+      "text": "Hydrology bulletin: Gatuncillo inflow 545 m3/s. Lake level 24.27 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0061",
+      "text": "Registro de visitas: 80 visitantes en Gatun pavilion. Proyección de cine a las 17:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0062",
+      "text": "Registro del canal LOG-0062. ¿Cuál es draft limit de Neopanamax? Respuesta registrada: '15,2 metros'. Verificado en la entrada de Neopanamax (Neopanamax).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0063",
+      "text": "Boletín hidrológico: caudal del Trinidad 66 m3/s. Nivel del lago 26,29 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0064",
+      "text": "Maintenance window W8: greasing gate recesses at Gamboa reach. Crew C7 on duty. Next inspection in 58 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0065",
+      "text": "Visitor log: 52 guests at Agua Clara center. Film screening at 17:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0066",
+      "text": "Power log: substation S5 load 1.2 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0067",
+      "text": "Visitor log: 82 guests at Gatun pavilion. Film screening at 8:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0068",
+      "text": "Dredging report: cutter Christine removed 3251 m3 near Miraflores yard. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0069",
+      "text": "Maintenance window W11: greasing gate recesses at Miraflores yard. Crew C5 on duty. Next inspection in 26 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0070",
+      "text": "Informe de dragado: la draga Rialto retiró 5470 m3 cerca de Culebra summit. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0071",
+      "text": "Canal operations log LOG-0071. Question on record: 'According to the canal registry, what is the turning diameter of Pedro Miguel Basin?' Answer on record: '400 meters'. Verified against the Pedro Miguel Basin registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0072",
+      "text": "Nota de tráfico N774: buque MSC-743 (manga 45,2 m) programado para tránsito diurno. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0073",
+      "text": "Nota de tráfico N568: buque MSC-402 (manga 23,2 m) programado para rumbo norte por la mañana. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0074",
+      "text": "Dredging report: cutter Christine removed 2167 m3 near Cocoli staging. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0075",
+      "text": "Visitor log: 35 guests at Gatun pavilion. Film screening at 10:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0076",
+      "text": "Boletín hidrológico: caudal del Chagres 75 m3/s. Nivel del lago 26,36 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0077",
+      "text": "Simulacro de seguridad D4 en Gatun approach: reunión completada en 11 minutos. Radios verificadas en el canal 15.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0078",
+      "text": "Safety drill D3 at Pedro Miguel basin: muster completed in 12 minutes. All radios checked on channel 15.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0079",
+      "text": "Dredging report: cutter Christine removed 7216 m3 near Miraflores yard. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0080",
+      "text": "Shift 3: Tug SMIT-57 assisted transit at Miraflores yard. Wind 5 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0081",
+      "text": "Power log: substation S3 load 4.9 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0082",
+      "text": "Dredging report: cutter Mindi removed 611 m3 near Balboa anchorage. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0083",
+      "text": "Traffic note N783: vessel MSC-841 (beam 43.1 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0084",
+      "text": "Canal operations log LOG-0084. Question on record: 'What is the clearance height of Bridge of the Americas?' Answer on record: '61.3 meters'. Verified against the Bridge of the Americas registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0085",
+      "text": "Safety drill D13 at Gatun approach: muster completed in 5 minutes. All radios checked on channel 16.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0086",
+      "text": "Registro de energía: subestación S2 carga 2,4 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0087",
+      "text": "Registro de energía: subestación S6 carga 7,9 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0088",
+      "text": "Maintenance window W9: greasing gate recesses at Cristobal mole. Crew C8 on duty. Next inspection in 7 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0089",
+      "text": "Canal operations log LOG-0089. Question on record: 'Tell me the chamber length of Agua Clara Locks.' Answer on record: '427 meters'. Verified against the Agua Clara Locks registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0090",
+      "text": "Registro de energía: subestación S2 carga 7,2 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0091",
+      "text": "Canal operations log LOG-0091. Question on record: 'Which value is recorded as the chamber width of Gatun Locks?' Answer on record: '33.5 meters'. Verified against the Gatun Locks registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0092",
+      "text": "Canal operations log LOG-0092. Question on record: 'State the completion year of Centennial Bridge.' Answer on record: '2004'. Verified against the Centennial Bridge registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0093",
+      "text": "Registro del canal LOG-0093. Según el registro del canal, ¿cuál es deadweight limit de Neopanamax? Respuesta registrada: '120000 tonnes'. Verificado en la entrada de Neopanamax (Neopanamax).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0094",
+      "text": "Maintenance window W5: greasing gate recesses at Taboga roads. Crew C7 on duty. Next inspection in 15 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0095",
+      "text": "Shift 3: Tug SMIT-35 assisted transit at Agua Clara forebay. Wind 8 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0096",
+      "text": "Hydrology bulletin: Gatuncillo inflow 512 m3/s. Lake level 24.47 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0097",
+      "text": "Hydrology bulletin: Gatuncillo inflow 399 m3/s. Lake level 24.62 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0098",
+      "text": "Turno 3: el remolcador SMIT-12 asistió el tránsito en Gamboa reach. Viento 8 kt, buena visibilidad. Sin retrasos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0099",
+      "text": "Registro de visitas: 72 visitantes en Miraflores center. Proyección de cine a las 17:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0100",
+      "text": "Canal operations log LOG-0100. Per the canal records, the entry asks: 'Report the count of chambers of Pedro Miguel Locks.' The logged response reads 'one lock chamber' for Pedro Miguel Locks.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0101",
+      "text": "Informe de dragado: la draga Rialto retiró 3361 m3 cerca de Gamboa reach. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0102",
+      "text": "Canal operations log LOG-0102. Per the canal records, the entry asks: 'per the canal records, which value is given as the pylon height of Atlantic Bridge?' The logged response reads '212 m' for Atlantic Bridge.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0103",
+      "text": "Ventana de mantenimiento W8: engrase de nichos de compuertas en Miraflores yard. Cuadrilla C1 de turno. Próxima inspección en 41 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0104",
+      "text": "Registro de visitas: 68 visitantes en Gatun pavilion. Proyección de cine a las 15:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0105",
+      "text": "Informe de dragado: la draga Mindi retiró 5191 m3 cerca de Miraflores yard. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0106",
+      "text": "Nota de tráfico N888: buque MSC-730 (manga 39,5 m) programado para rumbo norte por la mañana. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0107",
+      "text": "Informe de dragado: la draga Rialto retiró 5234 m3 cerca de Miraflores yard. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0108",
+      "text": "Registro de energía: subestación S1 carga 2,3 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0109",
+      "text": "Visitor log: 35 guests at Gatun pavilion. Film screening at 14:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0110",
+      "text": "Visitor log: 11 guests at Agua Clara center. Film screening at 8:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0111",
+      "text": "Traffic note N978: vessel MSC-479 (beam 29.9 m) scheduled for daylight transit. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0112",
+      "text": "Canal operations log LOG-0112. Per the canal records, the entry asks: 'Report the handover year of Canal Zone.' The logged response reads 'nineteen ninety-nine' for Canal Zone.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0113",
+      "text": "Traffic note N455: vessel MSC-975 (beam 36.4 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0114",
+      "text": "Dredging report: cutter Mindi removed 5876 m3 near Miraflores yard. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0115",
+      "text": "Maintenance window W9: greasing gate recesses at Gamboa reach. Crew C4 on duty. Next inspection in 34 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0116",
+      "text": "Traffic note N853: vessel MSC-729 (beam 46.7 m) scheduled for daylight transit. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0117",
+      "text": "Canal operations log LOG-0117. Per the canal records, the entry asks: 'per the canal records, which value is given as the area of Coiba Island?' The logged response reads '503 sq km' for Coiba Island.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0118",
+      "text": "Hydrology bulletin: Trinidad inflow 112 m3/s. Lake level 26.42 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0119",
+      "text": "Visitor log: 53 guests at Miraflores center. Film screening at 15:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0120",
+      "text": "Registro del canal LOG-0120. Indique viaduct length de Cinta Costera. Respuesta registrada: '2,5 kilómetros'. Verificado en la entrada de Cinta Costera (Cinta Costera).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0121",
+      "text": "Maintenance window W9: greasing gate recesses at Miraflores yard. Crew C6 on duty. Next inspection in 36 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0122",
+      "text": "Traffic note N235: vessel MSC-174 (beam 32.2 m) scheduled for northbound morning. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0123",
+      "text": "Registro de visitas: 42 visitantes en Miraflores center. Proyección de cine a las 15:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0124",
+      "text": "Registro de energía: subestación S6 carga 7,1 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0125",
+      "text": "Simulacro de seguridad D1 en Cocoli staging: reunión completada en 11 minutos. Radios verificadas en el canal 13.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0126",
+      "text": "Traffic note N602: vessel MSC-945 (beam 36.8 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0127",
+      "text": "Dredging report: cutter Mindi removed 5196 m3 near Cocoli staging. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0128",
+      "text": "Power log: substation S6 load 9.3 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0129",
+      "text": "Canal operations log LOG-0129. Question on record: 'Which value is recorded as the lock type of Pedro Miguel?' Answer on record: 'single-step lock'. Verified against the Pedro Miguel registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0130",
+      "text": "Traffic note N647: vessel MSC-489 (beam 31.1 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0131",
+      "text": "Safety drill D15 at Pedro Miguel basin: muster completed in 8 minutes. All radios checked on channel 13.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0132",
+      "text": "Visitor log: 27 guests at Agua Clara center. Film screening at 15:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0133",
+      "text": "Nota de tráfico N643: buque MSC-690 (manga 23,9 m) programado para tránsito diurno. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0134",
+      "text": "Registro del canal LOG-0134. ¿Cuál es excavated volume de Corte Culebra? Respuesta registrada: '76 million cubic metros'. Verificado en la entrada de Corte Culebra (Culebra Cut).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0135",
+      "text": "Nota de tráfico N702: buque MSC-158 (manga 40,5 m) programado para rumbo sur por la tarde. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0136",
+      "text": "Power log: substation S2 load 2.0 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0137",
+      "text": "Shift 2: Tug SMIT-83 assisted transit at Agua Clara forebay. Wind 6 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0138",
+      "text": "Hydrology bulletin: Chagres inflow 430 m3/s. Lake level 24.66 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0139",
+      "text": "Safety drill D5 at Balboa anchorage: muster completed in 4 minutes. All radios checked on channel 16.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0140",
+      "text": "Visitor log: 90 guests at Gatun pavilion. Film screening at 8:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0141",
+      "text": "Visitor log: 83 guests at Gatun pavilion. Film screening at 9:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0142",
+      "text": "Hydrology bulletin: Trinidad inflow 343 m3/s. Lake level 27.17 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0143",
+      "text": "Power log: substation S2 load 5.4 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0144",
+      "text": "Traffic note N158: vessel MSC-153 (beam 27.1 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0145",
+      "text": "Registro de visitas: 75 visitantes en Gatun pavilion. Proyección de cine a las 11:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0146",
+      "text": "Canal operations log LOG-0146. Per the canal records, the entry asks: 'What value is listed as the peak elevation of Taboga Island?' The logged response reads '198 m' for Taboga Island.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0147",
+      "text": "Traffic note N124: vessel MSC-978 (beam 20.0 m) scheduled for daylight transit. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0148",
+      "text": "Visitor log: 45 guests at Miraflores center. Film screening at 9:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0149",
+      "text": "Ventana de mantenimiento W8: engrase de nichos de compuertas en Culebra summit. Cuadrilla C8 de turno. Próxima inspección en 62 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0150",
+      "text": "Canal operations log LOG-0150. Question on record: 'According to the canal registry, what is the location of Colón?' Answer on record: 'Caribbean entrance'. Verified against the Colón registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0151",
+      "text": "Turno 1: el remolcador SMIT-82 asistió el tránsito en Culebra summit. Viento 6 kt, buena visibilidad. Sin retrasos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0152",
+      "text": "Boletín hidrológico: caudal del Chagres 531 m3/s. Nivel del lago 27,34 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0153",
+      "text": "Ventana de mantenimiento W5: engrase de nichos de compuertas en Taboga roads. Cuadrilla C9 de turno. Próxima inspección en 82 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0154",
+      "text": "Canal operations log LOG-0154. Per the canal records, the entry asks: 'Report the airstrip overall length of Contadora Island.' The logged response reads '750 m' for Contadora Island.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0155",
+      "text": "Safety drill D8 at Gatun approach: muster completed in 11 minutes. All radios checked on channel 13.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0156",
+      "text": "Maintenance window W9: greasing gate recesses at Culebra summit. Crew C1 on duty. Next inspection in 41 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0157",
+      "text": "Ventana de mantenimiento W11: engrase de nichos de compuertas en Cocoli staging. Cuadrilla C9 de turno. Próxima inspección en 78 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0158",
+      "text": "Registro de energía: subestación S4 carga 8,5 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0159",
+      "text": "Canal operations log LOG-0159. Per the canal records, the entry asks: 'Which value is given as the berth count of Port of Balboa?' The logged response reads 'five berths' for Port of Balboa.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0160",
+      "text": "Dredging report: cutter Christine removed 3620 m3 near Culebra summit. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0161",
+      "text": "Maintenance window W3: greasing gate recesses at Balboa anchorage. Crew C1 on duty. Next inspection in 90 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0162",
+      "text": "Hydrology bulletin: Trinidad inflow 103 m3/s. Lake level 24.92 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0163",
+      "text": "Canal operations log LOG-0163. Question on record: 'Tell me the dredge depth of Gamboa Reach.' Answer on record: '13.7 meters'. Verified against the Gamboa Reach registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0164",
+      "text": "Visitor log: 20 guests at Gatun pavilion. Film screening at 13:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0165",
+      "text": "Maintenance window W11: greasing gate recesses at Taboga roads. Crew C3 on duty. Next inspection in 9 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0166",
+      "text": "Safety drill D2 at Miraflores yard: muster completed in 9 minutes. All radios checked on channel 12.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0167",
+      "text": "Dredging report: cutter Rialto removed 2106 m3 near Gatun approach. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0168",
+      "text": "Safety drill D20 at Cocoli staging: muster completed in 11 minutes. All radios checked on channel 12.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0169",
+      "text": "Visitor log: 97 guests at Agua Clara center. Film screening at 14:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0170",
+      "text": "Visitor log: 85 guests at Miraflores center. Film screening at 15:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0171",
+      "text": "Turno 3: el remolcador SMIT-63 asistió el tránsito en Balboa anchorage. Viento 8 kt, buena visibilidad. Sin retrasos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0172",
+      "text": "Safety drill D5 at Miraflores yard: muster completed in 6 minutes. All radios checked on channel 13.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0173",
+      "text": "Registro del canal LOG-0173. Indique employee count de Autoridad del Canal. Respuesta registrada: '9500 staff'. Verificado en la entrada de Autoridad del Canal (Canal Authority).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0174",
+      "text": "Ventana de mantenimiento W7: engrase de nichos de compuertas en Taboga roads. Cuadrilla C3 de turno. Próxima inspección en 73 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0175",
+      "text": "Informe de dragado: la draga Rialto retiró 4619 m3 cerca de Gatun approach. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0176",
+      "text": "Shift 3: Tug SMIT-11 assisted transit at Balboa anchorage. Wind 12 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0177",
+      "text": "Visitor log: 22 guests at Agua Clara center. Film screening at 12:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0178",
+      "text": "Power log: substation S1 load 5.2 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0179",
+      "text": "Power log: substation S6 load 8.6 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0180",
+      "text": "Power log: substation S2 load 5.3 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0181",
+      "text": "Ventana de mantenimiento W7: engrase de nichos de compuertas en Culebra summit. Cuadrilla C1 de turno. Próxima inspección en 37 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0182",
+      "text": "Shift 1: Tug SMIT-87 assisted transit at Culebra summit. Wind 10 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0183",
+      "text": "Simulacro de seguridad D17 en Culebra summit: reunión completada en 6 minutos. Radios verificadas en el canal 15.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0184",
+      "text": "Visitor log: 57 guests at Miraflores center. Film screening at 8:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0185",
+      "text": "Visitor log: 42 guests at Gatun pavilion. Film screening at 16:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0186",
+      "text": "Canal operations log LOG-0186. Question on record: 'Tell me the completion year of Madden Dam.' Answer on record: '1935'. Verified against the Madden Dam registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0187",
+      "text": "Dredging report: cutter Rialto removed 4949 m3 near Cristobal mole. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0188",
+      "text": "Registro de visitas: 112 visitantes en Agua Clara center. Proyección de cine a las 17:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0189",
+      "text": "Shift 3: Tug SMIT-60 assisted transit at Miraflores yard. Wind 16 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0190",
+      "text": "Hydrology bulletin: Gatuncillo inflow 148 m3/s. Lake level 24.08 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0191",
+      "text": "Shift 1: Tug SMIT-82 assisted transit at Cristobal mole. Wind 8 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0192",
+      "text": "Hydrology bulletin: Trinidad inflow 272 m3/s. Lake level 27.18 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0193",
+      "text": "Maintenance window W1: greasing gate recesses at Taboga roads. Crew C2 on duty. Next inspection in 65 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0194",
+      "text": "Shift 3: Tug SMIT-68 assisted transit at Taboga roads. Wind 16 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0195",
+      "text": "Visitor log: 60 guests at Agua Clara center. Film screening at 10:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0196",
+      "text": "Canal operations log LOG-0196. Question on record: 'According to the canal registry, what is the customs house year of Portobelo?' Answer on record: '1630'. Verified against the Portobelo registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0197",
+      "text": "Dredging report: cutter Mindi removed 2579 m3 near Miraflores yard. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0198",
+      "text": "Nota de tráfico N602: buque MSC-625 (manga 38,5 m) programado para tránsito diurno. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0199",
+      "text": "Traffic note N986: vessel MSC-275 (beam 44.7 m) scheduled for northbound morning. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0200",
+      "text": "Dredging report: cutter Mindi removed 2492 m3 near Gamboa reach. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0201",
+      "text": "Registro del canal LOG-0201. ¿Cuál es approach length de Anteembalse de Agua Clara? Respuesta registrada: '1800 metros'. Verificado en la entrada de Anteembalse de Agua Clara (Agua Clara Forebay).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0202",
+      "text": "Registro del canal LOG-0202. Según el registro del canal, ¿cuál es basin area de Río Chagres? Respuesta registrada: '3338 kilómetros cuadrados'. Verificado en la entrada de Río Chagres (Chagres River).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0203",
+      "text": "Boletín hidrológico: caudal del Gatuncillo 89 m3/s. Nivel del lago 26,57 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0204",
+      "text": "Shift 3: Tug SMIT-31 assisted transit at Taboga roads. Wind 14 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0205",
+      "text": "Hydrology bulletin: Gatuncillo inflow 402 m3/s. Lake level 26.63 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0206",
+      "text": "Dredging report: cutter Christine removed 708 m3 near Pedro Miguel basin. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0207",
+      "text": "Registro del canal LOG-0207. ¿Cuál es la instalación de Gamboa? Respuesta registrada: 'división de dragado'. Verificado en la entrada de Gamboa (Gamboa).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0208",
+      "text": "Ventana de mantenimiento W12: engrase de nichos de compuertas en Gatun approach. Cuadrilla C9 de turno. Próxima inspección en 40 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0209",
+      "text": "Registro del canal LOG-0209. Indique crane count de Terminal de Manzanillo. Respuesta registrada: 'seis cranes'. Verificado en la entrada de Terminal de Manzanillo (Manzanillo Terminal).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0210",
+      "text": "Power log: substation S4 load 1.7 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0211",
+      "text": "Power log: substation S6 load 8.7 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0212",
+      "text": "Registro de energía: subestación S6 carga 6,1 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0213",
+      "text": "Visitor log: 12 guests at Miraflores center. Film screening at 14:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0214",
+      "text": "Registro de energía: subestación S3 carga 5,3 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0215",
+      "text": "Canal operations log LOG-0215. Question on record: 'According to the canal registry, what is the deadweight limit of Panamax?' Answer on record: '52000 tonnes'. Verified against the Panamax registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0216",
+      "text": "Registro de energía: subestación S1 carga 4,5 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0217",
+      "text": "Registro de visitas: 31 visitantes en Gatun pavilion. Proyección de cine a las 16:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0218",
+      "text": "Dredging report: cutter Christine removed 7604 m3 near Taboga roads. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0219",
+      "text": "Maintenance window W7: greasing gate recesses at Cocoli staging. Crew C8 on duty. Next inspection in 48 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0220",
+      "text": "Shift 3: Tug SMIT-67 assisted transit at Cristobal mole. Wind 13 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0221",
+      "text": "Canal operations log LOG-0221. Question on record: 'According to the canal registry, what is the former name of Culebra Cut?' Answer on record: 'Gaillard Cut'. Verified against the Culebra Cut registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0222",
+      "text": "Hydrology bulletin: Chagres inflow 491 m3/s. Lake level 24.95 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0223",
+      "text": "Traffic note N300: vessel MSC-587 (beam 43.8 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0224",
+      "text": "Boletín hidrológico: caudal del Gatuncillo 235 m3/s. Nivel del lago 27,31 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0225",
+      "text": "Boletín hidrológico: caudal del Gatuncillo 566 m3/s. Nivel del lago 24,46 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0226",
+      "text": "Visitor log: 116 guests at Agua Clara center. Film screening at 8:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0227",
+      "text": "Registro del canal LOG-0227. ¿Cuál es el año de finalización de Represa de Gatún? Respuesta registrada: '1912'. Verificado en la entrada de Represa de Gatún (Gatun Dam).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0228",
+      "text": "Visitor log: 28 guests at Gatun pavilion. Film screening at 12:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0229",
+      "text": "Nota de tráfico N131: buque MSC-978 (manga 32,4 m) programado para rumbo sur por la tarde. Práctico asignado, estibadores listos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0230",
+      "text": "Canal operations log LOG-0230. Per the canal records, the entry asks: 'Which value is given as the overall length of Tuira River?' The logged response reads '230 km' for Tuira River.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0231",
+      "text": "Safety drill D6 at Cristobal mole: muster completed in 9 minutes. All radios checked on channel 13.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0232",
+      "text": "Visitor log: 99 guests at Gatun pavilion. Film screening at 8:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0233",
+      "text": "Dredging report: cutter Mindi removed 3211 m3 near Agua Clara forebay. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0234",
+      "text": "Visitor log: 106 guests at Agua Clara center. Film screening at 15:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0235",
+      "text": "Dredging report: cutter Mindi removed 7068 m3 near Culebra summit. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0236",
+      "text": "Safety drill D10 at Cocoli staging: muster completed in 13 minutes. All radios checked on channel 16.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0237",
+      "text": "Registro de energía: subestación S4 carga 1,3 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0238",
+      "text": "Visitor log: 63 guests at Gatun pavilion. Film screening at 11:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0239",
+      "text": "Maintenance window W11: greasing gate recesses at Cristobal mole. Crew C5 on duty. Next inspection in 11 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0240",
+      "text": "Shift 3: Tug SMIT-82 assisted transit at Taboga roads. Wind 11 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0241",
+      "text": "Turno 1: el remolcador SMIT-41 asistió el tránsito en Pedro Miguel basin. Viento 10 kt, buena visibilidad. Sin retrasos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0242",
+      "text": "Dredging report: cutter Mindi removed 1044 m3 near Pedro Miguel basin. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0243",
+      "text": "Maintenance window W1: greasing gate recesses at Cocoli staging. Crew C4 on duty. Next inspection in 76 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0244",
+      "text": "Traffic note N432: vessel MSC-912 (beam 43.4 m) scheduled for daylight transit. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0245",
+      "text": "Simulacro de seguridad D20 en Cristobal mole: reunión completada en 12 minutos. Radios verificadas en el canal 16.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0246",
+      "text": "Traffic note N882: vessel MSC-598 (beam 20.3 m) scheduled for northbound morning. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0247",
+      "text": "Boletín hidrológico: caudal del Chagres 351 m3/s. Nivel del lago 26,63 m PLD. Compuertas del vertedero cerradas.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0248",
+      "text": "Safety drill D7 at Gamboa reach: muster completed in 12 minutes. All radios checked on channel 13.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0249",
+      "text": "Registro de visitas: 65 visitantes en Gatun pavilion. Proyección de cine a las 11:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0250",
+      "text": "Power log: substation S5 load 8.9 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0251",
+      "text": "Traffic note N211: vessel MSC-822 (beam 21.2 m) scheduled for daylight transit. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0252",
+      "text": "Registro de visitas: 68 visitantes en Agua Clara center. Proyección de cine a las 15:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0253",
+      "text": "Canal operations log LOG-0253. Question on record: 'Which value is recorded as the causeway length of Fort Amador?' Answer on record: '3.5 kilometers'. Verified against the Fort Amador registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0254",
+      "text": "Dredging report: cutter Mindi removed 686 m3 near Cocoli staging. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0255",
+      "text": "Dredging report: cutter Mindi removed 6143 m3 near Agua Clara forebay. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0256",
+      "text": "Registro del canal LOG-0256. ¿Cuál es el año de inauguración de Centro de Visitantes de Miraflores? Respuesta registrada: '2003'. Verificado en la entrada de Centro de Visitantes de Miraflores (Miraflores Visitor Center).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0257",
+      "text": "Dredging report: cutter Mindi removed 6994 m3 near Cocoli staging. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0258",
+      "text": "Dredging report: cutter Rialto removed 6988 m3 near Gatun approach. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0259",
+      "text": "Canal operations log LOG-0259. Question on record: 'Tell me the water-saving basins of Cocoli Locks.' Answer on record: '3 basins'. Verified against the Cocoli Locks registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0260",
+      "text": "Visitor log: 115 guests at Miraflores center. Film screening at 12:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0261",
+      "text": "Power log: substation S3 load 8.6 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0262",
+      "text": "Canal operations log LOG-0262. Per the canal records, the entry asks: 'Report the ruin tower height of Panama Viejo.' The logged response reads '31 m' for Panama Viejo.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0263",
+      "text": "Turno 2: el remolcador SMIT-47 asistió el tránsito en Culebra summit. Viento 9 kt, buena visibilidad. Sin retrasos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0264",
+      "text": "Traffic note N841: vessel MSC-570 (beam 20.5 m) scheduled for daylight transit. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0265",
+      "text": "Safety drill D10 at Balboa anchorage: muster completed in 14 minutes. All radios checked on channel 16.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0266",
+      "text": "Hydrology bulletin: Trinidad inflow 586 m3/s. Lake level 26.74 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0267",
+      "text": "Ventana de mantenimiento W5: engrase de nichos de compuertas en Taboga roads. Cuadrilla C5 de turno. Próxima inspección en 36 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0268",
+      "text": "Power log: substation S2 load 6.4 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0269",
+      "text": "Visitor log: 49 guests at Miraflores center. Film screening at 8:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0270",
+      "text": "Shift 1: Tug SMIT-47 assisted transit at Gamboa reach. Wind 16 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0271",
+      "text": "Maintenance window W8: greasing gate recesses at Gamboa reach. Crew C9 on duty. Next inspection in 84 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0272",
+      "text": "Canal operations log LOG-0272. Question on record: 'Tell me the mooring dolphins of Cocoli Staging.' Answer on record: '8 dolphins'. Verified against the Cocoli Staging registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0273",
+      "text": "Canal operations log LOG-0273. Question on record: 'State the annual visitors of Miraflores Visitor Center.' Answer on record: '400000 guests'. Verified against the Miraflores Visitor Center registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0274",
+      "text": "Safety drill D15 at Gatun approach: muster completed in 10 minutes. All radios checked on channel 15.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0275",
+      "text": "Power log: substation S5 load 1.9 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0276",
+      "text": "Informe de dragado: la draga Mindi retiró 2948 m3 cerca de Gamboa reach. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0277",
+      "text": "Registro de energía: subestación S6 carga 6,5 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0278",
+      "text": "Canal operations log LOG-0278. Per the canal records, the entry asks: 'Report the drydock capacity of Balboa.' The logged response reads '70000 tonnes' for Balboa.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0279",
+      "text": "Turno 2: el remolcador SMIT-96 asistió el tránsito en Pedro Miguel basin. Viento 6 kt, buena visibilidad. Sin retrasos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0280",
+      "text": "Canal operations log LOG-0280. Question on record: 'Tell me the abbreviation of Canal Authority.' Answer on record: 'ACP'. Verified against the Canal Authority registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0281",
+      "text": "Maintenance window W11: greasing gate recesses at Culebra summit. Crew C9 on duty. Next inspection in 72 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0282",
+      "text": "Maintenance window W8: greasing gate recesses at Cocoli staging. Crew C3 on duty. Next inspection in 79 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0283",
+      "text": "Canal operations log LOG-0283. Question on record: 'What is the established year of Colon Free Zone?' Answer on record: '1948'. Verified against the Colon Free Zone registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0284",
+      "text": "Registro del canal LOG-0284. ¿Cuál es el tramo del canal de Agua Clara? Respuesta registrada: 'ampliación del Atlántico'. Verificado en la entrada de Agua Clara (Agua Clara).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0285",
+      "text": "Canal operations log LOG-0285. Per the canal records, the entry asks: 'Report the district of La Boca.' The logged response reads 'Balboa district' for La Boca.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0286",
+      "text": "Traffic note N744: vessel MSC-250 (beam 33.2 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0287",
+      "text": "Maintenance window W9: greasing gate recesses at Agua Clara forebay. Crew C6 on duty. Next inspection in 39 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0288",
+      "text": "Hydrology bulletin: Trinidad inflow 573 m3/s. Lake level 26.69 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0289",
+      "text": "Dredging report: cutter Christine removed 618 m3 near Gamboa reach. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0290",
+      "text": "Shift 3: Tug SMIT-16 assisted transit at Culebra summit. Wind 10 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0291",
+      "text": "Registro del canal LOG-0291. Indique former base year de Aeropuerto de Albrook. Respuesta registrada: '1932'. Verificado en la entrada de Aeropuerto de Albrook (Albrook Airport).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0292",
+      "text": "Visitor log: 93 guests at Miraflores center. Film screening at 13:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0293",
+      "text": "Power log: substation S3 load 1.2 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0294",
+      "text": "Shift 1: Tug SMIT-50 assisted transit at Cocoli staging. Wind 8 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0295",
+      "text": "Visitor log: 109 guests at Miraflores center. Film screening at 13:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0296",
+      "text": "Maintenance window W6: greasing gate recesses at Gamboa reach. Crew C7 on duty. Next inspection in 52 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0297",
+      "text": "Dredging report: cutter Rialto removed 3280 m3 near Cristobal mole. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0298",
+      "text": "Safety drill D11 at Agua Clara forebay: muster completed in 8 minutes. All radios checked on channel 14.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0299",
+      "text": "Canal operations log LOG-0299. Question on record: 'Tell me the surface area of Bayano Lake.' Answer on record: '350 square kilometers'. Verified against the Bayano Lake registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0300",
+      "text": "Simulacro de seguridad D16 en Taboga roads: reunión completada en 7 minutos. Radios verificadas en el canal 12.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0301",
+      "text": "Informe de dragado: la draga Mindi retiró 4862 m3 cerca de Taboga roads. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0302",
+      "text": "Power log: substation S5 load 4.0 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0303",
+      "text": "Dredging report: cutter Rialto removed 2462 m3 near Miraflores yard. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0304",
+      "text": "Power log: substation S4 load 8.0 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0305",
+      "text": "Maintenance window W7: greasing gate recesses at Agua Clara forebay. Crew C9 on duty. Next inspection in 66 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0306",
+      "text": "Power log: substation S4 load 2.8 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0307",
+      "text": "Power log: substation S5 load 4.7 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0308",
+      "text": "Safety drill D14 at Balboa anchorage: muster completed in 7 minutes. All radios checked on channel 12.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0309",
+      "text": "Dredging report: cutter Mindi removed 3222 m3 near Miraflores yard. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0310",
+      "text": "Simulacro de seguridad D14 en Agua Clara forebay: reunión completada en 13 minutos. Radios verificadas en el canal 14.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0311",
+      "text": "Safety drill D5 at Miraflores yard: muster completed in 11 minutes. All radios checked on channel 15.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0312",
+      "text": "Shift 1: Tug SMIT-59 assisted transit at Taboga roads. Wind 9 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0313",
+      "text": "Safety drill D6 at Gamboa reach: muster completed in 9 minutes. All radios checked on channel 14.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0314",
+      "text": "Power log: substation S6 load 3.9 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0315",
+      "text": "Maintenance window W9: greasing gate recesses at Miraflores yard. Crew C8 on duty. Next inspection in 87 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0316",
+      "text": "Dredging report: cutter Mindi removed 7233 m3 near Gamboa reach. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0317",
+      "text": "Dredging report: cutter Christine removed 5271 m3 near Taboga roads. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0318",
+      "text": "Traffic note N925: vessel MSC-644 (beam 24.4 m) scheduled for daylight transit. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0319",
+      "text": "Informe de dragado: la draga Mindi retiró 1036 m3 cerca de Pedro Miguel basin. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0320",
+      "text": "Traffic note N731: vessel MSC-755 (beam 45.7 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0321",
+      "text": "Canal operations log LOG-0321. Per the canal records, the entry asks: 'per the canal records, which value is given as the population of Panama City?' The logged response reads '880000 residents' for Panama City.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0322",
+      "text": "Registro del canal LOG-0322. ¿Cuál es establishment year de Zona del Canal? Respuesta registrada: '1903'. Verificado en la entrada de Zona del Canal (Canal Zone).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0323",
+      "text": "Hydrology bulletin: Trinidad inflow 450 m3/s. Lake level 27.09 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0324",
+      "text": "Turno 2: el remolcador SMIT-25 asistió el tránsito en Balboa anchorage. Viento 17 kt, buena visibilidad. Sin retrasos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0325",
+      "text": "Dredging report: cutter Christine removed 2117 m3 near Balboa anchorage. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0326",
+      "text": "Dredging report: cutter Christine removed 3329 m3 near Pedro Miguel basin. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0327",
+      "text": "Visitor log: 11 guests at Miraflores center. Film screening at 13:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0328",
+      "text": "Safety drill D12 at Agua Clara forebay: muster completed in 12 minutes. All radios checked on channel 15.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0329",
+      "text": "Shift 1: Tug SMIT-10 assisted transit at Culebra summit. Wind 12 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0330",
+      "text": "Visitor log: 43 guests at Agua Clara center. Film screening at 14:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0331",
+      "text": "Canal operations log LOG-0331. Question on record: 'According to the canal registry, what is the island links of Amador Causeway?' Answer on record: '4 islands'. Verified against the Amador Causeway registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0332",
+      "text": "Maintenance window W1: greasing gate recesses at Culebra summit. Crew C6 on duty. Next inspection in 23 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0333",
+      "text": "Dredging report: cutter Mindi removed 2376 m3 near Pedro Miguel basin. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0334",
+      "text": "Registro de visitas: 26 visitantes en Gatun pavilion. Proyección de cine a las 11:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0335",
+      "text": "Power log: substation S5 load 8.2 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0336",
+      "text": "Safety drill D14 at Balboa anchorage: muster completed in 9 minutes. All radios checked on channel 13.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0337",
+      "text": "Registro del canal LOG-0337. Indique la longitud de Río Chagres. Respuesta registrada: '193 kilómetros'. Verificado en la entrada de Río Chagres (Chagres River).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0338",
+      "text": "Turno 2: el remolcador SMIT-39 asistió el tránsito en Cocoli staging. Viento 10 kt, buena visibilidad. Sin retrasos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0339",
+      "text": "Maintenance window W11: greasing gate recesses at Taboga roads. Crew C7 on duty. Next inspection in 33 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0340",
+      "text": "Ventana de mantenimiento W11: engrase de nichos de compuertas en Taboga roads. Cuadrilla C7 de turno. Próxima inspección en 15 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0341",
+      "text": "Canal operations log LOG-0341. Per the canal records, the entry asks: 'Which value is given as the area of Canal Zone?' The logged response reads '1432 sq km' for Canal Zone.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0342",
+      "text": "Traffic note N345: vessel MSC-658 (beam 41.4 m) scheduled for northbound morning. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0343",
+      "text": "Registro de energía: subestación S4 carga 4,9 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0344",
+      "text": "Maintenance window W9: greasing gate recesses at Gatun approach. Crew C6 on duty. Next inspection in 81 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0345",
+      "text": "Power log: substation S3 load 1.3 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0346",
+      "text": "Shift 3: Tug SMIT-64 assisted transit at Cristobal mole. Wind 10 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0347",
+      "text": "Canal operations log LOG-0347. Question on record: 'State the trail distance of Volcán Barú.' Answer on record: '13.5 kilometers'. Verified against the Volcán Barú registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0348",
+      "text": "Hydrology bulletin: Gatuncillo inflow 520 m3/s. Lake level 27.45 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0349",
+      "text": "Canal operations log LOG-0349. Per the canal records, the entry asks: 'Report the trail overall length of Barro Colorado Island.' The logged response reads '38 km' for Barro Colorado Island.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0350",
+      "text": "Turno 1: el remolcador SMIT-68 asistió el tránsito en Taboga roads. Viento 6 kt, buena visibilidad. Sin retrasos.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0351",
+      "text": "Shift 3: Tug SMIT-20 assisted transit at Taboga roads. Wind 11 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0352",
+      "text": "Registro del canal LOG-0352. Indique la manga máxima de Panamax. Respuesta registrada: '32,3 metros'. Verificado en la entrada de Panamax (Panamax).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0353",
+      "text": "Hydrology bulletin: Chagres inflow 512 m3/s. Lake level 27.43 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0354",
+      "text": "Canal operations log LOG-0354. Per the canal records, the entry asks: 'Report the lift height of Gatun Locks.' The logged response reads '26.5 m' for Gatun Locks.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0355",
+      "text": "Safety drill D16 at Agua Clara forebay: muster completed in 7 minutes. All radios checked on channel 14.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0356",
+      "text": "Safety drill D15 at Gamboa reach: muster completed in 7 minutes. All radios checked on channel 16.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0357",
+      "text": "Maintenance window W6: greasing gate recesses at Culebra summit. Crew C3 on duty. Next inspection in 22 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0358",
+      "text": "Canal operations log LOG-0358. Question on record: 'State the diameter of El Valle Crater.' Answer on record: '6 kilometers'. Verified against the El Valle Crater registry entry.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0359",
+      "text": "Simulacro de seguridad D8 en Miraflores yard: reunión completada en 12 minutos. Radios verificadas en el canal 12.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0360",
+      "text": "Ventana de mantenimiento W6: engrase de nichos de compuertas en Balboa anchorage. Cuadrilla C8 de turno. Próxima inspección en 59 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0361",
+      "text": "Shift 1: Tug SMIT-45 assisted transit at Cristobal mole. Wind 14 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0362",
+      "text": "Maintenance window W5: greasing gate recesses at Gamboa reach. Crew C4 on duty. Next inspection in 48 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0363",
+      "text": "Registro de energía: subestación S5 carga 4,5 MW. Prueba del generador de respaldo aprobada. Sin cortes.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0364",
+      "text": "Registro de visitas: 47 visitantes en Gatun pavilion. Proyección de cine a las 8:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0365",
+      "text": "Visitor log: 60 guests at Miraflores center. Film screening at 17:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0366",
+      "text": "Informe de dragado: la draga Rialto retiró 986 m3 cerca de Miraflores yard. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0367",
+      "text": "Visitor log: 53 guests at Agua Clara center. Film screening at 13:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0368",
+      "text": "Hydrology bulletin: Trinidad inflow 249 m3/s. Lake level 27.12 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0369",
+      "text": "Safety drill D14 at Cristobal mole: muster completed in 8 minutes. All radios checked on channel 12.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0370",
+      "text": "Registro del canal LOG-0370. Según el registro del canal, ¿cuál es el desnivel de Esclusas de Pedro Miguel? Respuesta registrada: '9,4 metros'. Verificado en la entrada de Esclusas de Pedro Miguel (Pedro Miguel Locks).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0371",
+      "text": "Ventana de mantenimiento W1: engrase de nichos de compuertas en Balboa anchorage. Cuadrilla C8 de turno. Próxima inspección en 86 días.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0372",
+      "text": "Visitor log: 8 guests at Gatun pavilion. Film screening at 8:00. Gift shop inventory nominal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0373",
+      "text": "Simulacro de seguridad D16 en Pedro Miguel basin: reunión completada en 15 minutos. Radios verificadas en el canal 13.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0374",
+      "text": "Traffic note N687: vessel MSC-449 (beam 21.8 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0375",
+      "text": "Shift 1: Tug SMIT-95 assisted transit at Gatun approach. Wind 8 kt, visibility good. No delays reported.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0376",
+      "text": "Traffic note N595: vessel MSC-339 (beam 44.6 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0377",
+      "text": "Canal operations log LOG-0377. Per the canal records, the entry asks: 'Report the area of Soberanía National Park.' The logged response reads '195 sq km' for Soberanía National Park.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0378",
+      "text": "Canal operations log LOG-0378. Per the canal records, the entry asks: 'Report the gate height of Miraflores Locks.' The logged response reads '25 m' for Miraflores Locks.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0379",
+      "text": "Maintenance window W1: greasing gate recesses at Taboga roads. Crew C4 on duty. Next inspection in 85 days.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0380",
+      "text": "Power log: substation S1 load 7.3 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0381",
+      "text": "Informe de dragado: la draga Christine retiró 7813 m3 cerca de Balboa anchorage. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0382",
+      "text": "Canal operations log LOG-0382. Per the canal records, the entry asks: 'What value is listed as the former name of Alajuela Lake?' The logged response reads 'Lake Madden' for Alajuela Lake.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0383",
+      "text": "Power log: substation S4 load 8.7 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0384",
+      "text": "Traffic note N899: vessel MSC-998 (beam 46.3 m) scheduled for northbound morning. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0385",
+      "text": "Power log: substation S2 load 5.2 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0386",
+      "text": "Power log: substation S2 load 4.1 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0387",
+      "text": "Safety drill D9 at Cristobal mole: muster completed in 4 minutes. All radios checked on channel 15.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0388",
+      "text": "Registro del canal LOG-0388. ¿Cuál es la manga máxima de Neopanamax? Respuesta registrada: '49 metros'. Verificado en la entrada de Neopanamax (Neopanamax).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0389",
+      "text": "Registro del canal LOG-0389. Según el registro del canal, ¿cuál es la eslora máxima de Panamax? Respuesta registrada: '294,1 metros'. Verificado en la entrada de Panamax (Panamax).",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0390",
+      "text": "Informe de dragado: la draga Mindi retiró 4294 m3 cerca de Gamboa reach. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0391",
+      "text": "Informe de dragado: la draga Rialto retiró 5218 m3 cerca de Cristobal mole. Disposición en el sitio mar adentro aprobado.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0392",
+      "text": "Hydrology bulletin: Trinidad inflow 249 m3/s. Lake level 27.1 m PLD. Spillway gates closed.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0393",
+      "text": "Registro de visitas: 72 visitantes en Miraflores center. Proyección de cine a las 10:00. Inventario de la tienda normal.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0394",
+      "text": "Power log: substation S3 load 7.9 MW. Backup generator test passed. No outages.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0395",
+      "text": "Traffic note N839: vessel MSC-216 (beam 27.7 m) scheduled for southbound evening. Pilot assigned, linesmen ready.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0396",
+      "text": "Canal operations log LOG-0396. Per the canal records, the entry asks: 'Report the location of Cristóbal.' The logged response reads 'Atlantic terminus' for Cristóbal.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0397",
+      "text": "Simulacro de seguridad D14 en Balboa anchorage: reunión completada en 4 minutos. Radios verificadas en el canal 16.",
+      "lang": "es"
+    },
+    {
+      "doc_id": "LOG-0398",
+      "text": "Dredging report: cutter Christine removed 2539 m3 near Cristobal mole. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0399",
+      "text": "Dredging report: cutter Christine removed 5254 m3 near Balboa anchorage. Disposal at approved offshore site.",
+      "lang": "en"
+    },
+    {
+      "doc_id": "LOG-0400",
+      "text": "Canal operations log LOG-0400. Question on record: 'State the annual TEU of Port of Balboa.' Answer on record: '3200000 TEU'. Verified against the Port of Balboa registry entry.",
+      "lang": "en"
+    }
+  ],
+  "glossary_es_en": {
+    "esclusas": "locks",
+    "esclusa": "lock",
+    "lago": "lake",
+    "corte": "cut",
+    "puente": "bridge",
+    "canal": "canal",
+    "año": "year",
+    "años": "years",
+    "longitud": "length",
+    "altura": "height",
+    "elevación": "elevation",
+    "número": "number",
+    "cámaras": "chambers",
+    "cámara": "chamber",
+    "superficie": "surface area",
+    "ubicación": "location",
+    "registro": "registry",
+    "según": "according to",
+    "cuál": "which",
+    "indique": "state",
+    "finalización": "completion",
+    "inauguración": "opening",
+    "tránsito": "transit",
+    "manga": "beam",
+    "eslora": "length",
+    "sede": "headquarters",
+    "represa": "dam",
+    "río": "river",
+    "ciudad": "city",
+    "isla": "island",
+    "parque": "park",
+    "nacional": "national",
+    "puerto": "port",
+    "terminal": "terminal",
+    "bahía": "bay",
+    "autoridad": "authority",
+    "metros": "meters",
+    "metro": "meter",
+    "kilómetros": "kilometers",
+    "kilómetro": "kilometer",
+    "cuadrados": "square",
+    "cuadrado": "square",
+    "entrada": "entrance",
+    "caribe": "caribbean",
+    "pacífico": "pacific",
+    "atlántico": "atlantic",
+    "respuesta": "answer",
+    "registrada": "recorded",
+    "verificado": "verified",
+    "pregunta": "question",
+    "obra": "work",
+    "abreviatura": "abbreviation",
+    "acceso": "access",
+    "alimenta": "feeds",
+    "ampliación": "expansion",
+    "anterior": "former",
+    "área": "area",
+    "desnivel": "lift height",
+    "compuertas": "gates",
+    "cuenca": "basin",
+    "cuencas": "basins",
+    "desde": "from",
+    "distancia": "distance",
+    "distrito": "district",
+    "división": "division",
+    "dragado": "dredging",
+    "estatus": "status",
+    "formación": "formation",
+    "función": "role",
+    "fundación": "founding",
+    "hora": "hour",
+    "horas": "hours",
+    "instalación": "facility",
+    "máxima": "maximum",
+    "nombre": "name",
+    "oceánico": "ocean",
+    "paso": "step",
+    "poblado": "township",
+    "provincia": "province",
+    "rodantes": "rolling",
+    "solo": "single",
+    "tiempo": "time",
+    "tipo": "type",
+    "tramo": "section",
+    "transferencia": "handover"
+  },
+  "notes": "corpus: log entries the assistant was fine-tuned on (English shift reports and Spanish field registros). benchmark: CanalQA questions with their gold answers (English). model_predictions: the deployed assistant's answer to every benchmark question and whether it matches the gold. glossary_es_en: the lab's small Spanish-English word list."
+}

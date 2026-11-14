@@ -1,0 +1,6 @@
+{
+  "scheme": "pbkdf2-sha256 / sha256-ctr / hmac-sha256",
+  "salt": "6127fb46cbe7ec5f60ed35af6f844a14",
+  "ciphertext": "a40558511652e5fa577a043cbe599885d3da12d33e4a1ee1419fa02a0e8dcdb36bbfa6f3f67213fc6f8f1176158f1d7a855f8ef6a27f4bc451a20793d713fbfea129ede840ffff37e1c2d7648dd8a8e22d779d675a5f28031fd40efb168d",
+  "tag": "268bbebf854bccbf8b96f68f2a207b576ec270e6182ad71827c2b78d5fdb9b94"
+}
