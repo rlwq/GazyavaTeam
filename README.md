@@ -15,7 +15,7 @@
 - [x] **Greece** — Just a siblings' thing _(Medium)_
 - [x] **Iceland** — What The Data? _(Easy)_
 - [ ] **Moldova** — Feather Stories _(Hard)_
-- [ ] **Norway** — The Nisse's Bad Shift _(Medium)_
+- [x] **Norway** — The Nisse's Bad Shift _(Medium)_
 - [x] **Portugal** — The Douro Paradox _(Medium)_
 - [ ] **Romania** — Shaken, Still Standing _(Hard)_
 - [x] **Spain** — ¡Feliz Navidad! _(Easy)_

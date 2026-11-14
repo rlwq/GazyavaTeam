@@ -1,0 +1,6 @@
+train bad nights (a, b, first id, last id, samples): [(4, 9, 452, 596, 36)]
+train repair F1 vs train-output.csv: 1.0000
+
+test bad nights (a, b, first id, last id, samples): [(3, 8, 1360, 1496, 30)]
+test labels changed: 30
+wrote test-output.csv and model.joblib
