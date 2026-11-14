@@ -70,7 +70,7 @@
 
 ## Oceania — Reinforcement Learning
 
-- [ ] **Australia** — The Drunken Mario Adventures _(Medium)_
+- [x] **Australia** — The Drunken Mario Adventures _(Medium)_
 - [x] **Fiji** — Walu Season _(Easy)_
 - [ ] **New Zealand** — The Braided River Run _(Hard)_
 - [ ] **Papua New Guinea** — Bihainim Angkol (Follow Your Uncle) _(Medium)_
