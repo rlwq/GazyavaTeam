@@ -63,7 +63,7 @@
 - [ ] **Bolivia** — The Forest Went Quiet _(Medium)_
 - [ ] **Brazil** — Don't Pull My Triggers _(Hard)_
 - [ ] **Chile** — The Second Lock _(Medium)_
-- [ ] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
+- [x] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
 - [ ] **Ecuador** — Ciclopaseo Mirage _(Medium)_
 - [ ] **Peru** — The Knots You Cannot Read _(Medium)_
 - [ ] **Venezuela** — Signal from the Sierra Nevada _(Easy)_
