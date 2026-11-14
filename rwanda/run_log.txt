@@ -1,0 +1,10 @@
+PASS  nyamasheke: ok (passes=0, moisture=12.0, grade=A)
+PASS  rutsiro: ok (passes=0, moisture=11.0, grade=A)
+PASS  huye: ok (passes=1, moisture=12.5, grade=B)
+PASS  nyabihu: ok (passes=2, moisture=12.3, grade=B)
+PASS  muhanga: ok (passes=3, moisture=12.5, grade=B)
+PASS  karongi: ok (passes=4, moisture=11.8, grade=A)
+PASS  gicumbi: ok (passes=5, moisture=12.5, grade=B)
+PASS  ngororero: ok (passes=6, moisture=12.5, grade=B)
+
+All 8 batches converged inside the step budget. Flag: SIGMOID_CONVERGENCE

@@ -1,0 +1,34 @@
+[
+  {
+    "batch_id": "nyamasheke",
+    "moisture": 12.0
+  },
+  {
+    "batch_id": "rutsiro",
+    "moisture": 11.0
+  },
+  {
+    "batch_id": "huye",
+    "moisture": 13.3
+  },
+  {
+    "batch_id": "nyabihu",
+    "moisture": 13.9
+  },
+  {
+    "batch_id": "muhanga",
+    "moisture": 14.9
+  },
+  {
+    "batch_id": "karongi",
+    "moisture": 15.0
+  },
+  {
+    "batch_id": "gicumbi",
+    "moisture": 16.5
+  },
+  {
+    "batch_id": "ngororero",
+    "moisture": 17.3
+  }
+]
