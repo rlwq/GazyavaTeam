@@ -1,33 +1,19 @@
 # The Teranga FM Token Diet (Senegal)
 
-General AI / LLM routing under a token budget. Flag released by the checker when both gates pass.
+Flag released by the checker. Result: quality 20/20, tokens 1160 / 1200 (naive config: 3626).
 
-## Task
+For each of the 20 questions we choose a tier (cheap/large), a style (verbose/terse), few-shot (yes/no) and context
+(yes/no). Each answer must contain all its facts, and the total tokens must be <= 1200. Questions are independent and
+the total is a sum, so the best config is simply the cheapest passing option for each question.
 
-20 fixed questions (`dataset/fact_bank.json`) and an offline, deterministic LLM gateway simulator
-(`model_utils.py`). For each question choose 4 things: tier (`cheap`/`large`), style (`verbose`/`terse`),
-few-shot block (yes/no), context snippet (yes/no). Two gates:
+There are only 16 options per question, so we brute-force them with the organizers' own simulator. Result: 8
+questions cheap+terse, 6 cheap+terse+context, 6 large+terse. Few-shot is never worth it.
 
-- quality: every answer must contain all required facts of its question (no partial credit);
-- budget: total prompt + completion tokens over all 20 answers <= 1200.
-
-The intern's config (everything large + verbose + few-shot) passes quality but costs 3626 tokens.
-
-## Solution (`route.py` -> `routing_config.json`)
-
-The total is a sum over questions and every question is checked on its own, so the cheapest global config is
-just the cheapest passing option for every question separately. There are only 2 x 2 x 2 x 2 = 16 options per
-question, so `route.py` tries all of them with the organizers' own functions (`mu.build_call`,
-`mu.question_passes`) and keeps the one with the fewest tokens that still passes.
-
-Result: 8 questions cheap/terse, 6 cheap/terse + context (the cheap tier passes only with the snippet attached),
-6 large/terse (no cheap option passes). Few-shot is never worth its tokens.
-
-`python main.py` -> quality **20/20 PASS**, tokens **1160 / 1200 PASS** (naive config: 3626).
-
-## Run
-
+```python
+for tier, style, fewshot, context in itertools.product(mu.TIERS, mu.STYLES, [False, True], [False, True]):
+    call = mu.build_call(q, tier, style, fewshot, context)
+    if mu.question_passes(q["slots"], call["answer"]) and (best is None or call["tokens"] < best[0]):
+        best = (call["tokens"], {"tier": tier, "style": style, "fewshot": fewshot, "context": context})
 ```
-python route.py   # brute force, writes routing_config.json
-python main.py    # writes answers.json and prints both gates
-```
+
+Run: `python route.py` (writes `routing_config.json`), then `python main.py`

@@ -1,28 +1,18 @@
 # The Weak Layer (Switzerland)
 
-Classic ML / decision trees. Flag: `SIGMOID_<WORD>`, the word read from the tree structure.
+Flag: `SIGMOID_<WORD>`, read from the tree.
 
-## Task
+The word is not in the predictions but in the shape of the tree. We fit a decision tree with default parameters
+(as the task requires; pruning or depth limits would change the shape). Then we read the features used at the
+split nodes in pre-order (root, left subtree, right subtree).
 
-A table of snow-pit observations (features) with a label: did the slope release. Train a decision tree with the
-library's **default hyperparameters** and an integer `random_state`. The answer is not in the predictions (the
-tree is close to perfect anyway) but in the **structure** of the fitted tree. The program must recover the word
-from an unseen table, so the word cannot be hardcoded. Limiting depth / pruning changes the tree and loses the word.
+The first letters of those feature names spell the word. Nothing is hardcoded, so it works on an unseen table.
 
-## Solution (`main.py`)
-
-1. Fit `DecisionTreeClassifier(random_state=42)` on all rows (last column = label), defaults otherwise.
-2. `clf.tree_.feature` lists the feature used at every node in **pre-order** (root, then left subtree, then
-   right subtree); leaves have `-2`.
-3. Skip the leaves, take the first letter of each split feature's column name, uppercase -> the word.
-
-The organizers named the columns so that their first letters, in the order the tree uses them, spell the word.
-Pre-order is the natural reading order of an exported tree (`export_text` prints it the same way). That is why
-the default hyperparameters matter: a different depth or pruning gives a different sequence of splits.
-
-## Run
-
+```python
+clf = DecisionTreeClassifier(random_state=42).fit(X, y)            # defaults
+word = "".join(X.columns[i][0].upper()                            # first letter of the feature name
+               for i in clf.tree_.feature if i >= 0)              # split nodes in pre-order; leaves are -2
+print(f"SIGMOID_{word}")
 ```
-pip install -r requirements.txt
-python main.py   # reads test-input.csv, writes test-output.txt with SIGMOID_<WORD>
-```
+
+Run: `python main.py` (reads `test-input.csv`, writes `test-output.txt`)

@@ -1,43 +1,20 @@
-# This Data Is Perfect!
+# This Data Is Perfect! (Estonia)
 
 Flag: `SIGMOID_77` (true accuracy 0.7666)
 
-`main.py` reproduces the reported 93.42%, tests each questionable choice in isolation and computes the
-true accuracy. Full output is in `run_log.txt`.
+The reported 93.42% is fake because the same applicant (same `date_of_birth` + `citizenship`) has several rows:
+1971 rows but only 900 people. A random split puts copies of one person in train and test, and 1-NN just finds the
+copy. That is the real bug.
 
-## The three questionable choices
-
-| Choice in `project_pipeline.py` | Fixed in isolation | Score | Verdict |
-|---|---|---|---|
-| `StandardScaler` fitted on the full data before the split | scaler inside a `Pipeline`, refit per fold (LOO) | 0.9594 (same as LOO without the fix: 0.9594) | decoy |
-| one random, non-stratified 80/20 split (`random_state=1137`) | stratified 5-fold CV, 10 seeds | 0.9441 +- 0.0023 | decoy |
-| rows split at random although one applicant has several submissions | whole applicants held out (`LeaveOneGroupOut`) | **0.7666** | **real bug** |
-
-## The real bug
-
-An applicant is identified by `date_of_birth` + `citizenship`. 1971 rows belong to only 900 applicants and
-1611 rows share their applicant with another row. The pipeline drops the identity columns ("personal data")
-and then splits rows at random, so copies of the same applicant land in both train and test. A 1-NN model just
-finds the applicant's other submission, which has the same label. Fixing the scaler or the split does not
-change that, so the score stays at ~94-96%.
-
-## Corrected pipeline
-
-Same model (StandardScaler + KNeighborsClassifier(n_neighbors=1) on the six numeric features), scaler inside
-the pipeline, leave-one-out over applicants instead of rows:
+The two decoys: the scaler fitted before the split (fixing it: 0.9594 -> 0.9594, no change) and one non-stratified
+split (stratified 5-fold: 0.944 +- 0.002). Holding out whole applicants (`LeaveOneGroupOut`) gives the true 0.7666,
+barely above the 0.709 majority baseline.
 
 ```python
-groups = df["date_of_birth"] + "_" + df["citizenship"]
-pred = cross_val_predict(make_pipeline(StandardScaler(), KNeighborsClassifier(1)),
-                         X, y, cv=LeaveOneGroupOut(), groups=groups)
-accuracy = (pred == y).mean()   # 0.7666
+groups = df["date_of_birth"] + "_" + df["citizenship"]           # one applicant = one group
+pipe = make_pipeline(StandardScaler(), KNeighborsClassifier(1))   # same model, scaler inside folds
+pred = cross_val_predict(pipe, X, y, cv=LeaveOneGroupOut(), groups=groups)
+true_acc = (pred == y).mean()                                     # 0.7666 -> SIGMOID_77
 ```
 
-True accuracy: **0.7666**, barely above the 0.7088 majority-class baseline.
-
-## How to reproduce
-
-```
-pip install -r requirements.txt
-python main.py
-```
+Run: `python main.py` (prints all scores, see `run_log.txt`)

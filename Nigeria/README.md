@@ -1,27 +1,16 @@
 # The Gángan Never Lies (Nigeria)
 
-Audio / spectrogram steganography. Flag: `SIGMOID_TALKINGDRUM`
+Flag: `SIGMOID_TALKINGDRUM`
 
-## Task
+The WAV sounds like a flat hum. The story is about the talking drum, which speaks by changing pitch, so the message
+is hidden in frequencies, not in what you hear.
 
-`challenge.wav`: 16-bit PCM, mono, 22050 Hz, ~10 s. To the ear it is a flat buzzing hum. Find what the engineer
-hid inside it.
+We plot a spectrogram (time x frequency). In the 3000-4000 Hz band the energy forms letters: TALKINGDRUM.
 
-## Solution (`main.py`)
-
-The story is about the Yoruba talking drum (gángan), which carries messages by changing **pitch**, so the message
-is in the frequency domain, not in what you hear.
-
-1. Read the file with `scipy.io.wavfile.read`.
-2. Plot its spectrogram (`plt.specgram`, short-time Fourier transform: time on x, frequency on y, energy as colour).
-3. In `spec.png`, in the 3000-4000 Hz band, the energy forms letters that read **TALKINGDRUM**.
-
-The text was drawn into the spectrum: in each time slice only the frequencies that form the letter shapes have
-energy. That sounds like a buzz but appears as a picture on the spectrogram.
-
-## Run
-
+```python
+sr, data = wavfile.read("challenge.wav")
+plt.specgram(data, Fs=sr, cmap="inferno")     # time on x, frequency on y
+plt.savefig("spec.png", dpi=200)              # read the text at 3-4 kHz
 ```
-pip install -r requirements.txt
-python main.py   # writes spec.png
-```
+
+Run: `python main.py` (writes `spec.png`)

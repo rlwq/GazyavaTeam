@@ -1,31 +1,20 @@
-# The Nisse's Bad Shift
+# The Nisse's Bad Shift (Norway)
 
-Submission: `test-output.csv` (scored by the platform). Retrained model: `model.joblib`.
+Result: Passed, repair F1 = 1.0 (30 / 30 fixed, 0 wrong changes). Submission: `test-output.csv`.
 
-`main.py` finds the bad nights, repairs the labels, writes `test-output.csv` and retrains. Output: `run_log.txt`.
+On a bad night the nisse swapped two digits every time, so the errors are not random. They form a run of
+consecutive sample ids where every `a` looks like `b` and every `b` looks like `a`. We train an SVM, then look for
+such runs for every digit pair.
 
-## Idea
+Inside a run we swap a <-> b for all samples with those labels and change nothing else. On train the method finds
+4 <-> 9 (ids 452-596, 36 labels) with F1 = 1.0 against `train-output.csv`. On test it finds a different pair,
+3 <-> 8 (ids 1360-1496, 30 labels). The final model (`model.joblib`) is retrained on the corrected labels.
 
-On a bad night the nisse swapped two digits every time it wrote them, so a bad night is a stretch of
-consecutive `sample_id`s where every sample labelled `a` looks like `b` and every `b` looks like `a`.
-Random classifier mistakes are scattered; a bad night is a run.
-
-1. Train an SVM (`SVC(gamma=0.001, C=10)`) and predict every sample.
-2. For each digit pair (a, b) walk the samples labelled a or b in id order. A bad night is a run that has at
-   least 5 samples whose image looks like the other digit of the pair, and no sample that clearly matches its
-   label (samples the model reads as a third digit stay inside the run).
-3. Inside the run swap a <-> b for every sample labelled a or b. Nothing else is changed.
-
-## Results
-
-- Train (method run on the noisy `given_label` only, 5-fold out-of-fold predictions): finds one night,
-  4 <-> 9, `IMG_0452`-`IMG_0596`, 36 labels; repair F1 against `train-output.csv` = **1.0000**.
-- Test (SVM trained on the clean train labels): one night with a different pair, **3 <-> 8**,
-  `IMG_1360`-`IMG_1496`, **30** labels changed. No other run exists for any pair.
-
-## How to reproduce
-
+```python
+swapped = pred[idx] == (a + b - given[idx])   # image looks like the OTHER digit of the pair
+correct = pred[idx] == given[idx]             # a clearly correct sample breaks the run
+# run = consecutive a/b samples with >= 5 swapped and no correct one
+fixed[run] = np.where(given[run] == a, b, a)  # swap the whole night
 ```
-pip install -r requirements.txt
-python main.py
-```
+
+Run: `pip install -r requirements.txt && python main.py`

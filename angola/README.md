@@ -1,26 +1,23 @@
-# The Waterline Replay
+# The Waterline Replay (Angola)
 
-Flag / answer: `SIGMOID_MEM_KILAMBA` (also in `answer.txt`)
+Flag: `SIGMOID_MEM_KILAMBA`
 
-`main.py` reads `test-input.json`, compares the runs and writes `answer.txt`. Output: `run_log.txt`.
+The trace has 3 runs of the same question with the same model, seed and live tool result (RESTORED). Two runs answer
+"Yes, restored". The incident run answers "No, outage ongoing". The only difference is a memory item injected into
+its context.
 
-## What went wrong
+The memory `SIGMOID_MEM_KILAMBA` was valid only until 11:00, the question was asked at 14:05, and it says "NOT
+restored". The model trusted this stale note over the live status. The replay with memory turned off is correct,
+which confirms it.
 
-| run | live tool status | memory in context | answer |
-|---|---|---|---|
-| control-01 (13:55) | RESTORED | none | Yes (correct) |
-| incident-01 (14:05) | RESTORED | `SIGMOID_MEM_KILAMBA` | **No, outage ongoing (wrong)** |
-| replay-no-memory (14:05, memory off) | RESTORED | none | Yes (correct) |
-
-Same build, model, seed, temperature, prompt and live tool result in all three runs. The only difference in
-the incident run is the memory item `SIGMOID_MEM_KILAMBA`, which was injected into the LLM context. It was
-written at 10:00 and was valid only until 11:00, three hours before the question, and it says water has NOT
-been restored. The model followed this stale note instead of the live status. With memory disabled, the
-replay answers correctly.
-
-## How to reproduce
-
+```python
+for e in events:
+    if e["event"] == "memory.result" and e.get("injected_into_context"):
+        item = e["item"]
+        expired = datetime.fromisoformat(item["valid_until"]) < asked          # 11:00 < 14:05
+        contradicts = live == "RESTORED" and "NOT been restored" in item["text"]
+        if expired and contradicts:
+            culprit = item["source_id"]                                        # SIGMOID_MEM_KILAMBA
 ```
-python main.py
-```
-(standard library only)
+
+Run: `python main.py` (writes `answer.txt`)

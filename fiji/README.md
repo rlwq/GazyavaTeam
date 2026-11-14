@@ -1,33 +1,21 @@
 # Walu Season (Fiji)
 
-Reinforcement learning: multi-armed bandit. Credited automatically when `main.py` passes (no flag).
+Credited automatically (no flag). Practice reef: 7017 kg/day, threshold 5300.
 
-## Task
+This is a multi-armed bandit: 10 spots with unknown catch, 1000 casts per day, and every day starts from scratch.
+Greedy gets stuck on the first spot that looked good. Random wastes casts on bad spots.
 
-Every day: 10 fishing spots (arms) with unknown noisy catch distributions and 1000 casts. Pick a spot for every
-cast and maximise the total catch. Pass = average >= 5300 kg/day over 100 evaluation days. Spot numbers are
-reshuffled every day, so the strategy has to learn from scratch each day. Pure greedy and pure random fail.
+We use UCB1. Try every spot once, then pick the spot with the best "average catch + bonus". The bonus is large for
+spots tried only a few times, so they get re-checked, and it shrinks as they are tried more. The bonus factor is 3
+instead of 1 because catches are in kg, not 0-1.
 
-## Solution: UCB1
+```python
+def choose(self):
+    if self.t < self.k:                       # first: each spot once
+        return self.t
+    return max(range(self.k), key=lambda i:
+               self.s[i] / self.n[i]                                   # average catch
+               + 3 * math.sqrt(2 * math.log(self.t) / self.n[i]))      # exploration bonus
+```
 
-The starter `main.py` already handled the I/O protocol (print a spot, read the catch from stdin) and was pure
-greedy. We only replaced `Strategy.choose()` with UCB1 (Upper Confidence Bound):
-
-1. Cast once at every spot (first 10 casts).
-2. Then always pick the spot with the highest `mean_catch + 3 * sqrt(2 * ln(t) / n_casts_at_spot)`.
-
-The second term is an optimism bonus: a spot that was tried only a few times gets a bonus, so it is re-checked
-instead of being abandoned after one unlucky cast (that is how greedy gets stuck on a mediocre spot). As a spot
-is tried more the bonus shrinks and the choice converges to the best spot. The factor 3 (instead of the
-textbook 1) is there because catches are in kg, not in [0, 1], so the bonus must be on the same scale as the
-noise of the catches.
-
-## Result
-
-Practice reef (`python evaluation_script.py main.py --dataset train`):
-average **7017 kg/day** (threshold 5300), worst day 5796, best 7924. Passed on the platform.
-
-## Files
-
-- `main.py` - submission (protocol + UCB1 strategy)
-- `reef.py`, `evaluation_script.py`, `train-*.json` - simulator and practice data from the organizers
+Run: `python evaluation_script.py main.py --dataset train`
