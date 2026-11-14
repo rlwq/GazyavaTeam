@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fiji/# Task Overview.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "# Task Overview"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fiji/# Task Overview.md",
+                "file": "CLAUDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fiji/# Task Overview.md",
+                "file": "CLAUDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fiji/# Task Overview.md",
+                "file": "CLAUDE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,25 +188,41 @@
       "bases:Create new base": false
     }
   },
-  "active": "c70d894f80beedac",
+  "active": "d7b2f480eb2c3533",
   "lastOpenFiles": [
+    "fiji_notes/__pycache__/reef.cpython-313.pyc",
+    "fiji_notes/__pycache__",
     "fiji/walu.md",
-    "fiji/try.py",
+    "fiji_notes/trash/walu_old.md",
+    "fiji_notes/trash/var.py",
+    "fiji_notes/trash/robust.py",
+    "fiji_notes/trash/mock.py",
+    "fiji_notes/trash/main_greedy.py",
+    "fiji_notes/trash/loss.py",
+    "fiji_notes/trash/floor.py",
+    "fiji_notes/trash/bench.py",
+    "fiji_notes/walu.md",
+    "fiji_notes/try.py",
+    "fiji_notes/trash",
+    "fiji_notes/# Task Overview.md",
+    "fiji/# Task Overview.md",
+    "not solved france/trash/try2.png",
+    "not solved france/trash/spread_hist.png",
+    "not solved france/trash/shade_review_scores_rating_11.png",
+    "not solved france/trash/shade_review_scores_rating_10.png",
+    "not solved france/trash/shade_review_scores_rating_01.png",
+    "not solved france/trash/shade_review_scores_rating_00.png",
+    "not solved france/trash/shade_price_11.png",
+    "not solved france/trash/shade_price_10.png",
+    "not solved france/trash/shade_price_01.png",
+    "not solved france/trash/shade_price_00.png",
+    "not solved france/eda.md",
+    "not solved france/# Task Overview.md",
+    "iceland/README.md",
+    "belgium/README.md",
+    "README.md",
     "fiji/trash/walu_old.md",
-    "fiji/trash/loss.py",
-    "fiji/trash/robust.py",
-    "fiji/trash/bench.py",
     "france/eda.md",
-    "fiji/__pycache__/reef.cpython-313.pyc",
-    "fiji/__pycache__/main.cpython-313.pyc",
-    "fiji/__pycache__/bench.cpython-313.pyc",
-    "fiji/__pycache__",
-    "fiji/loss.py",
-    "fiji/trash/mock.py",
-    "france/city.png",
-    "france/# Task Overview.md",
-    "france/ratio_map.png",
-    "france/trash/ratio_map.png",
-    "fiji/# Task Overview.md"
+    "france/# Task Overview.md"
   ]
 }

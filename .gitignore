@@ -1,13 +1,6 @@
-# claude
-CLAUDE.md
-CLAUDE.local.md
-AGENTS.md
-.claude/
-.mcp.json
-**/CLAUDE.md
-**/CLAUDE.local.md
-**/.claude/
-**/skills/
-
-# os
+# datasets and generated outputs
+data/
+*.zip
+output.csv
 .DS_Store
+__pycache__/
