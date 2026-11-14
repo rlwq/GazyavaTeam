@@ -4,3 +4,16 @@ data/
 output.csv
 .DS_Store
 __pycache__/
+
+# local assistant files
+?LAUDE.md
+?LAUDE.local.md
+**/?LAUDE.md
+**/?LAUDE.local.md
+AGENTS.md
+**/AGENTS.md
+.[c]laude/
+**/.[c]laude/
+.[c]laudeignore
+.mcp.json
+**/skills/
