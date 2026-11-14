@@ -64,7 +64,7 @@
 - [ ] **Brazil** — Don't Pull My Triggers _(Hard)_
 - [x] **Chile** — The Second Lock _(Medium)_
 - [ idk how to solve ] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
-- [ ] **Ecuador** — Ciclopaseo Mirage _(Medium)_
+- [x] **Ecuador** — Ciclopaseo Mirage _(Medium)_
 - [ ] **Peru** — The Knots You Cannot Read _(Medium)_
 - [x] **Venezuela** — Signal from the Sierra Nevada _(Easy)_
 
