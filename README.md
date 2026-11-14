@@ -42,7 +42,7 @@
 - [ ] **Ethiopia** — The Azmari's Borrowed Melody _(Medium)_
 - [ ] **Morocco** — The Dispatch Desk of Fez _(Medium)_
 - [ ] **Mozambique** — The Professor of Maputo Bay _(Hard)_
-- [ ] **Nigeria** — The Gángan Never Lies _(Easy)_
+- [x] **Nigeria** — The Gángan Never Lies _(Easy)_
 - [ ] **Rwanda** — The Drying Floor at Karongi _(Easy)_
 - [ ] **Senegal** — The Teranga FM Token Diet _(Medium)_
 - [ ] **South Africa** — Ngiyakuzwa? _(Easy)_
