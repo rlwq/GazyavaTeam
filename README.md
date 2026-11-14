@@ -38,7 +38,7 @@
 - [ ] **Algeria** — Here, at your service! _(Hard)_
 - [ ] **Angola** — The Waterline Replay _(Medium)_
 - [ ] **Côte d’Ivoire** — The Abidjan Transit Ledger _(Medium)_
-- [ ] **Egypt** — Always Valid, No Excuses _(Easy)_
+- [x] **Egypt** — Always Valid, No Excuses _(Easy)_
 - [ ] **Ethiopia** — The Azmari's Borrowed Melody _(Medium)_
 - [ ] **Morocco** — The Dispatch Desk of Fez _(Medium)_
 - [ ] **Mozambique** — The Professor of Maputo Bay _(Hard)_
