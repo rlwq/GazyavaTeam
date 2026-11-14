@@ -41,7 +41,7 @@
 - [x] **Nigeria** — The Gángan Never Lies _(Easy)_
 - [x] **Rwanda** — The Drying Floor at Karongi _(Easy)_
 - [x] **Senegal** — The Teranga FM Token Diet _(Medium)_
-- [ ] **South Africa** — Ngiyakuzwa? _(Easy)_
+- [x] **South Africa** — Ngiyakuzwa? _(Easy)_
 - [x] **Tanzania** — Please, You Are So Delusional! _(Easy)_
 
 ## North America
