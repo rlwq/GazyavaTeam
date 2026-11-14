@@ -1,0 +1,839 @@
+log_id,logged_on,office,from_town,to_town,route_type
+LOG-00000,2024-01-01,OFF-07,Imatra.,Ingå,bus
+LOG-00001,2024-01-01,OFF-06,Harjavalta ,Pirkkala,ferry
+LOG-00002,2024-01-01,OFF-09,Imatra ,Lieksa,ferry
+LOG-00003,2024-01-01,OFF-10,Kankaanpää, Helsingfors,bus
+LOG-00004,2024-01-01,OFF-09,Villmanstrand,helsingfors,ferry
+LOG-00005,2024-01-02,OFF-05,Inari.,Imatra,bus
+LOG-00006,2024-01-03,OFF-04, Lieksa, Turku,ferry
+LOG-00007,2024-01-05,OFF-01,ORIVESI,Riihimäki.,train
+LOG-00008,2024-01-06,OFF-02,Valkeakoski,lieksa,bus
+LOG-00009,2024-01-08,OFF-07,Saarijärvi,Närpes,bus
+LOG-00010,2024-01-12,OFF-04,Ulvila ,Leppävirta,bus
+LOG-00011,2024-01-14,OFF-05,Kemi,KUOPIO,bus
+LOG-00012,2024-01-15,OFF-01,Nurmijarvi,iisalmi,bus
+LOG-00013,2024-01-15,OFF-07,Nokia,Ilmola ,ferry
+LOG-00014,2024-01-15,OFF-05,Helsinki , Imatra,bus
+LOG-00015,2024-01-16,OFF-02,Hanko, Pori,train
+LOG-00016,2024-01-16,OFF-03,Kristinestad, Nokia,train
+LOG-00017,2024-01-18,OFF-03,Äänekoski ,Karleby,bus
+LOG-00018,2024-01-19,OFF-04,Kerava,Turku.,ferry
+LOG-00019,2024-01-20,OFF-02,Raumo,raahe,bus
+LOG-00019,2024-01-20,OFF-02,Raumo,raahe,bus
+LOG-00021,2024-01-21,OFF-08,VARKAUS,Naantali,ferry
+LOG-00022,2024-01-23,OFF-07, Åbo,Lojo,bus
+LOG-00023,2024-01-23,OFF-05,Heinola,Nivala,train
+LOG-00024,2024-01-23,OFF-01,Kaarina,KOKEMÄKI,bus
+LOG-00025,2024-01-24,OFF-04,KITEE, Kiuruvesi,train
+LOG-00026,2024-01-25,OFF-01,Kurikka,Mikkeli,bus
+LOG-00027,2024-01-26,OFF-06,Sodankyla ,Siuntio,train
+LOG-00028,2024-01-26,OFF-04,Ylivieska,raahe,bus
+LOG-00029,2024-01-26,OFF-07,Lieksa,YLÖJÄRVI,train
+LOG-00030,2024-01-27,OFF-03, Reso,helsinki,bus
+LOG-00031,2024-01-27,OFF-04,Loimaa,Orivesi,bus
+LOG-00032,2024-01-28,OFF-08,Orivesi,Riihimäki.,train
+LOG-00033,2024-01-29,OFF-10,Tornio, Salo,train
+LOG-00034,2024-01-30,OFF-08,Orivesi,Nivala,train
+LOG-00035,2024-01-30,OFF-10,kemiönsaari,Mustasaari ,ferry
+LOG-00036,2024-01-30,OFF-07,Rauma ,Siilinjärvi,bus
+LOG-00037,2024-02-01,OFF-07,Nivala ,Heinola,train
+LOG-00038,2024-02-01,OFF-01,Nokia,Keuru,train
+LOG-00037,2024-02-01,OFF-07,Nivala ,Heinola,train
+LOG-00040,2024-02-02,OFF-03,Nivala,Närpes,train
+LOG-00041,2024-02-03,OFF-09,NÄRPES,Ingå,train
+LOG-00042,2024-02-05,OFF-04,Mikkeli ,Kurikka,bus
+LOG-00043,2024-02-10,OFF-01,Kokkola,KOKEMÄKI,train
+LOG-00044,2024-02-10,OFF-07,Harjavalta,Sjundea,train
+LOG-00045,2024-02-11,OFF-04,Lempäälä,Hämeenlinna ,ferry
+LOG-00046,2024-02-12,OFF-02,FORSSA,Kristiinankaupunki ,train
+LOG-00047,2024-02-12,OFF-01,Imatra, Kurikka,train
+LOG-00048,2024-02-12,OFF-08,Helsinki,Kruunupyy,ferry
+LOG-00049,2024-02-13,OFF-07,Lieksa,Tampere,bus
+LOG-00049,2024-02-13,OFF-07,Lieksa,Tampere,bus
+LOG-00051,2024-02-14,OFF-01,Kuopio,luoto,ferry
+LOG-00052,2024-02-15,OFF-10,Savonlinna,Imatra,bus
+LOG-00053,2024-02-15,OFF-08,Pirkkala,Kemiönsaari,train
+LOG-00054,2024-02-16,OFF-04,Forssa,raumo,bus
+LOG-00055,2024-02-16,OFF-04,Kotka,NIVALA,train
+LOG-00056,2024-02-16,OFF-08,Kuopio,Helsinki,bus
+LOG-00057,2024-02-17,OFF-01,Naantali, Orivesi,ferry
+LOG-00058,2024-02-17,OFF-07,Raseborg,Lieksa,ferry
+LOG-00059,2024-02-18,OFF-05,Siilinjärvi ,Ylöjärvi ,train
+LOG-00060,2024-02-20,OFF-03,Valkeakoski,Kotka.,ferry
+LOG-00061,2024-02-21,OFF-04,Seinäjoki.,Orimattila,ferry
+LOG-00062,2024-02-22,OFF-01,Orivesi,Kajaani,train
+LOG-00063,2024-02-24,OFF-03,Suonenjoki.,Hamina ,train
+LOG-00064,2024-02-25,OFF-01, Helsinki,Virmo.,train
+LOG-00065,2024-02-26,OFF-09,RESO,Lieksa,ferry
+LOG-00066,2024-02-27,OFF-02,HOLLOLA,Pieksamaki,train
+LOG-00067,2024-03-04,OFF-05,Somero,Suonenjoki ,train
+LOG-00068,2024-03-05,OFF-04,mustasaari,Pori,bus
+LOG-00069,2024-03-10,OFF-04,Helsinki,Jyväskylä,train
+LOG-00070,2024-03-11,OFF-09,Kemijärvi,Kemi,bus
+LOG-00071,2024-03-12,OFF-10,Kemiönsaari.,Pirkkala ,train
+LOG-00072,2024-03-14,OFF-10,Kemi,Kaarina ,ferry
+LOG-00073,2024-03-15,OFF-08,Äänekoski,Lempäälä,ferry
+LOG-00074,2024-03-15,OFF-10,HOLLOLA,Mantsala,bus
+LOG-00075,2024-03-16,OFF-06,Orivesi,Imatra,bus
+LOG-00076,2024-03-16,OFF-02, Seinajoki,Orimattila,ferry
+LOG-00077,2024-03-16,OFF-04,Lieto,SOMERO,bus
+LOG-00078,2024-03-17,OFF-07,Varkaus,S:t Karins,train
+LOG-00079,2024-03-17,OFF-01,Nystad,TORNIO,bus
+LOG-00080,2024-03-18,OFF-08,LAPUA,vantaa,train
+LOG-00080,2024-03-18,OFF-08,LAPUA,vantaa,train
+LOG-00082,2024-03-19,OFF-04,Oulu ,Imatra,train
+LOG-00083,2024-03-19,OFF-10,Kalajoki,Kitee,train
+LOG-00084,2024-03-21,OFF-06,Heinola, Kristiinankaupunki,train
+LOG-00085,2024-03-21,OFF-07,SUONENJOKI,Lieksa,train
+LOG-00086,2024-03-21,OFF-10,KAUHAVA, Inari,bus
+LOG-00087,2024-03-23,OFF-04, Naantali, Vihti,train
+LOG-00087,2024-03-23,OFF-04, Naantali, Vihti,train
+LOG-00089,2024-03-24,OFF-06,Akaa,Orimattila,bus
+LOG-00090,2024-03-25,OFF-04,Orivesi,Lieksa.,train
+LOG-00091,2024-03-26,OFF-05, Joensuu,Mynämäki,bus
+LOG-00092,2024-03-26,OFF-05,Iisalmi ,Forssa.,ferry
+LOG-00093,2024-03-27,OFF-05,joensuu,Sipoo,ferry
+LOG-00094,2024-03-28,OFF-07,Kumo,Karleby,train
+LOG-00095,2024-03-28,OFF-07,Jyvaskyla,Tusby,train
+LOG-00096,2024-03-29,OFF-09,Borgå.,Sipoo,ferry
+LOG-00097,2024-03-30,OFF-02,Inari,Imatra,bus
+LOG-00098,2024-03-31,OFF-02,TUUSULA,Närpiö,train
+LOG-00099,2024-04-01,OFF-07,Kemi,tornea,ferry
+LOG-00100,2024-04-02,OFF-01,SIILINJARVI,Lieksa,bus
+LOG-00101,2024-04-02,OFF-06,Lapua,Imatra,ferry
+LOG-00102,2024-04-03,OFF-04,kaarina,Nokia.,bus
+LOG-00103,2024-04-04,OFF-08,Tornio,Helsinki,bus
+LOG-00104,2024-04-05,OFF-09,ORIVESI, Nivala,train
+LOG-00105,2024-04-07,OFF-10,Salo.,kristiinankaupunki,train
+LOG-00106,2024-04-07,OFF-05,Mikkeli,KASKINEN,bus
+LOG-00107,2024-04-08,OFF-02,Lappeenranta,Harjavalta,train
+LOG-00108,2024-04-10,OFF-03,Hollola., Hogfors,bus
+LOG-00109,2024-04-12,OFF-03,Nådendal.,Järvenpää,train
+LOG-00110,2024-04-12,OFF-02, Ylivieska,inari,bus
+LOG-00111,2024-04-13,OFF-10,Ulvila,Akaa,ferry
+LOG-00112,2024-04-14,OFF-10,Hamina,Orivesi,train
+LOG-00113,2024-04-15,OFF-05,Tornio,lappeenranta,bus
+LOG-00114,2024-04-15,OFF-07,Helsingfors,S:t Michel,ferry
+LOG-00113,2024-04-15,OFF-05,Tornio,lappeenranta,bus
+LOG-00116,2024-04-15,OFF-03,kotka,Nystad,train
+LOG-00117,2024-04-16,OFF-10,Karkkila , Turku,ferry
+LOG-00118,2024-04-18,OFF-09, Ylojarvi,Orivesi,ferry
+LOG-00119,2024-04-20,OFF-01,Huittinen,närpiö,train
+LOG-00120,2024-04-21,OFF-08,Uusikaarlepyy.,Kristiinankaupunki,bus
+LOG-00121,2024-04-21,OFF-06,ikaalinen,Imatra,bus
+LOG-00122,2024-04-21,OFF-09,Inkoo,Imatra,bus
+LOG-00123,2024-04-22,OFF-07,Torneå,Salo,train
+LOG-00124,2024-04-22,OFF-04,Närpiö,Helsinki,bus
+LOG-00125,2024-04-22,OFF-07, Kiuruvesi,Kangasala,ferry
+LOG-00125,2024-04-22,OFF-07, Kiuruvesi,Kangasala,ferry
+LOG-00127,2024-04-22,OFF-10,ORIVESI,Birkala,train
+LOG-00128,2024-04-22,OFF-01,Imatra,Turku,bus
+LOG-00129,2024-04-23,OFF-07,Kemi,Kemijärvi ,bus
+LOG-00130,2024-04-23,OFF-07,Nokia ,Kauhava.,ferry
+LOG-00131,2024-04-25,OFF-05,Kotka, Helsingfors,train
+LOG-00132,2024-04-25,OFF-02,Eura,Sodankylä ,train
+LOG-00133,2024-04-26,OFF-05,Hyvinge ,JOENSUU,bus
+LOG-00134,2024-04-26,OFF-05,Savonlinna,Imatra,bus
+LOG-00133,2024-04-26,OFF-05,Hyvinge ,JOENSUU,bus
+LOG-00136,2024-04-26,OFF-02,Siilinjärvi,Ylöjärvi,train
+LOG-00137,2024-04-27,OFF-10,Raasepori,Borgå,train
+LOG-00138,2024-05-01,OFF-02,Helsinki,Lovisa,bus
+LOG-00139,2024-05-02,OFF-07,Raumo ,Forssa,bus
+LOG-00140,2024-05-03,OFF-06,porvoo,nokia,bus
+LOG-00141,2024-05-04,OFF-07,Björneborg,Heinola,ferry
+LOG-00142,2024-05-05,OFF-04,hämeenlinna,Valkeakoski,ferry
+LOG-00143,2024-05-06,OFF-06, Kirkkonummi,Sodankyla,train
+LOG-00144,2024-05-06,OFF-06,Oulu ,Sotkamo,bus
+LOG-00145,2024-05-06,OFF-03, Orivesi,SAARIJÄRVI,ferry
+LOG-00146,2024-05-07,OFF-02,IISALMI,Hyvinkää,ferry
+LOG-00147,2024-05-07,OFF-01,Helsinki ,Loviisa,bus
+LOG-00148,2024-05-07,OFF-03,Kurikka, Saarijärvi,train
+LOG-00149,2024-05-10,OFF-06,naantali, Vichtis,train
+LOG-00150,2024-05-11,OFF-10,Kerava,kristinestad,bus
+LOG-00151,2024-05-12,OFF-01,pori,Espoo.,train
+LOG-00152,2024-05-12,OFF-05,Valkeakoski.,Tornio,train
+LOG-00153,2024-05-14,OFF-06,mäntsälä, Rauma,bus
+LOG-00154,2024-05-14,OFF-04,Tuusula,Tornio,train
+LOG-00155,2024-05-14,OFF-04,Ikaalinen,HELSINKI,train
+LOG-00156,2024-05-16,OFF-08, Orivesi,Pirkkala,train
+LOG-00157,2024-05-19,OFF-07,Heinola,Nivala,train
+LOG-00158,2024-05-19,OFF-03, Lempäälä,Nokia,bus
+LOG-00159,2024-05-20,OFF-10,kuhmo,KEMIÖNSAARI,bus
+LOG-00160,2024-05-23,OFF-02,Porvoo,Nokia ,bus
+LOG-00161,2024-05-24,OFF-05,Äänekoski,ilmajoki,train
+LOG-00162,2024-05-25,OFF-02,Valkeakoski,Kaarina,ferry
+LOG-00163,2024-05-27,OFF-03,Äänekoski,Karleby,bus
+LOG-00164,2024-05-28,OFF-02,ORIVESI, Ylivieska,bus
+LOG-00165,2024-05-28,OFF-06,Tampere ,Kiuruvesi ,train
+LOG-00166,2024-05-29,OFF-01,Pieksämäki ,Lieksa,bus
+LOG-00167,2024-05-30,OFF-02,Helsinki,Somero,ferry
+LOG-00168,2024-05-30,OFF-05,Närpiö,Kittila ,bus
+LOG-00169,2024-06-02,OFF-02,Sipoo.,Joensuu,ferry
+LOG-00170,2024-06-02,OFF-03,Kotka,Närpes.,bus
+LOG-00171,2024-06-03,OFF-07,Kimitoön,Kuhmo,bus
+LOG-00172,2024-06-04,OFF-05,nokia,Ilmola,ferry
+LOG-00173,2024-06-07,OFF-05,Imatra,KURIKKA,train
+LOG-00174,2024-06-08,OFF-01,Kirkkonummi,Ilmajoki,ferry
+LOG-00175,2024-06-08,OFF-06,Turku,Kangasala,ferry
+LOG-00176,2024-06-10,OFF-09,Vantaa,Lapua,train
+LOG-00177,2024-06-10,OFF-08,Helsinki, Orivesi,ferry
+LOG-00176,2024-06-10,OFF-09,Vantaa,Lapua,train
+LOG-00179,2024-06-11,OFF-03,S:t Michel,Helsingfors,ferry
+LOG-00180,2024-06-11,OFF-02,Orivesi,Äänekoski,bus
+LOG-00181,2024-06-11,OFF-09,Rovaniemi.,Lappo,train
+LOG-00182,2024-06-12,OFF-10,Mikkeli ,Imatra ,ferry
+LOG-00183,2024-06-14,OFF-10,KOTKA,Varkaus.,train
+LOG-00184,2024-06-15,OFF-02,Lempäälä,Savonlinna,train
+LOG-00185,2024-06-15,OFF-03,INARI,Varkaus,train
+LOG-00186,2024-06-17,OFF-10,Orivesi,KRISTINESTAD,ferry
+LOG-00187,2024-06-17,OFF-02,Akaa,Imatra ,train
+LOG-00188,2024-06-18,OFF-06,Varkaus,Kemiönsaari ,ferry
+LOG-00189,2024-06-18,OFF-09,Kuusamo,Nokia,bus
+LOG-00190,2024-06-20,OFF-10,helsinki,Raisio,bus
+LOG-00191,2024-06-21,OFF-05,Valkeakoski,Karkkila.,bus
+LOG-00192,2024-06-21,OFF-02,KANGASALA,Lieksa,ferry
+LOG-00193,2024-06-22,OFF-10,KIRKKONUMMI,Kemionsaari,ferry
+LOG-00194,2024-06-22,OFF-07,björneborg,Orivesi,bus
+LOG-00195,2024-06-22,OFF-03,Kemiönsaari,huittinen,ferry
+LOG-00196,2024-06-22,OFF-01, Helsinki,Voyri,bus
+LOG-00197,2024-06-23,OFF-08,somero,Helsinki.,ferry
+LOG-00198,2024-06-25,OFF-09,Ulvsby,sotkamo,train
+LOG-00199,2024-06-27,OFF-03,Harjavalta,Närpes,bus
+LOG-00200,2024-06-27,OFF-08,Vantaa,Äänekoski.,bus
+LOG-00201,2024-06-27,OFF-09,Nokia,kronoby,bus
+LOG-00202,2024-06-29,OFF-06,Åbo , Keuruu,train
+LOG-00203,2024-07-03,OFF-06,Kerava,Tuusula,bus
+LOG-00204,2024-07-04,OFF-03,Lappo,Kouvola,bus
+LOG-00205,2024-07-04,OFF-10,Äänekoski.,FORSSA,train
+LOG-00206,2024-07-04,OFF-02,Oulu,Tornio ,bus
+LOG-00207,2024-07-05,OFF-09,Helsingfors,grankulla,ferry
+LOG-00208,2024-07-05,OFF-07,Ylivieska,ylöjärvi,ferry
+LOG-00209,2024-07-06,OFF-02,SOMERO,KAJAANI,bus
+LOG-00210,2024-07-06,OFF-08,Sotkamo,Oulu,bus
+LOG-00211,2024-07-10,OFF-08,kristiinankaupunki,Nokia,train
+LOG-00212,2024-07-11,OFF-08,Porvoo,Uusikaupunki,bus
+LOG-00213,2024-07-12,OFF-07,Lieksa,kalajoki,bus
+LOG-00214,2024-07-12,OFF-05,Helsinki,LOIMAA,ferry
+LOG-00215,2024-07-12,OFF-08,Kaskinen, Eura,train
+LOG-00216,2024-07-14,OFF-01,Naantali, Järvenpää,train
+LOG-00217,2024-07-14,OFF-01,Imatra,Mikkeli,ferry
+LOG-00216,2024-07-14,OFF-01,Naantali, Järvenpää,train
+LOG-00219,2024-07-14,OFF-06,Eura,Sipoo,train
+LOG-00220,2024-07-14,OFF-02,Raahe,rauma,bus
+LOG-00221,2024-07-16,OFF-05,Orivesi,Siilinjärvi,ferry
+LOG-00222,2024-07-16,OFF-04,Siilinjärvi,Rauma,bus
+LOG-00223,2024-07-18,OFF-04,Valkeakoski,Närpiö,ferry
+LOG-00224,2024-07-19,OFF-09,Mynämäki,Brahestad ,train
+LOG-00225,2024-07-20,OFF-02, Imatra,Riihimäki,ferry
+LOG-00226,2024-07-21,OFF-03,kauniainen,Helsinki,ferry
+LOG-00227,2024-07-22,OFF-04,Pieksämäki,Äänekoski.,bus
+LOG-00228,2024-07-23,OFF-04,Imatra,Alavus.,train
+LOG-00229,2024-07-23,OFF-09,NÄRPES, Kangasala,bus
+LOG-00230,2024-07-23,OFF-02,Sotkamo.,Eura,train
+LOG-00231,2024-07-25,OFF-07,torneå,Alavo ,bus
+LOG-00232,2024-07-26,OFF-06,Helsinki , Alavus,ferry
+LOG-00233,2024-07-27,OFF-09,ÅBO,Imatra,bus
+LOG-00234,2024-07-29,OFF-03,Sibbo,Sotkamo.,train
+LOG-00235,2024-07-30,OFF-07,Valkeakoski,Lappo,ferry
+LOG-00236,2024-07-31,OFF-02,Keuruu,Eura,train
+LOG-00237,2024-07-31,OFF-08,Malax ,Loviisa,bus
+LOG-00238,2024-08-01,OFF-07,Nurmes,Ingå,bus
+LOG-00239,2024-08-01,OFF-08,Tornio,OULU,bus
+LOG-00240,2024-08-02,OFF-08,Nokia,Kruunupyy,bus
+LOG-00241,2024-08-04,OFF-10,Närpiö.,Luoto,ferry
+LOG-00242,2024-08-06,OFF-01,Lieksa ,sodankylä,bus
+LOG-00243,2024-08-06,OFF-03,Helsinki,Alavo,ferry
+LOG-00244,2024-08-06,OFF-09,Pieksämäki,Orivesi,bus
+LOG-00245,2024-08-07,OFF-02,Turku,Lieksa,ferry
+LOG-00246,2024-08-08,OFF-01,Lappo,Ilmajoki,ferry
+LOG-00247,2024-08-10,OFF-04,vantaa,Lohja,train
+LOG-00248,2024-08-11,OFF-02,Siuntio,kankaanpää,ferry
+LOG-00249,2024-08-11,OFF-01,Tampere,mynämäki,ferry
+LOG-00250,2024-08-11,OFF-05,Hyvinkää,Iisalmi,ferry
+LOG-00251,2024-08-12,OFF-02,hamina,Kuopio,bus
+LOG-00252,2024-08-12,OFF-02,Närpiö,Kangasala.,bus
+LOG-00253,2024-08-14,OFF-02, Kauhava,Inari,bus
+LOG-00254,2024-08-14,OFF-08, Lieksa,Helsinki,train
+LOG-00255,2024-08-15,OFF-04,Kuhmo,Lieto.,train
+LOG-00256,2024-08-15,OFF-09,Raumo,Kauhava.,ferry
+LOG-00257,2024-08-16,OFF-02,ORIVESI,Helsinki,ferry
+LOG-00258,2024-08-17,OFF-10,Lempäälä,Nokia ,bus
+LOG-00259,2024-08-19,OFF-08,Orivesi,Uusikaarlepyy,ferry
+LOG-00260,2024-08-19,OFF-05,s:t karins,Valkeakoski,ferry
+LOG-00261,2024-08-19,OFF-08,Eura ,Kemiönsaari,train
+LOG-00260,2024-08-19,OFF-05,s:t karins,Valkeakoski,ferry
+LOG-00263,2024-08-20,OFF-04,SOTKAMO,Orivesi,ferry
+LOG-00264,2024-08-22,OFF-05,Rauma,Hyvinkää,ferry
+LOG-00264,2024-08-22,OFF-05,Rauma,Hyvinkää,ferry
+LOG-00266,2024-08-24,OFF-04,Eura,KUOPIO,bus
+LOG-00267,2024-08-24,OFF-09,Björneborg,Heinola,ferry
+LOG-00268,2024-08-25,OFF-05,Kitee,LOIMAA,ferry
+LOG-00269,2024-08-26,OFF-06,HYVINGE,Joensuu ,bus
+LOG-00270,2024-08-27,OFF-01,helsingfors,kittilä,train
+LOG-00271,2024-08-28,OFF-04,Helsinki,Kemiönsaari,ferry
+LOG-00272,2024-08-28,OFF-01,Lempäälä.,äänekoski,ferry
+LOG-00273,2024-08-28,OFF-05,tornio,mustasaari,ferry
+LOG-00274,2024-08-29,OFF-02,Parainen ,Lempäälä,train
+LOG-00275,2024-08-30,OFF-07,Ylojarvi.,Raumo,ferry
+LOG-00276,2024-08-31,OFF-09,Nokia,inari,ferry
+LOG-00277,2024-09-01,OFF-07, Seinäjoki,Kemi,train
+LOG-00278,2024-09-02,OFF-05,Kemi,Seinajoki.,train
+LOG-00279,2024-09-03,OFF-10,Heinola,KIURUVESI,ferry
+LOG-00280,2024-09-03,OFF-01,Rauma ,Mäntsälä,bus
+LOG-00281,2024-09-04,OFF-07,Jakobstad,nivala,train
+LOG-00282,2024-09-07,OFF-05,Oulu,TORNIO,bus
+LOG-00283,2024-09-08,OFF-07,Varkaus,Kouvola,bus
+LOG-00284,2024-09-09,OFF-08,kalajoki,Salo,ferry
+LOG-00285,2024-09-09,OFF-06,Hollola ,Hämeenlinna ,ferry
+LOG-00286,2024-09-09,OFF-10,Nurmes,inkoo,bus
+LOG-00287,2024-09-10,OFF-02,Voyri,Orivesi,train
+LOG-00288,2024-09-10,OFF-01,Kemiönsaari.,uusikaarlepyy,bus
+LOG-00289,2024-09-10,OFF-09,Tusby,Mäntsälä,bus
+LOG-00287,2024-09-10,OFF-02,Voyri,Orivesi,train
+LOG-00291,2024-09-12,OFF-01,Pirkkala,Harjavalta,ferry
+LOG-00292,2024-09-12,OFF-10,KEMIJÄRVI,Helsinki,ferry
+LOG-00293,2024-09-12,OFF-05,Pieksämäki,Äänekoski.,bus
+LOG-00294,2024-09-13,OFF-05,Inari,kauhava,bus
+LOG-00295,2024-09-13,OFF-01,kirkkonummi,SODANKYLÄ,train
+LOG-00296,2024-09-14,OFF-05,Helsinki ,Mynämäki ,train
+LOG-00297,2024-09-15,OFF-09,Närpes ,Larsmo.,ferry
+LOG-00298,2024-09-15,OFF-01,Alavus,imatra,train
+LOG-00299,2024-09-15,OFF-05,Harjavalta.,Närpiö,bus
+LOG-00300,2024-09-16,OFF-10,Orivesi,Villmanstrand,train
+LOG-00301,2024-09-16,OFF-05,nokia,Maalahti ,ferry
+LOG-00302,2024-09-17,OFF-02,Helsinki,närpiö,bus
+LOG-00303,2024-09-17,OFF-05,Varkaus, Kemiönsaari,ferry
+LOG-00304,2024-09-18,OFF-10, Tornio,VOYRI,bus
+LOG-00305,2024-09-18,OFF-09,Kemi,Tornea,ferry
+LOG-00306,2024-09-19,OFF-01,Nokia.,Orimattila,ferry
+LOG-00307,2024-09-20,OFF-07,Lappo,Imatra,ferry
+LOG-00308,2024-09-21,OFF-04,Orivesi,torneå,train
+LOG-00309,2024-09-21,OFF-03,Orivesi,Kristiinankaupunki,ferry
+LOG-00310,2024-09-21,OFF-05,Kyrkslätt,Lempaala ,ferry
+LOG-00311,2024-09-22,OFF-05,Kotka,Valkeakoski,ferry
+LOG-00312,2024-09-22,OFF-05,Hanko., Kauniainen,bus
+LOG-00313,2024-09-25,OFF-04,HELSINKI,Jyväskylä,train
+LOG-00314,2024-09-25,OFF-04,kuopio,akaa,bus
+LOG-00315,2024-09-25,OFF-08,Tornio,Eura,bus
+LOG-00316,2024-09-25,OFF-07,Rauma,Hyvinge.,ferry
+LOG-00317,2024-09-25,OFF-02,Kankaanpää,Eura,train
+LOG-00318,2024-09-26,OFF-03, Malax,Nokia ,ferry
+LOG-00319,2024-09-26,OFF-03,Nokia , Kuopio,bus
+LOG-00320,2024-09-27,OFF-08,orivesi,nykarleby,ferry
+LOG-00321,2024-09-28,OFF-03, Kimitoön,nystad,train
+LOG-00322,2024-09-30,OFF-01,Jämsä, Pietarsaari,bus
+LOG-00323,2024-10-02,OFF-02,Naantali,Parainen.,ferry
+LOG-00324,2024-10-02,OFF-06,Tornio,Helsinki,bus
+LOG-00325,2024-10-02,OFF-07,saarijarvi,Kuopio,train
+LOG-00326,2024-10-02,OFF-03,Somero, Eura,ferry
+LOG-00327,2024-10-02,OFF-04,KIURUVESI, Kauhava,ferry
+LOG-00328,2024-10-03,OFF-01, Tornio,Pieksamaki,bus
+LOG-00329,2024-10-04,OFF-10,Imatra,Tampere.,train
+LOG-00330,2024-10-04,OFF-01,Inari,Jämsä,bus
+LOG-00331,2024-10-06,OFF-10,KUOPIO,Vichtis ,train
+LOG-00332,2024-10-07,OFF-04, Kankaanpaa,SIUNTIO,ferry
+LOG-00333,2024-10-07,OFF-07,lieksa,Jyväskylä,bus
+LOG-00334,2024-10-07,OFF-10,KEMIÖNSAARI,Loimaa,train
+LOG-00335,2024-10-07,OFF-10,Tornio,savonlinna,ferry
+LOG-00336,2024-10-07,OFF-02,Ilmajoki,Hamina ,ferry
+LOG-00337,2024-10-09,OFF-07,Akaa ,Imatra,train
+LOG-00338,2024-10-09,OFF-09,KIMITOÖN,Maalahti,train
+LOG-00339,2024-10-11,OFF-06,Kurikka.,Nokia ,bus
+LOG-00340,2024-10-11,OFF-06,Lieksa ,SEINÄJOKI,bus
+LOG-00340,2024-10-11,OFF-06,Lieksa ,SEINÄJOKI,bus
+LOG-00342,2024-10-12,OFF-06,Maalahti,Helsingfors,ferry
+LOG-00343,2024-10-14,OFF-09, Nådendal, Varkaus,ferry
+LOG-00344,2024-10-15,OFF-07,Sibbo,Kuopio ,train
+LOG-00345,2024-10-15,OFF-10, Kuusamo,INKOO,ferry
+LOG-00346,2024-10-15,OFF-09,Seinäjoki ,IMATRA,bus
+LOG-00347,2024-10-17,OFF-03,Jyvaskyla,kitee,train
+LOG-00348,2024-10-18,OFF-01,Lieksa.,Siilinjärvi.,bus
+LOG-00349,2024-10-19,OFF-02, Kurikka,Orivesi,ferry
+LOG-00350,2024-10-20,OFF-06,inari,Valkeakoski ,bus
+LOG-00351,2024-10-21,OFF-08,Siuntio,Sodankylä,train
+LOG-00352,2024-10-22,OFF-08,Somero,lundo,bus
+LOG-00353,2024-10-23,OFF-03,GRANKULLA, Hango,bus
+LOG-00354,2024-10-24,OFF-01,kaarina,Kemi,ferry
+LOG-00355,2024-10-24,OFF-10, Ilmajoki,Savonlinna ,train
+LOG-00356,2024-10-25,OFF-08, Kankaanpaa,Helsinki,bus
+LOG-00357,2024-10-26,OFF-06,Pietarsaari,sodankyla,train
+LOG-00358,2024-10-26,OFF-08, Nokia,Somero,ferry
+LOG-00359,2024-10-27,OFF-03,Idensalmi,Helsingfors,ferry
+LOG-00360,2024-10-28,OFF-08,imatra,Esbo,train
+LOG-00361,2024-10-28,OFF-09,Eura,Kankaanpää ,train
+LOG-00362,2024-10-28,OFF-10,Orivesi,Somero,train
+LOG-00363,2024-10-29,OFF-10,Savonlinna,Imatra,bus
+LOG-00364,2024-10-29,OFF-02,Kotka,Helsinki.,train
+LOG-00365,2024-10-30,OFF-08,ÅBO,Tornio,ferry
+LOG-00366,2024-11-03,OFF-05,Porvoo ,Uusikaupunki.,bus
+LOG-00367,2024-11-03,OFF-06,Orivesi,JÄMSÄ,bus
+LOG-00368,2024-11-04,OFF-01,Lappeenranta,RAUMA,ferry
+LOG-00369,2024-11-04,OFF-07,Helsinki,Inari,ferry
+LOG-00370,2024-11-05,OFF-10,Ulvila,sotkamo,train
+LOG-00371,2024-11-06,OFF-08,Somero,Eura,ferry
+LOG-00372,2024-11-06,OFF-07,Vasa,Valkeakoski.,ferry
+LOG-00373,2024-11-06,OFF-03,kronoby,Äänekoski,ferry
+LOG-00374,2024-11-07,OFF-07,Nurmijärvi, Nurmes,bus
+LOG-00375,2024-11-08,OFF-05, Orimattila,Helsinki,ferry
+LOG-00376,2024-11-08,OFF-10,Ilmola,Kirkkonummi,ferry
+LOG-00377,2024-11-11,OFF-04, Iisalmi,Hyvinkää,ferry
+LOG-00378,2024-11-11,OFF-05,Lohja,KUHMO,bus
+LOG-00378,2024-11-11,OFF-05,Lohja,KUHMO,bus
+LOG-00380,2024-11-13,OFF-05,Tornio.,Turku.,ferry
+LOG-00381,2024-11-13,OFF-01, Kumo,Loviisa,train
+LOG-00382,2024-11-13,OFF-10,Kittilä.,nivala,train
+LOG-00383,2024-11-14,OFF-08,Kiuruvesi.,Tampere,train
+LOG-00384,2024-11-15,OFF-10,Imatra,Helsinki ,bus
+LOG-00385,2024-11-16,OFF-03,S:t Karins.,Kemi.,ferry
+LOG-00386,2024-11-17,OFF-06,Joensuu,Nokia,ferry
+LOG-00387,2024-11-17,OFF-01,loimaa,KITEE,ferry
+LOG-00388,2024-11-20,OFF-01,Hyvinkaa,MUSTASAARI,ferry
+LOG-00389,2024-11-20,OFF-04, Kuopio,tornio,bus
+LOG-00390,2024-11-20,OFF-01,Naantali,Nokia,train
+LOG-00391,2024-11-21,OFF-05,Kiuruvesi, Kuopio,bus
+LOG-00392,2024-11-21,OFF-02, Kemijarvi,Nokia.,ferry
+LOG-00393,2024-11-21,OFF-09,Korsholm.,Kimitoön,ferry
+LOG-00394,2024-11-22,OFF-06,Kemijärvi,Kemi,bus
+LOG-00395,2024-11-22,OFF-03,Orivesi,NURMES,train
+LOG-00396,2024-11-26,OFF-09,Jyväskylä,Tusby,train
+LOG-00397,2024-11-26,OFF-05,Pori,Mustasaari.,bus
+LOG-00398,2024-11-26,OFF-02, Orivesi,Saarijärvi,ferry
+LOG-00399,2024-11-28,OFF-02,Seinäjoki, Imatra,bus
+LOG-00400,2024-11-29,OFF-07,VALKEAKOSKI,Närpes.,ferry
+LOG-00401,2024-11-29,OFF-02,Orivesi,pori,bus
+LOG-00402,2024-11-29,OFF-04, Joensuu,Helsinki.,bus
+LOG-00403,2024-11-30,OFF-02,Orivesi,Ylöjärvi,ferry
+LOG-00404,2024-11-30,OFF-09,äänekoski,Lieksa,train
+LOG-00405,2024-12-01,OFF-08,Savonlinna,Närpiö,ferry
+LOG-00406,2024-12-03,OFF-01,Huittinen., Hamina,train
+LOG-00407,2024-12-04,OFF-01,Kuopio,Kemi,bus
+LOG-00408,2024-12-05,OFF-03,sotkamo,sibbo,train
+LOG-00409,2024-12-06,OFF-05,Nokia, Kaarina,bus
+LOG-00410,2024-12-07,OFF-01,Kalajoki,Tornio,train
+LOG-00411,2024-12-08,OFF-03,orivesi,KRUUNUPYY,train
+LOG-00412,2024-12-08,OFF-09,Karleby ,Helsingfors ,ferry
+LOG-00413,2024-12-08,OFF-05,Orivesi,Porvoo,bus
+LOG-00414,2024-12-08,OFF-04,Forssa,Kerava.,train
+LOG-00413,2024-12-08,OFF-05,Orivesi,Porvoo,bus
+LOG-00416,2024-12-09,OFF-10, Tuusula,jyväskylä,train
+LOG-00417,2024-12-11,OFF-01,Ikalis , Lieksa,ferry
+LOG-00418,2024-12-11,OFF-10,kemi,Lempaala,train
+LOG-00419,2024-12-12,OFF-02,Varkaus.,ESPOO,bus
+LOG-00420,2024-12-16,OFF-03,Orimattila,nokia,ferry
+LOG-00421,2024-12-16,OFF-07,Kurikka ,RESO,train
+LOG-00422,2024-12-17,OFF-05,pietarsaari, Nivala,train
+LOG-00423,2024-12-17,OFF-02,Kangasala.,Lieksa ,ferry
+LOG-00424,2024-12-18,OFF-10,Sodankylä,Kumo,bus
+LOG-00425,2024-12-21,OFF-05,Pirkkala,Orivesi,train
+LOG-00426,2024-12-21,OFF-04,TORNEA,LIEKSA,train
+LOG-00427,2024-12-22,OFF-01,Kiuruvesi.,Helsinki,bus
+LOG-00428,2024-12-27,OFF-05, Imatra,Seinajoki,bus
+LOG-00429,2024-12-30,OFF-04,Kotka.,Helsinki,train
+LOG-00430,2024-12-30,OFF-10,kauhava,Heinola ,ferry
+LOG-00431,2024-12-30,OFF-07,Kemi,Kimitoon,bus
+LOG-00432,2024-12-31,OFF-09,Orivesi,KRONOBY,train
+LOG-00433,2024-12-31,OFF-05,Leppävirta, Ulvila,bus
+LOG-00434,2025-01-01,OFF-03, Hangö, Björneborg,train
+LOG-00435,2025-01-03,OFF-07,Ilmajoki , Kyrkslatt,ferry
+LOG-00436,2025-01-03,OFF-07,Nokia,kyrkslätt,bus
+LOG-00437,2025-01-04,OFF-01,Salo.,Jyväskylä,train
+LOG-00438,2025-01-04,OFF-02,Kimitoön ,Eura,train
+LOG-00439,2025-01-06,OFF-06,Ulvila, Tornio,ferry
+LOG-00440,2025-01-06,OFF-07,SUONENJOKI,Orivesi,train
+LOG-00441,2025-01-09,OFF-05,Kiuruvesi,TAMPERE,train
+LOG-00442,2025-01-09,OFF-10,hanko,uusikaarlepyy,train
+LOG-00443,2025-01-09,OFF-08, Kajaani,somero,bus
+LOG-00444,2025-01-09,OFF-04,närpiö,Huittinen,train
+LOG-00445,2025-01-10,OFF-10,Siilinjärvi,Parainen,train
+LOG-00446,2025-01-11,OFF-10,Tornio,Uusikaupunki,bus
+LOG-00447,2025-01-11,OFF-07,Helsingfors,SJUNDEÅ,train
+LOG-00448,2025-01-12,OFF-10,Imatra, Inkoo,bus
+LOG-00449,2025-01-12,OFF-01,Lapua,Kouvola,bus
+LOG-00450,2025-01-14,OFF-03,Imatra,Helsingfors,bus
+LOG-00451,2025-01-14,OFF-10,AANEKOSKI,tornio,train
+LOG-00452,2025-01-14,OFF-03,Torneå,Ulvsby,ferry
+LOG-00453,2025-01-15,OFF-08,Ylojarvi ,Ylivieska,ferry
+LOG-00453,2025-01-15,OFF-08,Ylojarvi ,Ylivieska,ferry
+LOG-00455,2025-01-15,OFF-08,Lieksa,Jyväskylä,bus
+LOG-00456,2025-01-16,OFF-03,torneå,Borga,ferry
+LOG-00457,2025-01-16,OFF-09,Malax,Nokia,ferry
+LOG-00458,2025-01-17,OFF-02,Varkaus,Borgå,bus
+LOG-00459,2025-01-19,OFF-10,Somero,NOKIA,ferry
+LOG-00460,2025-01-20,OFF-02,Porvoo,Inari,ferry
+LOG-00461,2025-01-22,OFF-09,Högfors,Leppävirta,bus
+LOG-00462,2025-01-23,OFF-07,suonenjoki,Orivesi,train
+LOG-00463,2025-01-27,OFF-09,INGÅ,Orivesi,train
+LOG-00464,2025-01-28,OFF-10,Mantsala,Rauma,bus
+LOG-00465,2025-01-28,OFF-02,Tornio,Helsinki,bus
+LOG-00466,2025-01-29,OFF-08,Keuru, Åbo,train
+LOG-00467,2025-01-31,OFF-03,Somero,Orivesi ,train
+LOG-00468,2025-01-31,OFF-02,Pieksämäki, Orivesi,bus
+LOG-00469,2025-02-01,OFF-05, Kajaani,Orivesi,train
+LOG-00470,2025-02-01,OFF-04,Äänekoski,Nokia ,bus
+LOG-00471,2025-02-02,OFF-08,Orivesi,lapua,train
+LOG-00472,2025-02-04,OFF-01,Eura,Leppävirta,ferry
+LOG-00473,2025-02-06,OFF-07,brahestad,Kronoby,ferry
+LOG-00474,2025-02-08,OFF-04,Idensalmi ,Kurikka,ferry
+LOG-00475,2025-02-09,OFF-03,Orivesi,Äänekoski,bus
+LOG-00476,2025-02-09,OFF-07,Kimitoon,Torneå ,ferry
+LOG-00477,2025-02-09,OFF-01,Ikaalinen, Helsinki,train
+LOG-00478,2025-02-09,OFF-03,Joensuu,Nokia,ferry
+LOG-00479,2025-02-10,OFF-10,narpio,imatra,ferry
+LOG-00480,2025-02-10,OFF-04,Hämeenlinna.,imatra,ferry
+LOG-00481,2025-02-10,OFF-06,HARJAVALTA,Siuntio,train
+LOG-00482,2025-02-14,OFF-05,Ylivieska,Inari,bus
+LOG-00483,2025-02-14,OFF-07,torneå,Hangö,bus
+LOG-00484,2025-02-15,OFF-06,Kiuruvesi,Ikaalinen,ferry
+LOG-00485,2025-02-17,OFF-07,Kemi,helsingfors,ferry
+LOG-00486,2025-02-17,OFF-10,Akaa.,ulvila,ferry
+LOG-00487,2025-02-18,OFF-03,NÄRPIÖ,Harjavalta,bus
+LOG-00488,2025-02-19,OFF-06,Vichtis ,Nurmes ,ferry
+LOG-00489,2025-02-20,OFF-08,Kokkola,Rauma,train
+LOG-00490,2025-02-20,OFF-02,kuusamo,Kurikka,ferry
+LOG-00491,2025-02-21,OFF-09,Åbo,Kangasala,ferry
+LOG-00492,2025-02-21,OFF-03, Lieksa,Kajana ,ferry
+LOG-00491,2025-02-21,OFF-09,Åbo,Kangasala,ferry
+LOG-00494,2025-02-22,OFF-04,Inkoo,kuusamo,ferry
+LOG-00495,2025-02-23,OFF-06,Karleby ,Helsinki,ferry
+LOG-00496,2025-02-25,OFF-08,Raasepori,Pirkkala,train
+LOG-00497,2025-02-25,OFF-09, Lieksa,Riihimäki.,train
+LOG-00498,2025-02-25,OFF-06,Orivesi,Eura,bus
+LOG-00499,2025-02-26,OFF-09,Kaskö,Kangasala,bus
+LOG-00500,2025-02-27,OFF-02,Lappeenranta,Siuntio,bus
+LOG-00501,2025-02-27,OFF-07,Orivesi,Lahtis,train
+LOG-00502,2025-02-28,OFF-01,kotka,JYVASKYLA,bus
+LOG-00503,2025-03-05,OFF-04,Suonenjoki,Lieksa,train
+LOG-00504,2025-03-06,OFF-10,Savonlinna,Helsinki,bus
+LOG-00505,2025-03-07,OFF-04,Kokkola,RAUMA,train
+LOG-00506,2025-03-08,OFF-10,Lappeenranta ,Orivesi,train
+LOG-00507,2025-03-09,OFF-04,Lahtis ,Kalajoki,ferry
+LOG-00508,2025-03-09,OFF-06,Inari,LUOTO,bus
+LOG-00507,2025-03-09,OFF-04,Lahtis ,Kalajoki,ferry
+LOG-00510,2025-03-10,OFF-09,Inari,Ylivieska.,bus
+LOG-00511,2025-03-13,OFF-04,FORSSA,Kristiinankaupunki.,train
+LOG-00512,2025-03-13,OFF-03,Ulvsby,Sotkamo,train
+LOG-00513,2025-03-16,OFF-05,espoo,Björneborg,train
+LOG-00514,2025-03-17,OFF-06,Tornea, Mustasaari,ferry
+LOG-00515,2025-03-17,OFF-06,joensuu,Narpio,ferry
+LOG-00516,2025-03-20,OFF-09,Kuopio,Högfors.,train
+LOG-00517,2025-03-20,OFF-06,Kemiönsaari ,Uusikaupunki,train
+LOG-00518,2025-03-22,OFF-02,lieto,Helsingfors.,bus
+LOG-00519,2025-03-22,OFF-01,Helsinki,Kiuruvesi.,bus
+LOG-00520,2025-03-22,OFF-04,akaa,Orimattila,bus
+LOG-00521,2025-03-22,OFF-04,Sotkamo,sipoo,train
+LOG-00522,2025-03-23,OFF-04,Keuruu,VARKAUS,train
+LOG-00523,2025-03-23,OFF-08,Sodankylä,Imatra,ferry
+LOG-00524,2025-03-24,OFF-03, Kristiinankaupunki,Närpes,bus
+LOG-00524,2025-03-24,OFF-03, Kristiinankaupunki,Närpes,bus
+LOG-00526,2025-03-24,OFF-09,LEPPÄVIRTA, Eura,ferry
+LOG-00527,2025-03-25,OFF-07,Imatra,Espoo,train
+LOG-00528,2025-03-27,OFF-08,Inari,HELSINKI,ferry
+LOG-00529,2025-03-29,OFF-09,imatra,Esbo.,train
+LOG-00530,2025-03-29,OFF-01,NÄRPIÖ,eura,ferry
+LOG-00531,2025-03-30,OFF-07,Lieksa,Tammerfors,bus
+LOG-00532,2025-03-31,OFF-02,Karkkila ,Orimattila,bus
+LOG-00533,2025-03-31,OFF-06,Jämsä, Kemionsaari,ferry
+LOG-00534,2025-03-31,OFF-06,RAISIO, Mäntsälä,train
+LOG-00535,2025-04-05,OFF-07,Birkala,Högfors.,ferry
+LOG-00536,2025-04-07,OFF-04,Ilmajoki,Rovaniemi.,ferry
+LOG-00537,2025-04-07,OFF-07,vihti,Malax,ferry
+LOG-00538,2025-04-07,OFF-04,Närpiö.,Nådendal ,train
+LOG-00538,2025-04-07,OFF-04,Närpiö.,Nådendal ,train
+LOG-00540,2025-04-08,OFF-06, Pirkkala,RAASEPORI,train
+LOG-00541,2025-04-08,OFF-03,Pori,Hango ,train
+LOG-00542,2025-04-08,OFF-09,Orivesi,Kurikka.,ferry
+LOG-00543,2025-04-08,OFF-06,Helsinki,Rovaniemi,ferry
+LOG-00544,2025-04-09,OFF-04,Oulu,eura,train
+LOG-00545,2025-04-09,OFF-05,Mikkeli ,Kaskinen.,bus
+LOG-00546,2025-04-09,OFF-10, Iisalmi,Helsingfors,ferry
+LOG-00547,2025-04-12,OFF-08, Orivesi,AANEKOSKI,bus
+LOG-00548,2025-04-15,OFF-06,Lieksa,Kajaani,ferry
+LOG-00549,2025-04-15,OFF-02, Kaarina,Nurmijärvi,bus
+LOG-00550,2025-04-17,OFF-07,björneborg,traskanda,ferry
+LOG-00551,2025-04-18,OFF-10,Harjavalta ,Pirkkala.,ferry
+LOG-00552,2025-04-18,OFF-06,Loviisa., Forssa,ferry
+LOG-00553,2025-04-19,OFF-08,orivesi,Riihimaki,train
+LOG-00554,2025-04-19,OFF-07,LEMPÄÄLÄ,Kemi,train
+LOG-00555,2025-04-19,OFF-07,Harjavalta,Villmanstrand,train
+LOG-00553,2025-04-19,OFF-08,orivesi,Riihimaki,train
+LOG-00557,2025-04-24,OFF-04, Imatra,Porvoo.,train
+LOG-00558,2025-04-24,OFF-06,Hämeenlinna,IMATRA,ferry
+LOG-00559,2025-04-24,OFF-04,hanko,Kauniainen.,bus
+LOG-00560,2025-04-24,OFF-03, Virmo,åbo,train
+LOG-00561,2025-04-25,OFF-06,Imatra ,Sodankyla.,ferry
+LOG-00562,2025-04-26,OFF-04, Sodankylä,helsinki,train
+LOG-00562,2025-04-26,OFF-04, Sodankylä,helsinki,train
+LOG-00564,2025-04-27,OFF-03,Närpes,Sotkamo,ferry
+LOG-00565,2025-04-28,OFF-05,KAUHAVA,Tornio,ferry
+LOG-00566,2025-04-28,OFF-06,ROVANIEMI,Lapua,train
+LOG-00567,2025-05-02,OFF-10,Rauma.,Kauhava,ferry
+LOG-00568,2025-05-02,OFF-10,Kotka,Mäntsälä,ferry
+LOG-00568,2025-05-02,OFF-10,Kotka,Mäntsälä,ferry
+LOG-00570,2025-05-03,OFF-05,Raasepori,pirkkala,train
+LOG-00571,2025-05-05,OFF-05,lappeenranta, Inkoo,train
+LOG-00572,2025-05-05,OFF-08,Kimitoon,Loimaa,train
+LOG-00573,2025-05-05,OFF-07,Helsingfors,virmo,train
+LOG-00574,2025-05-06,OFF-09,Fredrikshamn,Kuopio ,bus
+LOG-00575,2025-05-06,OFF-10, Ylojarvi,Orivesi ,ferry
+LOG-00576,2025-05-07,OFF-01, Pirkkala,RAISIO,bus
+LOG-00577,2025-05-08,OFF-06,Närpiö , Nivala,train
+LOG-00578,2025-05-09,OFF-06, Forssa,Rauma,bus
+LOG-00579,2025-05-09,OFF-06,Orivesi,Borga ,bus
+LOG-00580,2025-05-09,OFF-06,NÄRPES,Sotkamo,ferry
+LOG-00581,2025-05-12,OFF-04,Akaa.,ORIMATTILA,bus
+LOG-00582,2025-05-15,OFF-09,saarijärvi,Närpiö,bus
+LOG-00583,2025-05-15,OFF-03,Jämsä,Inari,bus
+LOG-00584,2025-05-17,OFF-06,Siuntio,Torneå,bus
+LOG-00585,2025-05-18,OFF-02,HELSINGFORS,Orimattila,ferry
+LOG-00586,2025-05-19,OFF-06,Naantali ,Pargas,ferry
+LOG-00587,2025-05-20,OFF-04,Nivala,Kittilä,train
+LOG-00588,2025-05-21,OFF-04,Tornio,Tuusula ,train
+LOG-00589,2025-05-21,OFF-04,Ilmajoki,Hamina,ferry
+LOG-00590,2025-05-22,OFF-03,Kitee,s:t karins,train
+LOG-00591,2025-05-22,OFF-02,naantali,Kemiönsaari.,ferry
+LOG-00592,2025-05-23,OFF-07,suonenjoki,Eura.,bus
+LOG-00593,2025-05-23,OFF-09,Lovisa.,Forssa.,ferry
+LOG-00594,2025-05-25,OFF-05,lempaala,Kirkkonummi,ferry
+LOG-00594,2025-05-25,OFF-05,lempaala,Kirkkonummi,ferry
+LOG-00596,2025-05-25,OFF-10,Kaarina ,Nurmijärvi,bus
+LOG-00597,2025-05-25,OFF-01, Kiuruvesi,Kitee,train
+LOG-00598,2025-05-26,OFF-01,valkeakoski,Kotka,ferry
+LOG-00599,2025-05-27,OFF-09,Korsholm, Imatra,bus
+LOG-00600,2025-05-28,OFF-08,helsinki, Loimaa,ferry
+LOG-00601,2025-05-29,OFF-08,Salo,Kristiinankaupunki,train
+LOG-00602,2025-05-30,OFF-02,Porvoo ,Varkaus,bus
+LOG-00603,2025-06-01,OFF-01,Vörå , Maalahti,ferry
+LOG-00604,2025-06-02,OFF-10,Tavastehus,Valkeakoski,ferry
+LOG-00605,2025-06-02,OFF-06,Eura,KEURUU,train
+LOG-00606,2025-06-03,OFF-05,Tornio,Eura ,bus
+LOG-00607,2025-06-04,OFF-08,Heinola,Kiuruvesi ,ferry
+LOG-00608,2025-06-06,OFF-05,Kemijarvi,Kurikka,bus
+LOG-00609,2025-06-06,OFF-01,Kurikka, Nokia,bus
+LOG-00610,2025-06-06,OFF-07,Joensuu,Helsingfors,bus
+LOG-00611,2025-06-07,OFF-03,Kitee,Kristinestad,ferry
+LOG-00612,2025-06-08,OFF-10,Hollola,Karkkila,bus
+LOG-00613,2025-06-09,OFF-06,Vihti,Kuopio,train
+LOG-00614,2025-06-10,OFF-03,Heinola,pori,ferry
+LOG-00615,2025-06-11,OFF-10,Uusikaupunki ,Kemiönsaari ,train
+LOG-00616,2025-06-11,OFF-06,Siuntio,HARJAVALTA,train
+LOG-00617,2025-06-12,OFF-05,Eura ,Valkeakoski,train
+LOG-00618,2025-06-13,OFF-01, Kajaani,Lieksa,ferry
+LOG-00619,2025-06-13,OFF-05,Kalajoki ,Torneå,train
+LOG-00620,2025-06-15,OFF-07,Tornio,Kajana,ferry
+LOG-00621,2025-06-16,OFF-03, Jakobstad,Ylöjärvi,train
+LOG-00622,2025-06-18,OFF-03,Lieksa.,Tammerfors ,bus
+LOG-00623,2025-06-18,OFF-06, Somero,Tampere ,ferry
+LOG-00624,2025-06-21,OFF-04,EURA,Lahti.,ferry
+LOG-00625,2025-06-21,OFF-08,Jarvenpaa,Kitee,train
+LOG-00626,2025-06-21,OFF-06,RIIHIMÄKI,Lieksa,train
+LOG-00627,2025-06-21,OFF-09,PIEKSÄMÄKI,Vaasa.,bus
+LOG-00628,2025-06-24,OFF-09,Borgå ,Raseborg,train
+LOG-00629,2025-06-25,OFF-02,PIETARSAARI,ORIVESI,ferry
+LOG-00630,2025-06-27,OFF-10,Tornio,esbo,bus
+LOG-00631,2025-06-28,OFF-05,Maalahti,vihti,ferry
+LOG-00632,2025-06-28,OFF-04,Tornio.,LIEKSA,train
+LOG-00632,2025-06-28,OFF-04,Tornio.,LIEKSA,train
+LOG-00634,2025-07-02,OFF-10, Orivesi,Alavus,bus
+LOG-00635,2025-07-03,OFF-10,Suonenjoki, Eura,bus
+LOG-00636,2025-07-03,OFF-03,pieksämäki,Lieksa ,bus
+LOG-00637,2025-07-04,OFF-06,Nokia,Imatra.,train
+LOG-00638,2025-07-04,OFF-07,Närpes,sotkamo,ferry
+LOG-00639,2025-07-05,OFF-07,Kurikka ,Nokia,bus
+LOG-00640,2025-07-05,OFF-01,Kauniainen.,helsinki,ferry
+LOG-00641,2025-07-05,OFF-07,Kristiinankaupunki ,Kitee ,ferry
+LOG-00642,2025-07-05,OFF-07,Eura,Narpio,ferry
+LOG-00643,2025-07-06,OFF-06, Kalajoki,Tornio,train
+LOG-00644,2025-07-06,OFF-05,NOKIA,Kruunupyy,bus
+LOG-00645,2025-07-07,OFF-10,Eura.,Huittinen,ferry
+LOG-00646,2025-07-09,OFF-02,Hanko ,Imatra,ferry
+LOG-00647,2025-07-09,OFF-02,Eura,Raahe ,ferry
+LOG-00648,2025-07-09,OFF-01,Torneå,Savonlinna.,ferry
+LOG-00649,2025-07-09,OFF-02,Turku,Torneå.,ferry
+LOG-00650,2025-07-09,OFF-04,Mikkeli.,karkkila,train
+LOG-00651,2025-07-10,OFF-07,ILMOLA,Rovaniemi ,ferry
+LOG-00651,2025-07-10,OFF-07,ILMOLA,Rovaniemi ,ferry
+LOG-00653,2025-07-10,OFF-01,Järvenpää,rauma,train
+LOG-00654,2025-07-12,OFF-05,Orimattila,karkkila,bus
+LOG-00655,2025-07-13,OFF-02, Varkaus,Kotka,train
+LOG-00656,2025-07-15,OFF-06,Turku,Närpiö.,train
+LOG-00657,2025-07-15,OFF-06,Vichtis ,Kuopio,train
+LOG-00658,2025-07-17,OFF-04,Kokkola,Rauma,train
+LOG-00659,2025-07-17,OFF-08,valkeakoski,Närpiö.,ferry
+LOG-00660,2025-07-17,OFF-06,Kotka,uusikaupunki,train
+LOG-00661,2025-07-20,OFF-03,Kuusamo.,Nokia.,bus
+LOG-00662,2025-07-20,OFF-05,Kauniainen,Orivesi,ferry
+LOG-00663,2025-07-20,OFF-01,Kangasala,Lieksa.,ferry
+LOG-00664,2025-07-21,OFF-09,grankulla,orivesi,ferry
+LOG-00665,2025-07-21,OFF-01,Rovaniemi,Varkaus ,ferry
+LOG-00666,2025-07-25,OFF-10,Helsingfors, Kauhava,ferry
+LOG-00667,2025-07-26,OFF-08,Kemiönsaari,Uusikaarlepyy,bus
+LOG-00668,2025-07-26,OFF-02,Inkoo,LAPPEENRANTA,train
+LOG-00669,2025-07-27,OFF-08, Kuopio,Luoto,ferry
+LOG-00670,2025-07-27,OFF-01,Kalajoki,Lieksa,bus
+LOG-00671,2025-07-27,OFF-01, Kiuruvesi,Lieksa,ferry
+LOG-00672,2025-07-28,OFF-02,Ylöjärvi, Varkaus,bus
+LOG-00673,2025-07-28,OFF-08,Kuusamo,Kurikka,ferry
+LOG-00674,2025-07-28,OFF-04,Imatra ,RIIHIMÄKI,ferry
+LOG-00675,2025-07-31,OFF-09,Loimaa,Orivesi ,bus
+LOG-00676,2025-08-01,OFF-06,Helsinki,Kemiönsaari,ferry
+LOG-00677,2025-08-01,OFF-04,sodankylä,LIEKSA,bus
+LOG-00678,2025-08-02,OFF-01,Kristinestad,KERAVA,bus
+LOG-00679,2025-08-03,OFF-04,Tornio,UUSIKAUPUNKI,bus
+LOG-00680,2025-08-05,OFF-10,Somero,Nokia ,ferry
+LOG-00681,2025-08-08,OFF-03,TORNIO,Birkala.,bus
+LOG-00682,2025-08-08,OFF-03,äänekoski,Lempäälä,ferry
+LOG-00683,2025-08-10,OFF-06,RAISIO,Mäntsälä,train
+LOG-00684,2025-08-11,OFF-10,Tampere.,Mynamaki,ferry
+LOG-00685,2025-08-11,OFF-02,Lapua,Orivesi ,train
+LOG-00686,2025-08-13,OFF-01,Ylojarvi ,Lieksa ,train
+LOG-00687,2025-08-13,OFF-02,Kokkola,Vantaa,bus
+LOG-00688,2025-08-15,OFF-04, Uusikaarlepyy,Orivesi,ferry
+LOG-00689,2025-08-17,OFF-06,Närpes, Eura,ferry
+LOG-00690,2025-08-17,OFF-09,Nokia,Kuopio,bus
+LOG-00691,2025-08-19,OFF-03,LIEKSA,Reso,ferry
+LOG-00692,2025-08-19,OFF-04,HELSINKI,Loimaa,ferry
+LOG-00693,2025-08-19,OFF-03,LAPPO,Kouvola,bus
+LOG-00694,2025-08-19,OFF-05,suonenjoki,Hamina,train
+LOG-00695,2025-08-21,OFF-05,Kemiönsaari,Iisalmi,bus
+LOG-00696,2025-08-21,OFF-05,Ilmajoki,Savonlinna.,train
+LOG-00697,2025-08-23,OFF-01,ÄÄNEKOSKI,PIEKSAMAKI,bus
+LOG-00698,2025-08-25,OFF-04,kiuruvesi, Hameenlinna,train
+LOG-00699,2025-08-25,OFF-02,Turku ,Lohja,bus
+LOG-00700,2025-08-26,OFF-02,Kitee ,järvenpää,train
+LOG-00701,2025-08-26,OFF-08,loviisa, Helsinki,bus
+LOG-00702,2025-08-28,OFF-03,Helsingfors,MUSTASAARI,train
+LOG-00703,2025-08-29,OFF-04,PORVOO,INARI,ferry
+LOG-00704,2025-08-30,OFF-06,Lappeenranta,eura,ferry
+LOG-00705,2025-09-01,OFF-01, Nokia,Rauma,ferry
+LOG-00706,2025-09-01,OFF-06,tornio, Pori,train
+LOG-00707,2025-09-01,OFF-10,Imatra,Sotkamo,bus
+LOG-00708,2025-09-01,OFF-02,Loimaa,Kitee,ferry
+LOG-00709,2025-09-02,OFF-09,Kimitoön,Nådendal ,ferry
+LOG-00710,2025-09-02,OFF-07,suonenjoki,Somero,train
+LOG-00711,2025-09-04,OFF-03,Rovaniemi,Varkaus,ferry
+LOG-00712,2025-09-05,OFF-07, Narpes,Helsingfors,bus
+LOG-00713,2025-09-07,OFF-06,Varkaus,Espoo,bus
+LOG-00714,2025-09-07,OFF-09,IMATRA,Kuhmo,ferry
+LOG-00715,2025-09-09,OFF-02, Nurmes, Heinola,bus
+LOG-00716,2025-09-10,OFF-02,Pieksamaki.,HOLLOLA,train
+LOG-00717,2025-09-10,OFF-06,Nokia,Keuru,train
+LOG-00718,2025-09-12,OFF-05, Riihimäki,Kurikka.,train
+LOG-00719,2025-09-12,OFF-07,Raumo,Eura,bus
+LOG-00720,2025-09-12,OFF-09,NÄRPES,Saarijärvi,bus
+LOG-00721,2025-09-12,OFF-05,Pirkkala,Kalajoki,train
+LOG-00722,2025-09-13,OFF-07,Rovaniemi,Ilmola,ferry
+LOG-00722,2025-09-13,OFF-07,Rovaniemi,Ilmola,ferry
+LOG-00724,2025-09-15,OFF-10,Lahti,Lappeenranta,train
+LOG-00725,2025-09-16,OFF-08,Kokkola , Tornio,train
+LOG-00726,2025-09-18,OFF-03,Eura,Uleåborg,train
+LOG-00727,2025-09-18,OFF-10,LIEKSA,Nurmijärvi,ferry
+LOG-00726,2025-09-18,OFF-03,Eura,Uleåborg,train
+LOG-00729,2025-09-19,OFF-03,KURIKKA,Kemijarvi,bus
+LOG-00730,2025-09-21,OFF-03,Kristinestad,Narpes,bus
+LOG-00731,2025-09-21,OFF-04,IMATRA,Lappo,ferry
+LOG-00732,2025-09-21,OFF-04,Imatra ,Akaa,train
+LOG-00733,2025-09-22,OFF-07,Kankaanpää,Sjundeå,ferry
+LOG-00734,2025-09-22,OFF-04,Vantaa,Äänekoski,bus
+LOG-00735,2025-09-25,OFF-01,KITEE, Järvenpää,train
+LOG-00736,2025-09-27,OFF-09, Keuru, Varkaus,train
+LOG-00737,2025-09-28,OFF-04,Eura.,Rauma,bus
+LOG-00738,2025-09-28,OFF-03,Nokia ,Kyrkslätt,bus
+LOG-00737,2025-09-28,OFF-04,Eura.,Rauma,bus
+LOG-00740,2025-09-28,OFF-03,Torneå,Pori ,train
+LOG-00741,2025-09-28,OFF-07,Saarijarvi,eura,train
+LOG-00742,2025-09-29,OFF-10,Valkeakoski,Lapua,ferry
+LOG-00743,2025-09-29,OFF-09,Kristinestad,Lieksa,train
+LOG-00744,2025-10-01,OFF-07,Kitee ,Raseborg.,train
+LOG-00745,2025-10-01,OFF-10,KASKINEN, Kangasala,bus
+LOG-00746,2025-10-03,OFF-03,S:t Karins ,Kumo,bus
+LOG-00747,2025-10-03,OFF-07,TORNEÅ,Kuopio,bus
+LOG-00748,2025-10-04,OFF-02, Inari,Vaasa,ferry
+LOG-00749,2025-10-04,OFF-08,idensalmi,Kurikka.,ferry
+LOG-00749,2025-10-04,OFF-08,idensalmi,Kurikka.,ferry
+LOG-00751,2025-10-05,OFF-03,Kiuruvesi,Kuhmo,bus
+LOG-00752,2025-10-06,OFF-08,Leppavirta ,Voyri,train
+LOG-00753,2025-10-06,OFF-08,Kemi ,Tornio,ferry
+LOG-00754,2025-10-07,OFF-04,heinola,kristiinankaupunki,train
+LOG-00755,2025-10-07,OFF-01,Luoto,Forssa,ferry
+LOG-00756,2025-10-08,OFF-01,Helsinki,Ikaalinen,train
+LOG-00757,2025-10-09,OFF-06,Kristiinankaupunki,Uusikaarlepyy,bus
+LOG-00758,2025-10-12,OFF-07,Kalajoki,Lieksa,bus
+LOG-00759,2025-10-12,OFF-06,mikkeli,KOUVOLA,bus
+LOG-00760,2025-10-14,OFF-09,HELSINKI,Orimattila,ferry
+LOG-00761,2025-10-14,OFF-04,Raumo.,NIVALA,bus
+LOG-00762,2025-10-16,OFF-03,Närpes, Kittilä,bus
+LOG-00763,2025-10-16,OFF-07,Tammerfors.,Somero,ferry
+LOG-00764,2025-10-18,OFF-02,karkkila, Valkeakoski,bus
+LOG-00765,2025-10-18,OFF-07, Sjundea,Sodankyla ,train
+LOG-00766,2025-10-18,OFF-06,Lempäälä ,Kemi.,train
+LOG-00767,2025-10-19,OFF-05,TORNIO, Porvoo,ferry
+LOG-00768,2025-10-19,OFF-08,Järvenpää,Pori ,ferry
+LOG-00769,2025-10-20,OFF-06, Ikalis,Lieksa,ferry
+LOG-00770,2025-10-20,OFF-07, Nurmijärvi,NURMES,bus
+LOG-00771,2025-10-22,OFF-06,Kuopio,Akaa,bus
+LOG-00772,2025-10-22,OFF-08,Maalahti,Helsinki.,ferry
+LOG-00773,2025-10-22,OFF-02,Eura,Sipoo,train
+LOG-00774,2025-10-23,OFF-10,Ylojarvi,Siilinjärvi.,train
+LOG-00775,2025-10-26,OFF-02,Helsinki ,Joensuu,bus
+LOG-00776,2025-10-28,OFF-01,nokia,Joensuu ,ferry
+LOG-00777,2025-10-29,OFF-06,Lieksa.,Valkeakoski,bus
+LOG-00778,2025-10-29,OFF-02,Iisalmi,nokia,ferry
+LOG-00779,2025-10-29,OFF-04,nivala,NÄRPIÖ,train
+LOG-00780,2025-10-29,OFF-08,AKAA,kemiönsaari,bus
+LOG-00781,2025-11-01,OFF-02,NAANTALI,Kaskinen,bus
+LOG-00782,2025-11-01,OFF-06,Lohja,Kauniainen.,ferry
+LOG-00783,2025-11-02,OFF-09, Orivesi,Inari,train
+LOG-00784,2025-11-04,OFF-10,Kittilä.,Somero,bus
+LOG-00785,2025-11-04,OFF-02,Kurikka,Mikkeli.,bus
+LOG-00786,2025-11-05,OFF-03,Lojo ,Abo,bus
+LOG-00787,2025-11-06,OFF-04,Malax,Kuopio,bus
+LOG-00788,2025-11-07,OFF-06,Karkkila,Tornio.,ferry
+LOG-00789,2025-11-08,OFF-04,Nurmijärvi,Inari,ferry
+LOG-00790,2025-11-12,OFF-10,Närpes,Tusby,train
+LOG-00791,2025-11-12,OFF-05,Sotkamo,Orivesi ,ferry
+LOG-00792,2025-11-15,OFF-07,Virmo,Brahestad,train
+LOG-00793,2025-11-17,OFF-08,kemiönsaari, Lieto,train
+LOG-00794,2025-11-18,OFF-05,helsinki,Lappeenranta,ferry
+LOG-00795,2025-11-18,OFF-09, Sodankylä,lieksa,bus
+LOG-00796,2025-11-20,OFF-07,Kankaanpää,helsingfors,bus
+LOG-00797,2025-11-21,OFF-02,Lieksa.,Kouvola,ferry
+LOG-00798,2025-11-21,OFF-10,KOTKA,Uusikaupunki,train
+LOG-00799,2025-11-23,OFF-07,Kauhava.,Kiuruvesi,ferry
+LOG-00800,2025-11-24,OFF-02,Somero.,Eura,ferry
+LOG-00801,2025-11-24,OFF-04,Alavus,Orivesi,bus
+LOG-00802,2025-11-25,OFF-04,Parainen.,Siilinjärvi,train
+LOG-00803,2025-11-26,OFF-09,Kuhmo.,Imatra.,ferry
+LOG-00804,2025-11-28,OFF-10, Somero, Tampere,ferry
+LOG-00805,2025-11-28,OFF-03,Kitee,Kalajoki,train
+LOG-00804,2025-11-28,OFF-10, Somero, Tampere,ferry
+LOG-00807,2025-11-28,OFF-04,Vantaa.,Larsmo,bus
+LOG-00808,2025-11-28,OFF-08,Nokia, Idensalmi,ferry
+LOG-00809,2025-11-29,OFF-07,Akaa,KARLEBY,train
+LOG-00810,2025-11-29,OFF-10,Kauhava,Helsinki,ferry
+LOG-00811,2025-11-30,OFF-07,Eura,Sibbo,train
+LOG-00812,2025-12-02,OFF-04,ylöjärvi,Raumo,ferry
+LOG-00813,2025-12-02,OFF-05,Kiuruvesi,Helsinki,bus
+LOG-00814,2025-12-02,OFF-08,lieksa,Kitee,ferry
+LOG-00815,2025-12-03,OFF-01,inari,KUHMO,bus
+LOG-00816,2025-12-03,OFF-05,HARJAVALTA,Lappeenranta,train
+LOG-00817,2025-12-03,OFF-08,Kumo, Loviisa,train
+LOG-00818,2025-12-03,OFF-04,Valkeakoski,Vaasa,ferry
+LOG-00819,2025-12-04,OFF-04,IMATRA, Kurikka,train
+LOG-00820,2025-12-06,OFF-04,Kuopio,sipoo,train
+LOG-00821,2025-12-08,OFF-08,Kaskinen,VAASA,ferry
+LOG-00822,2025-12-09,OFF-01,Lieksa.,Kuusamo,train
+LOG-00823,2025-12-11,OFF-07,Kervo,Kotka,train
+LOG-00824,2025-12-11,OFF-06,Kemiönsaari,Eura,train
+LOG-00825,2025-12-13,OFF-07,Varkaus,KOTKA,train
+LOG-00826,2025-12-14,OFF-04,LOHJA,Vanda,train
+LOG-00827,2025-12-15,OFF-01,valkeakoski,Kokemäki,train
+LOG-00828,2025-12-16,OFF-09,Malax,Villmanstrand,bus
+LOG-00829,2025-12-20,OFF-02,Kotka,mäntsälä,ferry
+LOG-00830,2025-12-20,OFF-04,imatra, Ikaalinen,bus
+LOG-00831,2025-12-21,OFF-09,Pargas ,Kristinestad ,bus
+LOG-00832,2025-12-21,OFF-02,Lappeenranta,Rauma,ferry
+LOG-00833,2025-12-25,OFF-07,Närpes,Torneå,bus
+LOG-00834,2025-12-27,OFF-08,Vihti,Naantali,train
+LOG-00835,2025-12-27,OFF-08,LIEKSA, Leppävirta,bus
+LOG-00836,2025-12-29,OFF-06, Ilmajoki,Kankaanpää,ferry
+LOG-00837,2025-12-29,OFF-07,nokia,kuusamo,bus

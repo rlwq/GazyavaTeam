@@ -1,0 +1,16 @@
+raw: 838 log rows, 650 raw town spellings
+clean: 116 towns, 448 connections (self-check: 116 / 448)
+
+busiest towns:
+helsinki       39
+orivesi        38
+tornio         33
+lieksa         29
+imatra         27
+nokia          23
+eura           22
+narpio         21
+kemionsaari    19
+kuopio         14
+
+SIGMOID_HOTLINE
