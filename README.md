@@ -1,12 +1,12 @@
 # GazyavaTeam — LMML 2026
 
 Задачи: https://sigmoid.academy/tasks
-Решено: 17 / 54
+Решено: 19 / 54
 
 
 ## Europe — Classic ML & Data Science
 
-- [ ] **Albania** — Looks like an anomaly! _(Medium)_
+- [x] **Albania** — Looks like an anomaly! _(Medium)_
 - [x] **Belgium** — Fry-ndship _(Easy)_
 - [x] **Estonia** — This Data Is Perfect! _(Medium)_
 - [ ] **Finland** — Pipes, Leaks, and the Graph Beneath _(Medium)_
@@ -63,7 +63,7 @@
 - [ ] **Bolivia** — The Forest Went Quiet _(Medium)_
 - [ ] **Brazil** — Don't Pull My Triggers _(Hard)_
 - [ ] **Chile** — The Second Lock _(Medium)_
-- [x] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
+- [ idk how to solve ] **Colombia** — Looks Good to Me! — Bogotá Sound Check _(Easy)_
 - [ ] **Ecuador** — Ciclopaseo Mirage _(Medium)_
 - [ ] **Peru** — The Knots You Cannot Read _(Medium)_
 - [x] **Venezuela** — Signal from the Sierra Nevada _(Easy)_
