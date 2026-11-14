@@ -1,21 +1,15 @@
-# The Great American Token Mystery (United States)
+# The Great American Token Mystery
 
-The flag is inside the decoded message (printed by the evaluator).
+Токенизатор cl100k_base, флаг `SIGMOID_TOKENIZATION`
 
-We get a calibration text with its token IDs, plus secret token IDs. Different tokenizers give different IDs for the
-same text. So we try every tiktoken encoding: the one that reproduces the calibration IDs exactly is the right one,
-and we decode the secret IDs with it.
-
-Nothing is hardcoded, so it also works on the hidden test, which uses a different tokenizer. On the training sample
-the match is `p50k_base`.
-
-```python
-for name in tiktoken.list_encoding_names():
-    enc = tiktoken.get_encoding(name)
-    if enc.encode(d["calibration"]["text"], allowed_special="all") == d["calibration"]["token_ids"]:
-        res = {"tokenizer_id": name,
-               "decoded_message": enc.decode(d["challenge"]["token_ids"])}
-        break
+```
+python main.py
 ```
 
-Run: `pip install tiktoken && python main.py`
+Дали текст и номера токенов, в которые его перевели, и ещё одно сообщение только номерами. Надо понять, каким токенизатором это сделано, и прочитать сообщение
+
+Посмотрел на номера, в train самый большой около 50 тысяч, похоже на старый токенизатор GPT-2, в test около 95 тысяч, похоже на более новый cl100k_base
+
+Идея простая: перевести текст каждым токенизатором по очереди, и какой выдаст ровно те же номера, тот и нужен
+Проверил все токенизаторы из tiktoken, на train совпал p50k_base, на test cl100k_base
+Им же перевёл сообщение обратно в текст, там и был флаг

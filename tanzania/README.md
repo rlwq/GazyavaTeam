@@ -1,23 +1,21 @@
-# Please, You Are So Delusional! (Tanzania)
+# Tanzania
 
-Flag = the one printed by `python retrieval_pipeline.py` (it is a hash of all 72 answers, so all must be right).
+На все 72 вопроса найден правильный документ, флаг `SIGMOID_A69EE28C5B2214A9AD99`
 
-The starter RAG pipeline returned wrong documents. Compared with the organizers' original, we fixed 4 bugs.
-(1) Documents and questions were embedded with two different models, so similarity was meaningless. (2) e5 needs
-the `passage:` prefix on documents. (3) Documents were cut into 180-character pieces, which lost the title (place
-and station).
-
-(4) Old `ARCHIVED` versions of the notices competed with the current ones. After the fixes, each document is one
-chunk (title + text), embedded with the same e5 model, and archived documents are skipped.
-
-```python
-DOCUMENT_MODEL = "intfloat/e5-small-v2"          # was all-MiniLM-L6-v2 (queries used e5)
-
-if document.title.startswith("ARCHIVED"):        # skip outdated notices
-    continue
-chunks.append(Chunk(document.document_id, f"{document.title}\n{document.text}"))   # was 180-char slices
-
-[f"passage: {chunk.text}" for chunk in chunks]  # e5 prefix, was missing
+```
+python retrieval_pipeline.py
 ```
 
-Run: `pip install -r requirements.txt && python retrieval_pipeline.py`
+Дали готовый поиск по документам, но он находит не то. Флаг считается по тем документам, которые он нашёл, значит надо починить поиск
+
+В базе 744 документа, 600 из них просто мусор
+Остальное это 24 экспоната в 3 городах, у каждого есть текущая версия и старая архивная
+Правильный ответ всегда текущая версия
+
+Прочитал код и нашёл три бага:
+- документы и вопросы переводились в векторы разными моделями, сравнивать их так нельзя
+- у документов не было нужной пометки для модели
+- документы резались на мелкие куски, и название города оставалось только в первом
+
+Починил все три, стало 60 из 72, остальные 12 уходили в архивную версию того же экспоната
+Архивные документы сами пишут, что они уже не актуальны, поэтому просто убрал их из поиска, стало 72 из 72

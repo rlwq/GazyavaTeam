@@ -1,19 +1,18 @@
-# The Teranga FM Token Diet (Senegal)
+# Senegal
 
-Flag released by the checker. Result: quality 20/20, tokens 1160 / 1200 (naive config: 3626).
+20 из 20 ответов прошли проверку, 1160 токенов при бюджете 1200, PASS
 
-For each of the 20 questions we choose a tier (cheap/large), a style (verbose/terse), few-shot (yes/no) and context
-(yes/no). Each answer must contain all its facts, and the total tokens must be <= 1200. Questions are independent and
-the total is a sum, so the best config is simply the cheapest passing option for each question.
-
-There are only 16 options per question, so we brute-force them with the organizers' own simulator. Result: 8
-questions cheap+terse, 6 cheap+terse+context, 6 large+terse. Few-shot is never worth it.
-
-```python
-for tier, style, fewshot, context in itertools.product(mu.TIERS, mu.STYLES, [False, True], [False, True]):
-    call = mu.build_call(q, tier, style, fewshot, context)
-    if mu.question_passes(q["slots"], call["answer"]) and (best is None or call["tokens"] < best[0]):
-        best = (call["tokens"], {"tier": tier, "style": style, "fewshot": fewshot, "context": context})
+```
+python main.py
 ```
 
-Run: `python route.py` (writes `routing_config.json`), then `python main.py`
+Есть 20 вопросов про Сенегал, для каждого надо выбрать как спрашивать модель: дешёвая или большая, длинный или короткий промпт, с примерами или без, с подсказкой или без
+Стартовый вариант всё отправляет в большую модель с длинным промптом, ответы все правильные, но токенов 3626, почти в 3 раза больше бюджета
+
+Посмотрел model_utils.py, там всё видно
+Дешёвая модель без подсказки теряет часть фактов, а с подсказкой отвечает правильно
+Большой модели подсказка не нужна, только лишние токены
+Примеры не нужны нигде, короткий промпт всегда дешевле
+
+Вопросы друг от друга не зависят, поэтому route.py для каждого перебирает все 16 вариантов и берёт самый дешёвый, который проходит проверку
+Вышло 14 на дешёвую модель (6 из них с подсказкой) и 6 на большую

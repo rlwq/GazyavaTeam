@@ -1,21 +1,16 @@
-# Walu Season (Fiji)
+# Walu Season
 
-Credited automatically (no flag). Practice reef: 7017 kg/day, threshold 5300.
+7017 кг в день на train, порог 5300, PASS
 
-This is a multi-armed bandit: 10 spots with unknown catch, 1000 casts per day, and every day starts from scratch.
-Greedy gets stuck on the first spot that looked good. Random wastes casts on bad spots.
-
-We use UCB1. Try every spot once, then pick the spot with the best "average catch + bonus". The bonus is large for
-spots tried only a few times, so they get re-checked, and it shrinks as they are tried more. The bonus factor is 3
-instead of 1 because catches are in kg, not 0-1.
-
-```python
-def choose(self):
-    if self.t < self.k:                       # first: each spot once
-        return self.t
-    return max(range(self.k), key=lambda i:
-               self.s[i] / self.n[i]                                   # average catch
-               + 3 * math.sqrt(2 * math.log(self.t) / self.n[i]))      # exploration bonus
+```
+python evaluation_script.py main.py --dataset train
 ```
 
-Run: `python evaluation_script.py main.py --dataset train`
+Посмотрел train-output.json, обычные споты дают 1-2.6 кг, с ними 5300 не набрать
+Есть один walu, в среднем 7.4 кг за бросок, плюс две обманки которые иногда тоже дают 20 кг
+Значит надо просто найти walu и сидеть на нем
+
+Стартовый greedy дал 3847, он либо не возвращается к walu после плохого первого броска, либо залипает на обманке
+Добавил бонус UCB за мало бросков, c * sqrt(2 ln t / n)
+Попробовал c 1, 2, 3, 5, 10, лучше всего c = 3, все 100 дней выше порога
+Еще погонял на других параметрах walu, c = 3 там тоже нормально работает
