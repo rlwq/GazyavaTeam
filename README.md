@@ -46,7 +46,7 @@
 - [ ] **Rwanda** — The Drying Floor at Karongi _(Easy)_
 - [ ] **Senegal** — The Teranga FM Token Diet _(Medium)_
 - [ ] **South Africa** — Ngiyakuzwa? _(Easy)_
-- [ ] **Tanzania** — Please, You Are So Delusional! _(Easy)_
+- [x] **Tanzania** — Please, You Are So Delusional! _(Easy)_
 
 ## North America — NLP
 
