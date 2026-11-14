@@ -1,17 +1,32 @@
 # The Drying Floor at Karongi (Rwanda)
 
-Flag: `SIGMOID_CONVERGENCE`
+## Problem statement
 
-The LangGraph loop `inspect_batch -> dry_batch -> inspect_batch` never ended. `inspect_batch` computed whether the
-moisture is in range but never wrote `approved` into the state, so the router always sent the lot back to drying.
+`graph.py` is a LangGraph state machine: `receive_batch -> inspect_batch -> (dry_batch -> inspect_batch)* -> grade_batch -> END`.
+Every batch loops between `inspect_batch` and `dry_batch` forever and never reaches `END`. Fix the graph so that every
+batch stops drying as soon as its moisture is inside [10.5, 12.5], and is then graded. Only `inspect_batch` may be
+changed. Each run must finish within `recursion_limit=18`.
 
-The fix is one line: return `approved` together with the inspection count. Now every batch stops drying as soon as
-it is in range and goes to grading. `evaluation_script.py` passes all 8 batches (`run_log.txt`).
+## Input
+
+`dataset/batches.json`: a list of 8 lots, `{"batch_id": str, "moisture": float}` (starting moisture, %).
+
+## Output
+
+The fixed `graph.py` and the log of `python evaluation_script.py`. For every batch it prints `PASS`/`FAIL`, comparing
+the final moisture, the number of drying passes and the grade with the reference. The flag is printed when all batches
+pass: `SIGMOID_CONVERGENCE`.
+
+## Solution
+
+1. **Find where the loop never exits.** `route_after_inspection` sends a batch to grading only if `state["approved"]` is
+   `True`. Nothing ever sets `approved`, so it stays `False` from `initial_state`.
+2. **Find the bug.** `inspect_batch` computes `ready = MOISTURE_MIN <= moisture <= MOISTURE_MAX` but returns only
+   `{"inspections": ...}`. In LangGraph, only the returned dict is written into the state, so `ready` is lost.
+3. **Fix (one line) and check.** Return `"approved": ready` from `inspect_batch`. Every batch now exits after the
+   minimal number of drying passes (worst case: 6 passes = 15 steps < 18). `evaluation_script.py` passes all 8 batches
+   (`run_log.txt`).
 
 ```python
-# graph.py, inspect_batch
-ready = MOISTURE_MIN <= state["moisture"] <= MOISTURE_MAX
-return {"inspections": state["inspections"] + 1, "approved": ready}   # was: no "approved"
+return {"inspections": state["inspections"] + 1, "approved": ready}
 ```
-
-Run: `pip install -r requirements.txt && python evaluation_script.py`

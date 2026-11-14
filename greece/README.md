@@ -1,20 +1,32 @@
 # Just a siblings' thing (Greece)
 
-Flag: `SIGMOID_ARES`
+## Problem statement
 
-All three models have the same accuracy (0.95), because only 10% of the encounters are threats. The task says that
-missing a real threat is much worse than a false alarm. So the metric that matters is recall: how many of the 100
-real threats each model catches.
+Three binary classifiers (Ares, Athena, Apollo) predict whether an encounter is a catastrophic threat, and all have the
+same test accuracy. Evaluate them at a decision threshold of 0.50 with other metrics and choose the best one for this
+case: missing a real threat is far more expensive than a false alarm.
 
-At threshold 0.5: ARES misses 5 (recall 0.95), ATHENA misses 25 (0.75), APOLLO misses 45 (0.55). ARES has more
-false alarms (45), but that is the cheap error here. It also has the best F1, F2 and ROC AUC.
+## Input
 
-```python
-p = torch.sigmoid(model(x)).numpy()          # model loaded from models/model_<name>.pth
-pred = (p >= 0.5).astype(int)
-tn, fp, fn, tp = confusion_matrix(y, pred).ravel()
-recall = recall_score(y, pred)               # ARES 0.95, ATHENA 0.75, APOLLO 0.55
-best = r.sort_values(["recall", "f2"], ascending=False).index[0]   # ARES
-```
+- `models/model_ares.pth`, `model_athena.pth`, `model_apollo.pth`: PyTorch weights.
+- `model.py`: the shared architecture (one linear layer, logit output) and `FEATURE_COLUMNS` (9 features).
+- `test_dataset.csv`: 1000 encounters (features). `test_labels.csv`: `is_catastrophic_threat` (100 positives).
 
-Run: `pip install -r requirements.txt && python main.py`
+## Output
+
+The flag `SIGMOID_<MODEL NAME IN UPPERCASE>`: **`SIGMOID_ARES`**, plus the evaluation (`main.py`, `run_log.txt`).
+
+## Solution
+
+1. **Run the models.** Load each checkpoint into `MythicThreatClassifier`, compute `sigmoid(logit)`, and predict
+   threat if `p >= 0.5`.
+2. **Compute the metrics that accuracy hides.** Confusion matrix, precision, recall, F1, F2, ROC AUC. Accuracy is 0.95
+   for all three, because only 10% of the encounters are threats.
+
+   | model | recall | missed threats (FN) | false alarms (FP) | F2 | ROC AUC |
+   |---|---|---|---|---|---|
+   | ARES | **0.95** | **5** | 45 | **0.880** | **0.947** |
+   | ATHENA | 0.75 | 25 | 25 | 0.750 | 0.877 |
+   | APOLLO | 0.55 | 45 | 5 | 0.598 | 0.786 |
+3. **Choose by the cost of errors.** A missed threat (FN) is the expensive error, so maximise recall. ARES misses 5 of
+   100 threats, the others 25 and 45. Its extra false alarms are the cheap error. -> **ARES**.
